@@ -6,9 +6,9 @@
 <body>
 <p>
     <?php
-    $connectstr_dbhost = '';
+    $connectstr_dbhost = 'localhost';
     $connectstr_dbname = 'first';
-    $connectstr_dbusername = '';
+    $connectstr_dbusername = 'root';
     $connectstr_dbpassword = '';
     foreach ($_SERVER as $key => $value) {
         if (strpos($key, "MYSQLCONNSTR_localdb") !== 0) {
