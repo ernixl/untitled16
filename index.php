@@ -27,7 +27,7 @@
         exit;
     }
 
-    $result=mysqli_query($db,$sql);
+    $result=mysqli_query($connectstr_dbname,$connectstr_dbhost);
     while($row = $result->fetch_array())
     {
       $movieTitle = $row['title'];
