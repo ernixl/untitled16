@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    ffffffpppppppppp
+    ffffff
 </head>
 <body>
 <p>
     <?php
-    $DB_SERVER = "localhost";
+    $DB_SERVER = "127.0.0.1:57075";
     $DB_USERNAME = "root";
     $DB_PASSWORD = "YES";
     $DB_DATABASE = "first";
