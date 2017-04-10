@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    ffffffffffffff
 </head>
 <body>
 <p>
@@ -29,13 +30,13 @@
     // execute the SQL query
     $result = $db->query($sql_query);
 
-while($row = $result->fetch_array()){
+    while ($row = $result->fetch_array()) {
 // process the $row
-}
-    while($row = $result->fetch_array()){
+    }
+    while ($row = $result->fetch_array()) {
         // print out fields from row of data
         echo "<p>" . $row['title'] . "</p>";
-}
+    }
 
 
     ?>
