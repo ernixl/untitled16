@@ -25,15 +25,17 @@
         echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
         exit;
     }
-    ?>
-    <?php
-    $result = mysqli_query($db, $sql);
-    while ($row = $result->fetch_array()) {
+    $sql_query = "SELECT * FROM marvelmovies  WHERE yearReleased = 2005";
+    // execute the SQL query
+    $result = $db->query($sql_query);
 
-        $movieTitle = $row['title'];
-        echo "<p>" . $movieTitle . "</p>";
-
-    }
+while($row = $result->fetch_array()){
+// process the $row
+}
+    while($row = $result->fetch_array()){
+        // print out fields from row of data
+        echo "<p>" . $row['title'] . "</p>";
+}
 
 
     ?>
