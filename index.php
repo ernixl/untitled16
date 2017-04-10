@@ -7,7 +7,7 @@
 <p>
     <?php
     $connectstr_dbhost = '';
-    $connectstr_dbname = '';
+    $connectstr_dbname = 'first';
     $connectstr_dbusername = '';
     $connectstr_dbpassword = '';
     foreach ($_SERVER as $key => $value) {
