@@ -6,33 +6,20 @@
 <body>
 <p>
     <?php
-    $connectstr_dbhost = 'localhost';
-    $connectstr_dbname = 'first';
-    $connectstr_dbusername = 'root';
-    $connectstr_dbpassword = '';
-    foreach ($_SERVER as $key => $value) {
-        if (strpos($key, "MYSQLCONNSTR_localdb") !== 0) {
-            continue;
-        }
-        $connectstr_dbhost = preg_replace("/^.*Data Source=(.+?);.*$/", "\\1", $value);
-        $connectstr_dbname = preg_replace("/^.*Database=(.+?);.*$/", "\\1", $value);
-        $connectstr_dbusername = preg_replace("/^.*User Id=(.+?);.*$/", "\\1", $value);
-        $connectstr_dbpassword = preg_replace("/^.*Password=(.+?)$/", "\\1", $value);
-    }
-    $link = mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword, $connectstr_dbname);
-    if (!$link) {
+    $DB_SERVER = "Server: 127.0.0.1:57075 ";
+    $DB_USERNAME = "ernixl1603@hotmail.com";
+    $DB_PASSWORD = "Kuno7730";
+    $DB_DATABASE = "first";
+$db = mysqli_connect( $DB_SERVER, $DB_USERNAME, $DB_PASSWORD, $DB_DATABASE);
+    if (!$db) {
         echo "Error: Unable to connect to MySQL." . PHP_EOL;
         echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
         echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
         exit;
     }
 
-    $result=mysqli_query($connectstr_dbname,$connectstr_dbhost);
-    while($row = $result->fetch_array())
-    {
-      $movieTitle = $row['title'];
-echo "<p>" . $movieTitle . "</p>";
-}
+
+    $db->close();
 
     ?>
 
