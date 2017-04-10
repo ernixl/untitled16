@@ -6,7 +6,7 @@
 <body>
 <p>
     <?php
-    $DB_SERVER = "localhost";
+    $DB_SERVER = "127.0.0.1:57075";
     $DB_USERNAME = "ernixl1603@hotmail.com";
     $DB_PASSWORD = "Kuno7730";
     $DB_DATABASE = "first";
