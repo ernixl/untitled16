@@ -7,8 +7,8 @@
 <p>
     <?php
     $DB_SERVER = "127.0.0.1:57075";
-    $DB_USERNAME = "root";
-    $DB_PASSWORD = "YES";
+    $DB_USERNAME = "ernixl1605@hotmail.com";
+    $DB_PASSWORD = "kuno7730";
     $DB_DATABASE = "first";
 $db = mysqli_connect( $DB_SERVER, $DB_USERNAME, $DB_PASSWORD, $DB_DATABASE);
     if (!$db) {
