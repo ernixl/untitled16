@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    ffllf
+    f
 </head>
 <body>
 <p>
@@ -10,7 +10,7 @@
     $DB_USERNAME = "root";
     $DB_PASSWORD = "[null]";
     $DB_DATABASE = "first";
-$db = mysqli_connect( $DB_SERVER, $DB_USERNAME, $DB_PASSWORD, $DB_DATABASE);
+    $db = mysqli_connect($DB_SERVER, $DB_USERNAME, $DB_PASSWORD, $DB_DATABASE);
     if (!$db) {
         echo "Error: Unable to connect to MySQL." . PHP_EOL;
         echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
