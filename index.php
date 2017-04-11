@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    fpppppp
+    oooooooo
 </head>
 <body>
 <p>
@@ -18,11 +18,9 @@
         echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
         exit;
     }
-    $result = mysqli_query($db, $sql);
-    while ($row = $result->fetch_array()) {
-        $movieTitle = $row['title'];
-        echo "<p>" . $movieTitle . "</p>";
-    }
+
+        echo "<p>" . $sql . "</p>";
+
 
     $db->close();
 
