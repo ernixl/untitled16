@@ -19,11 +19,9 @@
         exit;
     }
 
-$result = $db->query($sql);
+    ;
 
-while( $row = $result->fetch_array()){
-
-        echo "<p>". $row['title,yearReleased'] . "</p>";}
+while( $result = mysqli_query($db,$sql)){ echo "<p>". $result['title,yearReleased'] . "</p>";}
 
 
     $result->close();
