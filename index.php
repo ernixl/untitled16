@@ -18,9 +18,16 @@
         echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
         exit;
     }
-       $result = mysqli_query($db,$sql);
-        echo "<p>" . $result . "</p>";
 
+$result = $db->query( $sql);
+
+while( $row = $result->fetch_array()){
+    }
+
+        echo "<p>". $row['title' ] . "</p>";
+
+
+    $result->close();
 
     $db->close();
 
