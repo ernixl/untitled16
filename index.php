@@ -10,7 +10,7 @@
     $DB_USERNAME = "root";
     $DB_PASSWORD = "password";
     $DB_DATABASE = "first";
-    $sql = "SELECT title, yearReleased FROM marvelmovies";
+    $sql = "SELECT title,yearReleased FROM marvelmovies";
     $db = mysqli_connect($DB_SERVER, $DB_USERNAME, $DB_PASSWORD, $DB_DATABASE);
     if (!$db) {
         echo "Error: Unable to connect to MySQL." . PHP_EOL;
@@ -21,7 +21,7 @@
 
     ;
 
-while( $result = mysqli_query($db,$sql)){ echo "<p>". $result['title,yearReleased'] . "</p>";}
+while( $result = mysqli_query($db,$sql)){ echo "<p>". $result . "</p>";}
 
 
     $result->close();
