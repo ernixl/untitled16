@@ -19,8 +19,6 @@
         exit;
     }
 
-    ;
-
 while( $result = mysqli_query($db,$sql)){ echo "<p>". $result . "</p>";}
 
 
