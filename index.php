@@ -21,7 +21,7 @@
     $result = mysqli_query($db,$sql);
     while($row = $result->fetch_array())
     {
-       $movieTitle = $row['title'];
+       $movieTitle = $row['yearReleased'];
 echo "<p>" . $movieTitle . "</p>";
 }
     ?>
