@@ -7,7 +7,7 @@
 <p>
     <?php
     $DB_SERVER = "http://letseehowitgoes.azurewebsites.net/";
-    $DB_USERNAME = "root";
+    $DB_USERNAME = "ernixl1605@hotmail.com";
     $DB_PASSWORD = "kuno7730";
     $DB_DATABASE = "first";
 $db = mysqli_connect( $DB_SERVER, $DB_USERNAME, $DB_PASSWORD, $DB_DATABASE);
