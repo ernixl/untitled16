@@ -19,12 +19,11 @@
         exit;
     }
 
-$result = $db->query( $sql);
+$result = $db->query($sql);
 
 while( $row = $result->fetch_array()){
-    }
 
-        echo "<p>". $row['title' ] . "</p>";
+        echo "<p>". $row['title'] . "</p>";}
 
 
     $result->close();
