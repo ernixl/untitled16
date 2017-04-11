@@ -6,8 +6,8 @@
 <body>
 <p>
     <?php
-    $DB_SERVER = "127.0.0.1:57075";
-    $DB_USERNAME = "ernixl1605@hotmail.com";
+    $DB_SERVER = "http://letseehowitgoes.azurewebsites.net/";
+    $DB_USERNAME = "root";
     $DB_PASSWORD = "kuno7730";
     $DB_DATABASE = "first";
 $db = mysqli_connect( $DB_SERVER, $DB_USERNAME, $DB_PASSWORD, $DB_DATABASE);
