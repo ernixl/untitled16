@@ -6,7 +6,7 @@
 <body>
 <p>
     <?php
-    $DB_SERVER = "http://letseehowitgoes.azurewebsites.net/";
+    $DB_SERVER = "letseehowitgoes";
     $DB_USERNAME = "ernixl1605@hotmail.com";
     $DB_PASSWORD = "kuno7730";
     $DB_DATABASE = "first";
