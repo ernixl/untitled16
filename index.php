@@ -18,11 +18,11 @@
         echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
         exit;
     }
-    $result=mysqli_query($db,$sql);
-    while($row = $result->fetch_array())
-    {        $movieTitle = $row['title'];
-echo "<p>" . $movieTitle . "</p>";
-}
+    $result = mysqli_query($db, $sql);
+    while ($row = $result->fetch_array()) {
+        $movieTitle = $row['title'];
+        echo "<p>" . $movieTitle . "</p>";
+    }
 
     $db->close();
 
