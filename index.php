@@ -10,7 +10,7 @@
     $DB_USERNAME = "root";
     $DB_PASSWORD = "password";
     $DB_DATABASE = "first";
-    $sql = "SELECT yearReleased FROM marvelmovies";
+    $sql = "SELECT title FROM marvelmovies";
     $db = mysqli_connect($DB_SERVER, $DB_USERNAME, $DB_PASSWORD, $DB_DATABASE);
     if (!$db) {
         echo "Error: Unable to connect to MySQL." . PHP_EOL;
