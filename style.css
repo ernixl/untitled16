@@ -1,5 +1,5 @@
 #body {
-    background: #eee;
+    background: yellow;
 }
 
 #btn {
@@ -12,7 +12,7 @@
 }
 
 #submit {
-    color: #fff;
+    color: orange;
     background: purple;
     padding: 5px;
     margin-left: 60%;
