@@ -81,7 +81,7 @@ if (isset($_POST['register'])) {
             </tr>
 
             <tr>
-                <td>password:</td>
+                <td>repeat password:</td>
                 <td><input type="password" name="password2" class="textInput"></td>
             </tr>
 
