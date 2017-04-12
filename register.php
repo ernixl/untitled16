@@ -97,7 +97,7 @@ if (isset($_POST['register'])) {
     </form>
 
     <form action="homepage.php" method="post"></form>
-    <input type="submit" id="submit" value="exit">
+    <input type="submit" id="exit" value="exit">
 
 </div>
 

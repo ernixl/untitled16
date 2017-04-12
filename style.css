@@ -16,9 +16,16 @@
     color: #fff;
     background: purple;
     padding: 5px;
-    margin-left: 60%;
+    margin-left: 60%;}
 
-}
+#exit {
+    color: #fff;
+    background: purple;
+    padding: 5px;
+    margin-left: 0%;}
+
+
+
 
 h1 {
     color: purple;
