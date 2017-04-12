@@ -17,11 +17,11 @@
         <p>
         <label>Username: </label>
         <input type="text" name="username" placeholder="username"/>
-        <br>
+        </p><br>
         <p>
         <label>Password: </label>
         <input type="password" name="password" placeholder="password"/>
-        <br>
+            <br></p>
         <input type="submit" id="submit" name="submit" value="login"/>
     </form>
     <div class="error"><?php // echo $err or; ?><?php // echo $user name; echo $passwor d; ?></div>
