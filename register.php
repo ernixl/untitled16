@@ -44,6 +44,7 @@ if (isset($_POST['register'])) {
 <html>
 <head>
     <title>Register your details</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
 <body>
 <h1>Register to log</h1>
