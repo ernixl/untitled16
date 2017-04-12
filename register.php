@@ -25,7 +25,7 @@ if (isset($_POST['register'])) {
 
     if ($password == $password2) {
         $password = md5($password);
-        $sql = "INSERT INTO login(name, surname,username, email, password) VALUES('$name', '$surname', '$username', 'email', 'password')";
+        $sql = "INSERT INTO login(name, surname,username, email, password) VALUES('$name', '$surname', '$username', '$email', '$password')";
         mysqli_query($db, $sql);
         $_SESSION['message'] = "You are now logged in";
         $_SESSION['username'] = $username;
