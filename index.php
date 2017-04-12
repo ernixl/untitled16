@@ -10,8 +10,9 @@
 
 <h1>PHP Peer to Peer Evaluation</h1>
 <div id="form">
+    <p>
     <h3>Login Form</h3>
-    <br><br>
+    </p>
     <form method="post"  action="login.php">
         <p>
         <label>Username: </label><br>
