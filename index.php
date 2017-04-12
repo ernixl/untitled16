@@ -11,7 +11,7 @@
 <h1>PHP Peer to Peer Evaluation</h1>
 <div id="form">
 
-    <h3>Login Form</h3>
+    <h3>Enter your login information or click <a href="register.php">here</a> to register</h3>
     <br>
     <form method="post" action="login.php">
         <p>
