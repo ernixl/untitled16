@@ -1,7 +1,7 @@
 <!doctype html >
 <html>
 <meta charset="utf-8">
-<head id="heading">
+<head id="body">
     <title>Peer to Peer Evaluation</title>
     <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
