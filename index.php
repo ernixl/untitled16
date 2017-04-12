@@ -17,10 +17,9 @@
         <p>
         <label>Username: </label><br>
         <input type="text" name="username" placeholder="username"/>
-        </p><br>
+        </p>
         <p>
         <label>Password: </label><br>
-
         <input type="password" name="password" placeholder="password"/>
             <br></p>
         <input type="submit" id="submit" name="submit" value="login"/>
