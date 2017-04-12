@@ -15,11 +15,11 @@
     <br>
     <form method="post"  action="login.php">
         <p>
-        <label>Username: </label><br>
+        <label>Username: </label>
         <input type="text" name="username" placeholder="username" id="text"/>
         </p>
         <p>
-        <label>Password: </label><br>
+        <label>Password: </label>
         <input type="password" name="password" placeholder="password" id="text"/>
             <br></p>
         <input type="submit" id="submit" name="submit" value="login"/>
