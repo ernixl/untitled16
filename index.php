@@ -6,13 +6,13 @@
         <link rel ="stylesheet" href ="style.css" type="text/css" />
 </head>
 
-<body>
+<body id="body">
 
 <h1>PHP Login Form with Session</h1>
 <div class="loginBox">
     <h3>Login Form</h3>
     <br><br >
-    <form method = "post" action = "login.php">
+    <form method = "post" id="form" action = "login.php">
         <label>User name: </label><br >
         <input type="text" name="username" placeholder="username" /><br><br>
         <label>Password: </label><br>

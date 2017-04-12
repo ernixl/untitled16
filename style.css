@@ -1,0 +1,17 @@
+#body   {
+    background: #eee;
+}
+#form{
+    border: hotpink 1px;
+    width: 20%;
+    border-radius: 5px;
+    margin: 100px auto;
+    background: white;
+    padding: 50px;
+}
+#submit{
+    color: #fff;
+    background: purple;
+    padding: 5px;
+    margin-left: 60%;
+}
