@@ -9,11 +9,10 @@
 <body id="body">
 
 <h1>PHP Peer to Peer Evaluation</h1>
-<h3>Login Form</h3>
-<br><br>
 <div id="form">
 
-
+    <h3>Login Form</h3>
+    <br><br><br><br>
     <form method="post"  action="login.php">
         <p>
         <label>Username: </label>
