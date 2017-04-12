@@ -12,16 +12,16 @@
 <div id="form">
 
     <h3>Login Form</h3>
-    <br><br><br>
+    <br><br>
     <form method="post"  action="login.php">
         <p>
         <label>Username: </label>
         <input type="text" name="username" placeholder="username"/>
-        </p><br><br><br>
+        </p><br><br>
         <p>
         <label>Password: </label>
         <input type="password" name="password" placeholder="password"/>
-        </p>
+        </p> <br><br>
         <input type="submit" id="submit" name="submit" value="login"/>
     </form>
     <div class="error"><?php // echo $err or; ?><?php // echo $user name; echo $passwor d; ?></div>
