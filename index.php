@@ -8,7 +8,7 @@
 
 <body>
 
-<h1>PHP Login Form with Session</h1>
+<h1>PHP Peer to Peer Evaluation</h1>
 <div class="loginBox" id="btn">
     <h3>Login Form</h3>
     <br><br>
