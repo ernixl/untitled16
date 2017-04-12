@@ -51,6 +51,9 @@ if (isset($_POST['register'])) {
 <div id="form">
     <h3>Register to login</h3>
 
+    <form action="homepage.php"></form>
+    <input type="submit" id="submit" value="exit">
+
     <form action="register.php" method="post">
         <table>
 
