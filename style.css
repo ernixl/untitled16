@@ -1,7 +1,8 @@
-#body   {
-    background: #eee;
+#body {
+    background: yellow;
 }
-#btn{
+
+#btn {
     border: hotpink 1px;
     width: 20%;
     border-radius: 5px;
@@ -9,8 +10,9 @@
     background: white;
     padding: 50px;
 }
-#submit{
-    color: #fff;
+
+#submit {
+    color: gray;
     background: purple;
     padding: 5px;
     margin-left: 60%;
