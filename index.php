@@ -2,7 +2,7 @@
 <html>
 <meta charset="utf-8">
 <head>
-    <title>PHP Login Form without Session</title>
+    <title>Peer to Peer Evaluation</title>
     <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
 
