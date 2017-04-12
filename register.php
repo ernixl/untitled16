@@ -46,7 +46,7 @@ if (isset($_POST['register'])) {
     <title>Register your details</title>
 </head>
 <body>
-<h1>Register to login</h1>
+<h1>Register to log</h1>
 <div id="form">
     <h3>Register to login</h3>
 
