@@ -9,7 +9,7 @@
 <body id="body">
 
 <h1>PHP Peer to Peer Evaluation</h1>
-<div class="loginBox" id="btn">
+<div class="loginBox">
     <h3>Login Form</h3>
     <br><br>
     <form method="post" id="form" action="login.php">
