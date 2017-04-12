@@ -1,31 +1,27 @@
-<!DOCTYPE html>
+<!doctype html >
 <html>
+<meta charset="utf-8">
 <head>
-    oo
+        <title>PHP Login Form without Session</title>
+        <link rel ="stylesheet" href ="style.css" type="text/css" />
 </head>
-<body>
-<p>
-    <?php
-    $DB_SERVER = "127.0.0.1:57075";
-    $DB_USERNAME = "root";
-    $DB_PASSWORD = "password";
-    $DB_DATABASE = "first";
-    $sql = "SELECT * FROM marvelmovies";
-    $db = mysqli_connect($DB_SERVER, $DB_USERNAME, $DB_PASSWORD, $DB_DATABASE);
-    if (!$db) {
-        echo "Error: Unable to connect to MySQL." . PHP_EOL;
-        echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
-        echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
-        exit;
-    }
-    $result = mysqli_query($db,$sql);
-    while($row = $result->fetch_array())
-    {
-       $movieTitle = $row['yearReleased,title'];
-echo "<p>" . $movieTitle . "</p>";
-}
-    ?>
 
-</p>
+<body>
+
+<h1>PHP Login Form with Session</h1>
+<div class="loginBox">
+    <h3>Login Form</h3>
+    <br><br >
+    <form method = "post" action = "login.php">
+        <label>User name: </label><br >
+        <input type="text" name="username" placeholder="username" /><br><br>
+        <label>Password: </label><br>
+        <input type="password" name="password" placeholder ="password" /> <br><br>
+        <input type = "submit" name = "submit" value = "login"/>
+    </form>
+    <div class="error"><?php // echo $err or; ?><?php // echo $user name; echo $passwor d; ?></div>
+</div>
+
 </body>
+
 </html>
