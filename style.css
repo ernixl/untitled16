@@ -16,13 +16,12 @@
     color: #fff;
     background: purple;
     padding: 5px;
-    margin-right:0%;}
+    margin-right: 50%;
+    margin-left: 50%;
 
-#exit {
-    color: #fff;
-    background: purple;
-    padding: 5px;
-    margin-left: 0%;}
+}
+
+
 
 
 
