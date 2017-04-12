@@ -2,7 +2,7 @@
     background: #eee;
 }
 
-#form, h1,h3 {
+#form {
     border: solid gray 1px;
     width: 20%;
     border-radius: 5px;
@@ -17,8 +17,7 @@
     padding: 5px;
     margin-left: 60%;
 }
-#heading{
-     width: 20%;
-     border-radius: 5px;
-     margin: 100px auto;
- }
+h1,h3 {
+    width: 20%;
+    margin: 100px auto;
+    padding: 50px;}
