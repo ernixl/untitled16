@@ -85,7 +85,7 @@ if (isset($_POST['register'])) {
 
             <tr>
                 <td></td>
-                <td><input type="submit" name="register" value="Register"></td>
+                <td><input type="submit" name="register" id="submit" value="Register"></td>
             </tr>
 
 
