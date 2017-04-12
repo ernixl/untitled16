@@ -14,15 +14,23 @@
     <h3>Enter your login information or click <a href="register.php">here</a> to register</h3>
     <br>
     <form method="post" action="login.php">
-        <p>
-            <label>Username: </label>
-            <input type="text" name="username" placeholder="username" id="text"/>
-        </p>
-        <p>
-            <label>Password: </label>
-            <input type="password" name="password" placeholder="password" id="text"/>
-            <br></p>
-        <input type="submit" id="submit" name="submit" value="login"/>
+        <table>
+
+            <tr>
+                <td>username:</td>
+                <td><input type="text" name="username" class="textInput"></td>
+            </tr>
+
+            <tr>
+                <td>password:</td>
+                <td><input type="password" name="password" class="textInput"></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><input type="submit" name="submit" id="submit" value="login" class="textInput"></td>
+            </tr>
+
     </form>
     <div class="error"><?php // echo $err or; ?><?php // echo $user name; echo $passwor d; ?></div>
 </div>
