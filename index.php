@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
 
-<body>
+<body id="body">
 
 <h1>PHP Peer to Peer Evaluation</h1>
 <div class="loginBox" id="btn">
