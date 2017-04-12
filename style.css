@@ -9,7 +9,7 @@
     margin: 100px auto;
     background: white;
     padding: 50px;
-    font-family: Verdana;
+
 }
 
 #submit {
@@ -17,7 +17,7 @@
     background: purple;
     padding: 5px;
     margin-left: 50%;
-    font-family: Verdana;
+
 }
 
 h1 {
@@ -26,6 +26,6 @@ h1 {
     font-family: Verdana;
 }
 
-h3 {
-    font-family: Verdana;
+h3 /*{
+    font-family: Verdana;}
 }
