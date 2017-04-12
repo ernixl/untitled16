@@ -2,7 +2,7 @@
     background: #eee;
 }
 
-#form {
+#form, h1,h3 {
     border: solid gray 1px;
     width: 20%;
     border-radius: 5px;
