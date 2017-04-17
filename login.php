@@ -7,11 +7,9 @@ pwd ='$pwd' ";
 
 $result = mysqli_query($db, $sql);
 
-if( mysqli_num_rows($result) == 1)
- {
-     header("location: homepage.php");
- }else
- {
-     echo "Incorrect username or password. ";
- }
+if (mysqli_num_rows($result) == 1) {
+    header("location: homepage.php");
+} else {
+    echo "Incorrect username or password. ";
+}
 ?>
