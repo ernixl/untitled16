@@ -2,12 +2,6 @@
 
 include 'connect.php';
 
-if (empty($_POST["uid"]) || empty($_POST["pwd"])) {
-    echo "username and password required";
-} else {
-    $uid = $_POST['uid'];
-    $pwd = $_POST['pwd'];
-
     $sql = "SELECT uid FROM login WHERE uid = '$uid' and
 pwd ='$pwd' ";
 
@@ -26,6 +20,4 @@ pwd ='$pwd' ";
         }
     } else
         echo "invalid password and username";
-
-}
 ?>
