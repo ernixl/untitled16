@@ -10,7 +10,7 @@ $pwd = $_POST['pwd'];
 $pwd2 = $_POST['pwd2'];
 
 if (empty($pwd) || empty($pwd2)) {
-    echo "enter password field";
+    echo "<br>enter password field<br>";
 }
 
 if ($pwd != $pwd2) {
