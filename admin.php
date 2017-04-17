@@ -15,7 +15,7 @@
 <a href="index.php">Home</a>
 <a href="viewfeedback.php"> view feedbacks</a>
 <a href="viewupload.php">view uploads</a>
-<a href="setcoursework.php">set coursework</a>
+<a href="setcoursework.php">setcoursework</a>
 
 </body>
 </html>
