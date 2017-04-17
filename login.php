@@ -8,7 +8,7 @@ $db = mysqli_connect($DB_SERVER, $DB_USERNAME, $DB_PASSWORD, $DB_DATABASE);
 
 
 if (empty($_POST["username"]) || empty($_POST["password"])) {
-    header("location: homepage . php"); echo "Incorrect username or password";
+    echo "Incorrect username or password";
 } else {
     $username = $_POST['username'];
     $password = $_POST['password'];
