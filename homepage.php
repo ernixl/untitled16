@@ -9,6 +9,7 @@
 <body>
 
 <header>
+    <a href="index.php">Logout</a>
 <h1>Hello</h1>
 </header>
 
