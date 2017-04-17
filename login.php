@@ -1,11 +1,4 @@
-<?php
-$DB_SERVER = "127.0.0.1:57075";
-$DB_USERNAME = "root";
-$DB_PASSWORD = "password";
-$DB_DATABASE = "coursework";
-
-$db = mysqli_connect($DB_SERVER, $DB_USERNAME, $DB_PASSWORD, $DB_DATABASE);
-
+<?
 
 if (empty($_POST["username"]) || empty($_POST["password"])) {
     echo "username and password required";
