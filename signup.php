@@ -9,10 +9,14 @@ $uid = $_POST['uid'];
 $pwd = $_POST['pwd'];
 $pwd2 = $_POST['pwd2'];
 
-if ($pwd==$pwd2){
+if ($pwd == $pwd2){
 $sql = "INSERT INTO login (first, last, email, uid, pwd)
 VALUES ('$first','$last','$email','$uid','$pwd')";}
-else echo "passwords dont match";
+else
+    header("Location:signup.php");
 
 $result = mysqli_query($db,$sql);
 
+if ($result == 1){
+    header("Location: index.php");
+}
