@@ -14,3 +14,4 @@ VALUES ('$first','$last','$email','$uid','$pwd')";
 
 $result = $db->query($sql);
 
+echo "thank you for signing up";
