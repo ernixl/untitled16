@@ -8,7 +8,7 @@ $db = mysqli_connect($DB_SERVER, $DB_USERNAME, $DB_PASSWORD, $DB_DATABASE);
 
 
 if (empty($_POST["username"]) || empty($_POST["password"])) {
-    echo "Both fields are required";
+    header("location: homepage . php"); echo "Incorrect username or password";
 } else {
     $username = $_POST['username'];
     $password = $_POST['password'];
@@ -22,7 +22,7 @@ password ='$password' ";
         echo "logging in as <b> Admin </b> click <a href='admin.php'>here</a> to continue" ;}
 
     elseif (mysqli_num_rows($result) == 1) {
-        header("logging in as <b> Admin </b> click <a href='homepage.php'>here</a> to continue"); // Redi recti ng To anot her Page
+        header("location: homepage . php"); // Redi recti ng To anot her Page
     } else {
         echo "Go back and enter a correct username and password . ";
     }
