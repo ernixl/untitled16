@@ -48,10 +48,9 @@ if (isset($_POST['register'])) {
 </head>
 <body id="body">
 <h1>Register to log</h1>
+
 <div id="form">
     <h3>Register to login</h3>
-
-
 
     <form action="signup.php" method="post">
         <input type="text" name="first" placeholder="Firstname"><br><br>
@@ -60,14 +59,9 @@ if (isset($_POST['register'])) {
         <input type="text" name="uid" placeholder="Username"><br><br>
         <input type="password" name="pwd" placeholder="Password"><br><br>
         <input type="password" name="pwd2" placeholder="Repeat Password"><br><br>
-        <input type="submit" id="submit" value="SignUp">
-
-
-
-
+           <button type="submit">Sign Up</button>
+        <button type="reset">cancel</button>
     </form>
-
-
 </div>
 
 
