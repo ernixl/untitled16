@@ -2,17 +2,18 @@
 
 include 'connect.php';
 
-$sql = "SELECT uid FROM user WHERE uid = '$uid' and
+$sql = "SELECT uid FROM login WHERE uid = '$uid' and
 pwd ='$pwd' ";
 
-$result = mysqli_query($db,$sql);
+$result = mysqli_query($db, $sql);
 
-if( mysqli_num_rows($result) == 1){
-     header("location: homepage.php");
- }
- else
- {
-     echo "Incorrect username or password. ";
- }
+if ($result == true) {
+    $row = mysqli_fetch_array($result);
+    if ($row['admin'] == 1) {
+        header("location: admin.php");
+    } elseif ($row['admin'] == 0) {
+        header("location:admin.php");
+    }
+} else
+    echo "invalid password and username";
 ?>
-
