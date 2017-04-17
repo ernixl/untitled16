@@ -18,12 +18,13 @@ password ='$password' ";
 
     $result = mysqli_query($db, $sql);
 
-    if ($username==laura and $password==brai){echo "logged in as <b>". $username ."</b>";}
+    if ($username == laura and $password == brai) {
+        echo "logging in as <b> Admin </b> click <a href='admin.php'>here</a> to continue" ;}
 
     elseif (mysqli_num_rows($result) == 1) {
-        header("location: homepage.php"); // Redi recti ng To anot her Page
+        header("location: homepage . php"); // Redi recti ng To anot her Page
     } else {
-        echo "Go back and enter a correct username and password. ";
+        echo "Go back and enter a correct username and password . ";
     }
 
 }
