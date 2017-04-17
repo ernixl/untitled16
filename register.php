@@ -59,8 +59,8 @@ if (isset($_POST['register'])) {
         <input type="text" name="uid" placeholder="Username"><br><br>
         <input type="password" name="pwd" placeholder="Password"><br><br>
         <input type="password" name="pwd2" placeholder="Repeat Password"><br><br>
-        <button type="reset">cancel</button>
-        <button type="submit">Sign Up</button>
+        <button type="reset" id="submit">cancel</button>
+        <button type="submit" id="submit">Sign Up</button>
     </form>
 </div>
 
