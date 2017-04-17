@@ -7,9 +7,10 @@
 </head>
 
 <body id="body">
+<a href="index.php">Logout</a>
 <h1>Hello</h1>
 
-    <a href="index.php">Logout</a>
+
 
 
 
