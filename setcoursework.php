@@ -4,30 +4,17 @@
     <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
 <body id="body">
-<form action="" method="post"></form>
-<input type="text" placeholder="course name">
-<input type="text" placeholder="title">
-<textarea name="textarea" id="" cols="30" rows="10" placeholder="descritpion"></textarea>
-<input type="submit" value="submit">
+<div id="form">
+    <form action="" method="post"></form>
+    <input type="text" placeholder="course name">
+    <input type="text" placeholder="title">
+    <textarea name="textarea" id="" cols="30" rows="10" placeholder="descritpion"></textarea>
+    <input type="submit" value="submit">
+
+</div>
 
 
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </html>
