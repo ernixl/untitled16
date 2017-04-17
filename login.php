@@ -2,8 +2,10 @@
 
 include 'connect.php';
 
-$sql = "SELECT uid FROM login WHERE uid = '$uid' and
-pwd ='$pwd' ";
+$uid = $_POST['uid'];
+$pwd = $_POST['pwd'];
+
+$sql = "SELECT uid FROM login WHERE uid = '$uid' and pwd ='$pwd' ";
 
 $result = mysqli_query($db, $sql);
 
