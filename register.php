@@ -54,50 +54,15 @@ if (isset($_POST['register'])) {
 
 
     <form action="signup.php" method="post">
-        <input type="text" name="first" placeholder="Firstname">
-        <input type="text" name="last" placeholder="Lastname">
-        <input type="text" name="uid" placeholder="Username">
-        <input type="password" name="pwd" placeholder="Password">
-        <input type="email" name="email" placeholder="email">
-
-        <table>
-
-            <tr>
-                <td>name:</td>
-                <td><input type="text" name="name" class="textInput"></td>
-            </tr>
-
-            <tr>
-                <td>surname:</td>
-                <td><input type="text" name="surname" class="textInput"></td>
-            </tr>
-            <tr>
-                <td>username:</td>
-                <td><input type="text" name="username" class="textInput"></td>
-            </tr>
-
-            <tr>
-                <td>email:</td>
-                <td><input type="email" name="email" class="textInput"></td>
-            </tr>
-
-            <tr>
-                <td>password:</td>
-                <td><input type="password" name="password" class="textInput"></td>
-            </tr>
-
-            <tr>
-                <td>repeat password:</td>
-                <td><input type="password" name="password2" class="textInput"></td>
-            </tr>
-
-            <tr>
-                <td></td>
-                <td><input type="submit" id="submit" value="Sign Up"></td>
-            </tr>
+        <input type="text" name="first" placeholder="Firstname"><br><br>
+        <input type="text" name="last" placeholder="Lastname"><br><br>
+        <input type="email" name="email" placeholder="email"><br><br>
+        <input type="text" name="uid" placeholder="Username"><br><br>
+        <input type="password" name="pwd" placeholder="Password"><br><br>
+        <input type="password" name="pwd2" placeholder="Repeat Password"><br><br>
+        <input type="submit" id="submit" value="SignUp">
 
 
-        </table>
 
 
     </form>
