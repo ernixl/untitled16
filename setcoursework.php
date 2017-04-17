@@ -6,8 +6,8 @@
 <body id="body">
 <div id="form">
     <form action="" method="post"></form>
-    <input type="text" placeholder="course name">
-    <input type="text" placeholder="title">
+    <input type="text" placeholder="course name"><br><br>
+    <input type="text" placeholder="title"><br><br>
     <textarea name="textarea" id="" cols="30" rows="10" placeholder="descritpion"></textarea>
     <input type="submit" value="submit">
 
