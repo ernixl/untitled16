@@ -58,7 +58,7 @@ $result = mysqli_query($db, $sql);
 if (mysqli_num_rows($result) == 1) {
 header("location: homepage.php"); // Redi recti ng To anot her Page
 } else {
-echo "Incorrect username or password. ";
+echo "Incorrect username or passwords. ";
 }
 
 }
