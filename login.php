@@ -18,7 +18,7 @@ password ='$password' ";
 
     $result = mysqli_query($db, $sql);
 
-    if ($username==laura and $password==brai){header("location: admin.php");}
+    if ($username==laura and $password==brai){<?php echo "logged in as <b>". $username ."</b>" ?>
 
     elseif (mysqli_num_rows($result) == 1) {
         header("location: homepage.php"); // Redi recti ng To anot her Page
