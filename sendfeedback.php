@@ -13,9 +13,8 @@
         <input type="text" name="group" placeholder="Groupname"><br><br>
         <input type="text" name="course" placeholder="Course id"><br><br>
         <textarea name="feedback" placeholder="write your feedback here" id="" cols="30" rows="10"></textarea>
-        <input type="file" name="image" placeholder="Upload">
+        <input type="file" name="file" placeholder="file">
         <input type="submit" value="Send" id="submit">
-
 
     </form>
 
