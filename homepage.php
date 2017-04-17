@@ -8,10 +8,10 @@
 
 <body id="body">
 
-<header>
+
     <a href="index.php">Logout</a>
 <h1>Hello</h1>
-</header>
+
 
 <a href="index.php">Home</a>
 <a href="sendfeedback.php">sendfeedback</a>
