@@ -7,7 +7,7 @@ pwd ='$pwd' ";
 
 $result = mysqli_query($db, $sql);
 
-if ($result == true) {
+if ($result == 1) {
     $row = mysqli_fetch_array($result);
     if ($row['admin'] == 1) {
         header("location: admin.php");
