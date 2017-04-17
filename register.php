@@ -54,6 +54,12 @@ if (isset($_POST['register'])) {
 
 
     <form action="signup.php" method="post">
+        <input type="text" name="first" placeholder="Firstname>
+        <input type="text" name="last" placeholder="Lastname>
+        <input type="text" name="uid" placeholder="Username">
+        <input type="password" name="pwd" placeholder="Password">
+        <input type="email" name="email" placeholder="email">
+
         <table>
 
             <tr>
