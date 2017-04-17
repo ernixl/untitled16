@@ -36,7 +36,6 @@
     <div class="error"><?php // echo $err or; ?><?php // echo $user name; echo $passwor d; ?></div>
 </div>
 
-?>
 </body>
 
 </html>
