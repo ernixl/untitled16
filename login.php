@@ -4,17 +4,17 @@
 include 'connect.php';
 
 
-$uid = $_POST['uid'];
-$pwd = $_POST['pwd'];
+$username = $_POST['username'];
+$password = $_POST['password'];
 
 
-$result = mysqli_query("SELECT *  FROM login WHERE uid = '$uid' and pwd = '$pwd'")
+$result = mysqli_query("SELECT uid FROM login WHERE username='$username' and password='$password'")
 
 or die("failed to query database" . mysqli_error());
 
 $row = mysqli_fetch_array($result);
 
-if ($row['uid'] == $uid && $row['pwd'] == $pwd) {
+if ($row['username'] == $username && $row['password'] == $password) {
     header("Location: homepage.php");
 
 } else {
