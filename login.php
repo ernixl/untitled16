@@ -11,7 +11,8 @@ $result = mysqli_query($db,$sql);
 
 $row = mysqli_fetch_array($result);
 
-     if (mysql_num_rows($result)== 1) {
+     if ( $row == 1) {
+
          header("Location: homepage.php");
      }else echo "invalid password and username";
 
