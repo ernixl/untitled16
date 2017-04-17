@@ -13,7 +13,7 @@
 
     <h3>Enter your login information or click <a href="register.php">here</a> to register</h3>
     <br>
-    <form method="post" action="login.php">
+    <form method="post" action="index.php">
         <table>
 
             <tr>
@@ -34,7 +34,7 @@
 
     </form>
     <div class="error"><?php // echo $err or; ?><?php // echo $user name; echo $passwor d; ?></div>
-</div>
+</div>]
 <?php
 $DB_SERVER = "127.0.0.1:57075";
 $DB_USERNAME = "root";
@@ -62,6 +62,7 @@ echo "Incorrect username or passwords. ";
 }
 
 }
+
 ?>
 </body>
 
