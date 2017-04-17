@@ -14,7 +14,7 @@ if (empty($pwd) || empty($pwd2)) {
 }
 
 if ($pwd != $pwd2) {
-    echo "password mismatch";
+    echo "password mismatchrrr";
 } else {
     $sql = "INSERT INTO login (first, last, email, uid, pwd)
     VALUES ('$first','$last','$email','$uid','$pwd')";
@@ -22,4 +22,6 @@ if ($pwd != $pwd2) {
 
 $result = mysqli_query($db, $sql);
 
-
+if ($result == true){
+    header("Location: index.php");
+}
