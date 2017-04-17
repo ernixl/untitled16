@@ -1,6 +1,6 @@
 <?php
 
-include 'db_connect.php';
+include 'connect.php';
 
 $first = $_POST['first'];
 $last = $_POST['last'];
@@ -12,6 +12,6 @@ $pwd2 = $_POST['pwd2'];
 $sql = "INSERT INTO users ('first','last','email','uid','pwd')
 VALUES ('$first','$last','$email','$uid','$pwd')";
 
-$result = $db->query($sql);
+$result = mysqli_query($db,$sql);
 
-echo "thank you for signing up";
+header ("Location: index.php");

@@ -1,4 +1,4 @@
-<?
+<?php
 
 if (empty($_POST["username"]) || empty($_POST["password"])) {
     echo "username and password required";
