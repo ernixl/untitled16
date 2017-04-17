@@ -7,14 +7,11 @@ pwd ='$pwd' ";
 
 $result = mysqli_query($db, $sql);
 
-$row = mysqli_fetch_array($result);
-
-if ($result == true and $row['admin'] == [1]) {
-        header("location: admin.php");
-    }
-    elseif ($result == true and $row['admin'] == [0]) {
-        header("location: homepage.php");
-
-} else
-    echo "invalid password and username";
+if( mysqli_num_rows($result) == 1)
+ {
+     header("location: homepage.php");
+ }else
+ {
+     echo "Incorrect username or password. ";
+ }
 ?>
