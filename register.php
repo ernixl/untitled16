@@ -14,9 +14,9 @@
         <input type="text" name="first" placeholder="Firstname"><br><br>
         <input type="text" name="last" placeholder="Lastname"><br><br>
         <input type="email" name="email" placeholder="email"><br><br>
-        <input type="text" name="uid" placeholder="Username"><br><br>
-        <input type="password" name="pwd" placeholder="Password"><br><br>
-        <input type="password" name="pwd2" placeholder="Repeat Password"><br><br>
+        <input type="text" name="username" placeholder="Username"><br><br>
+        <input type="password" name="password" placeholder="Password"><br><br>
+        <input type="password" name="password2" placeholder="Repeat Password"><br><br>
         <button type="submit" id="submit">SignUp</button>
     </form>
 </div>
