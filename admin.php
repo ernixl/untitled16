@@ -7,7 +7,7 @@
 </head>
 
 <body>
-
+<a href="index.php">Logout</a>
 <header>
     <h1>Hello</h1>
 </header>
