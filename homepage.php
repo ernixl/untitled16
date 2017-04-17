@@ -14,7 +14,7 @@
 
 <a href="index.php">Home</a>
 <a href="sendfeedback.php">sendfeedback</a>
-<a href="upload.php">view feedback</a>
+<a href="upload.php">upload file</a>
 <a href=""></a>
 
 
