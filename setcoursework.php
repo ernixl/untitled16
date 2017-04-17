@@ -9,6 +9,7 @@
     <input type="text" placeholder="course name"><br><br>
     <input type="text" placeholder="title"><br><br>
     <textarea name="textarea" id="" cols="30" rows="10" placeholder="descritpion"></textarea><br><br>
+    <input type="submit" value="submit" id="submit">
 
 </div>
 
