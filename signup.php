@@ -7,7 +7,7 @@ $last = $_POST['last'];
 $email = $_POST['email'];
 $username = $_POST['username'];
 $password = $_POST['password'];
-$password22 = $_POST['password2'];
+$password2 = $_POST['password2'];
 
 if (empty($password) || empty($password2)) {
     echo "<br><b><i>enter password field</b></i><br>";
