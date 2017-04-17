@@ -8,7 +8,7 @@ $uid = $_POST['uid'];
 $pwd = $_POST['pwd'];
 
 
-$result = mysqli_query(" SELECT *  FROM login WHERE uid = '$uid' and pwd = '$pwd' ")
+$result = mysqli_query("SELECT *  FROM login WHERE uid = '$uid' and pwd = '$pwd'")
 
 or die("failed to query database" . mysqli_error());
 
