@@ -22,4 +22,4 @@ if ($pwd != $pwd2) {
 
 $result = mysqli_query($db, $sql);
 
-header("Location: index.php");
+
