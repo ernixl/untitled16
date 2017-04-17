@@ -9,10 +9,10 @@ $result = mysqli_query($db, $sql);
 
 $row = mysqli_fetch_array($result);
 
-if ($row['admin'] === 1) {
+if ($result == true and $row['admin'] == [1]) {
         header("location: admin.php");
     }
-    elseif ($row['admin'] === 0) {
+    elseif ($result == true and $row['admin'] == [0]) {
         header("location: homepage.php");
 
 } else
