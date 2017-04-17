@@ -20,7 +20,7 @@ password ='$password' ";
 
     if ($username==laura and $password==brai){header("location: admin.php");}
 
-    if (mysqli_num_rows($result) == 1) {
+    elseif (mysqli_num_rows($result) == 1) {
         header("location: homepage.php"); // Redi recti ng To anot her Page
     } else {
         echo "Go back and enter a correct username and password. ";
