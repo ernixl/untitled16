@@ -10,11 +10,11 @@ $pwd = $_POST['pwd'];
 $pwd2 = $_POST['pwd2'];
 
 if (empty($pwd) || empty($pwd2)) {
-    echo "<br>enter password field<br>";
+    echo "<br><b><i>enter password field</b></i><br>";
 }
 
 if ($pwd != $pwd2) {
-    echo "password mismatchrrr";
+    echo "<b><i>password mismatch</b></i>";
 } else {
     $sql = "INSERT INTO login (first, last, email, uid, pwd)
     VALUES ('$first','$last','$email','$uid','$pwd')";
