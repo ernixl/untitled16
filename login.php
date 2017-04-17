@@ -1,24 +1,31 @@
 <?php
 
-if (empty($_POST["username"]) || empty($_POST["password"])) {
+include 'connect.php';
+
+if (empty($_POST["uid"]) || empty($_POST["pwd"])) {
     echo "username and password required";
 } else {
-    $username = $_POST['username'];
-    $password = $_POST['password'];
+    $uid = $_POST['uid'];
+    $pwd = $_POST['pwd'];
 
-    $sql = "SELECT uid FROM coursework WHERE username = '$username' and
-password ='$password' ";
+    $sql = "SELECT uid FROM login WHERE uid = '$uid' and
+pwd ='$pwd' ";
 
     $result = mysqli_query($db, $sql);
 
-    if ($username == laura and $password == brai) {
-        echo "logging in as <b> Admin </b> click <a href='admin.php'>here</a> to continue" ;}
+    if ($result == true) {
+        session_start();
+        $_SESSION["uid"] = $uid;
+        $_SESSION["pwd"] = $pwd;
 
-    elseif (mysqli_num_rows($result) == 1) {
-        header("location: homepage.php"); // Redi recti ng To anot her Page
-    } else {
-        echo "Go back and enter a correct username and password . ";
-    }
+        $row = mysqli_fetch_array($result);
+        if ($row['admin'] == 0) {
+            header("location: homepge.php");
+        } elseif ($row['admin'] == 1) {
+            header("location:admin.php");
+        }
+    } else
+        echo "invalid password and username";
 
 }
 ?>
