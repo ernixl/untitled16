@@ -16,4 +16,3 @@ else echo "passwords dont match";
 
 $result = mysqli_query($db,$sql);
 
-header ("Location: index.php");
