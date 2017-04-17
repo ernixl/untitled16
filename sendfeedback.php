@@ -69,12 +69,12 @@ if (isset($_POST['register'])) {
 
             <tr>
                 <td>feedback</td>
-                <td><textarea name="comment" rows="5" cols="40"></textarea></td>
+                <td><textarea name="comment" rows="20" cols="40"></textarea></td>
             </tr>
 
-            <tr>
+            <tr>e
                 <td></td>
-                <td><input type="submit" name="register" id="submit" value="Register"></td>
+                <td><input type="submit" name="register" id="submit" value="Send"></td>
             </tr>
 
 
