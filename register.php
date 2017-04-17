@@ -53,7 +53,7 @@ if (isset($_POST['register'])) {
 
 
 
-    <form action="register.php" method="post">
+    <form action="signup.php" method="post">
         <table>
 
             <tr>
@@ -87,7 +87,7 @@ if (isset($_POST['register'])) {
 
             <tr>
                 <td></td>
-                <td><input type="submit" name="register" id="submit" value="Register"></td>
+                <td><input type="submit" id="submit" value="Sign Up"></td>
             </tr>
 
 
