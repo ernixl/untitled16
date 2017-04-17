@@ -50,28 +50,6 @@ if (isset($_POST['register'])) {
 <h1>You can give feedback here</h1>
 <div id="form">
     <form action="sendfeedback.php" method="post">
-        <table>
-
-
-            <tr>
-                <td>groupname</td>
-                <td><input type="text" name="groupname" class="textInput"></td>
-            </tr>
-            <tr>
-                <td>courseid</td>
-                <td><input type="text" name="courseid" class="textInput"></td>
-            </tr>
-
-            <tr>
-                <td>feedback</td>
-                <td><textarea name="comment" rows="20" cols="40"></textarea></td>
-            </tr>
-
-            <tr>e
-                <td></td>
-                <td><input type="submit" name="register" id="submit" value="Send"></td>
-            </tr>
-
 
         </table>
 
