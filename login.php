@@ -1,24 +1,25 @@
 <?php
 
-$username=$_POST['username'];
-$password=$_POST['password'];
+$username = $_POST['username'];
+$password = $_POST['password'];
 
 include 'connect.php';
 
-$sql ="SELECT uid FROM login WHERE username='$username' and password='$password'";
+$sql = "SELECT uid FROM login WHERE username='$username' and password='$password'";
 
-    $result =mysqli_query($db,$sql);
+$result = mysqli_query($db, $sql);
+$row = mysqli_fetch_array($result);
 
-if( mysqli_num_rows($result) == 1)
- {
-     header("location: homepage.php");
- }else
- {
-     echo "Incorrect username or password. ";
- }
+if (mysqli_num_rows($result) == 1) {
+    if ($row['admin'] == 0) {
+        header("location: homepage.php");
+    } elseif ($row['admin'] == 1) {
+        header("Location: admin.php");}
+        else
+        echo "Incorrect username or password. ";
+}
 
 ?>
-
 
 
 }
