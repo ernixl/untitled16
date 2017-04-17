@@ -1,8 +1,9 @@
 <html>
 <head>
     <title>set course work</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
-<body>
+<body id="body">
 <form action="" method="post"></form>
 <input type="text" placeholder="course name">
 <input type="text" placeholder="title">
