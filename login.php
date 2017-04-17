@@ -8,7 +8,7 @@ $db = mysqli_connect($DB_SERVER, $DB_USERNAME, $DB_PASSWORD, $DB_DATABASE);
 
 
 if (empty($_POST["username"]) || empty($_POST["password"])) {
-    echo "Go back and enter a correct username and password";
+    echo "error connecting to database";
 } else {
     $username = $_POST['username'];
     $password = $_POST['password'];
