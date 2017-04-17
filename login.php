@@ -9,7 +9,7 @@ $sql = "SELECT uid FROM login WHERE uid = '$uid' and pwd ='$pwd' ";
 
 $result = mysqli_query($db,$sql);
 
-if (mysqli_num_rows($result) == 1) {
+if (mysqli_num_rows($result) == true) {
     header("location: homepage.php");
 } else {
     echo "Incorrect username password. ";
