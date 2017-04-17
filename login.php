@@ -7,12 +7,20 @@ pwd ='$pwd' ";
 
 $result = mysqli_query($db, $sql);
 
-if ($result['admin']== 1){
-    header ("Location: admin.php");}
-    elseif ($result['admin'] == 0){
-    header ("Location: homepage.php");
-}
+if (mysql_num_rows($result)==1) {
+    echo "only 1 record in database";
+    session_start();
+    $_SESSION["uid"] = $uid;
+    $_SESSION["pwd"] = $pwd;
 
+    $row = mysqli_fetch_array($result);
+    if ($row['admin'] == 0) {
+        echo "admin user";
+    } elseif ($row['admin'] == 1) {
+        echo "normal user";
+    }
+
+}
 
  else
     echo "invalid password and username";
