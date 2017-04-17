@@ -8,7 +8,7 @@ $username = $_POST['username'];
 $password = $_POST['password'];
 
 
-$result = mysqli_query("SELECT uid FROM login WHERE username='$username' and password='$password'")
+$result = mysqli_query("SELECT id FROM login WHERE username='$username' and password='$password'")
 
 or die("failed to query database" . mysqli_error());
 
