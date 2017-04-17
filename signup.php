@@ -9,8 +9,9 @@ $uid = $_POST['uid'];
 $pwd = $_POST['pwd'];
 $pwd2 = $_POST['pwd2'];
 
-echo $first . "<br>";
-echo $last . "<br>";
-echo $email . "<br>";
-echo $uid . "<br>";
-echo $pwd . "<br>";
+$sql = "INSERT INTO users (first, last, email, uid, pwd)
+VALUES ('$first','$last','$email','$uid','$pwd')";
+
+$result = $db->query($sql);
+
+header("location: index.php");
