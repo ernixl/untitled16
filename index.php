@@ -18,13 +18,13 @@
 
             <tr>
                 <td>username:</td>
-                <td><input type="text" name="username" class="textInput"></td>
+                <td><input type="text" name="uid" class="textInput"></td>
             </tr>
             <br><br>
 
             <tr>
                 <td>password:</td>
-                <td><input type="password" name="password" class="textInput"></td>
+                <td><input type="password" name="pwd" class="textInput"></td>
             </tr>
 
             <tr>
