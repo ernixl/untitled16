@@ -2,7 +2,7 @@
 
 $username = $_POST['username'];
 $password = $_POST['password'];
-$admin = 1;
+$admin = "1";
 
 include 'connect.php';
 
