@@ -55,7 +55,7 @@ if (isset($_POST['register'])) {
         <input type="text" placeholder="groupname"><br><br>
         <input type="text" placeholder="course id"><br><br>
         <textarea name="feedback" placeholder="write your feedback here" id="" cols="30" rows="10"></textarea>
-        <input type="submit" value="Send">
+        <input type="submit" value="Send" id="submit">
 
 
     </form>
