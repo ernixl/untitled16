@@ -14,7 +14,7 @@ or die("failed to query database" . mysqli_error());
 
 $row = mysqli_fetch_array($result);
 
-if ($row['uid'] == $uid and $row['pwd'] == $pwd) {
+if ($row['uid'] == $uid && $row['pwd'] == $pwd) {
     header("Location: homepage.php");
 
 } else {
