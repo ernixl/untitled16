@@ -1,18 +1,18 @@
 <?php
 include 'connect.php';
 
-$first = $_POST['first'];
-$last = $_POST['last'];
-$gname = $_POST['gname'];
+$firstname = $_POST['firstname'];
+$lastname = $_POST['lastname'];
+$groupname = $_POST['groupname'];
 $course = $_POST['course'];
-$feedback = $_POST['feedback'];
+$feed = $_POST['feed'];
 
 
 
-if (empty($feedback) || empty($course)) {echo "input all data";}
+if (empty($feed) || empty($course)) {echo "input all data";}
 else{
-    $sql = "INSERT INTO feedback (first, last, gname, course, feedback)
-VALUES ('', '$first', '$last', '$gname', '$course', '$feedback')"; echo "feedback sent";
+    $sql = "INSERT INTO feedback (firstname, lastname, groupname, course, feed)
+VALUES ('$firstname','$lastname','$groupname','$course','$feed')"; echo "feedback sent";
 }
 
 $result = mysqli_query($db, $sql);
