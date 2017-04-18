@@ -15,10 +15,6 @@ else{
 VALUES ('$first','$last','$gname','$course','$feedback')"; echo "feedback sent";
 }
 
-$result = mysqli_query($db, $sql);
 
-if ($result == true) {
-    echo "feedback sent,click <a href=\"homepage.php\">here</a> to return to homepage! ";
-} else echo "i cannot";
 
 ?>
