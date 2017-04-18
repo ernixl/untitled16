@@ -8,7 +8,7 @@
 <h1>You can give upload files here</h1>
 <div id="form">
 
-<form action="upload_front.php" method="post" enctype="multipart/form-data">
+<form action="upload_back.php" method="post" enctype="multipart/form-data">
     Select image to upload:
     <input type="file" name="file" id="image"><br><br>
     <button type="submit" name="submit">UPLOAD</button>
