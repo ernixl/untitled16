@@ -29,10 +29,8 @@
     include 'connect.php';
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $sql = "INSERT INTO feedback (first, last, gname, course, feedback)
-    VALUES ('$first','$last','$gname','$course','$feedback')";
-
-
-    }
+    VALUES ('$first','$last','$gname','$course','$feedback')"; echo "feedback sent";
+    }else echo "error sending feedback";
     $result = mysqli_query($db, $sql);
 
     if ($result == true) {
