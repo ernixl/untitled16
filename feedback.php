@@ -12,7 +12,7 @@ $feedback = $_POST['feedback'];
 if (empty($feedback) || empty($course)) {echo "input all data";}
 else{
     $sql = "INSERT INTO feedback (first, last, gname, course, feedback)
-VALUES ( '$first', '$last', '$gname', '$course', '$feedback')"; echo "feedback sent";
+VALUES ('', '$first', '$last', '$gname', '$course', '$feedback')"; echo "feedback sent";
 }
 
 $result = mysqli_query($db, $sql);
