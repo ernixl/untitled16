@@ -13,7 +13,7 @@
         <input type="text" name="gname" placeholder="Groupname"><br><br>
         <input type="text" name="course" placeholder="Course Code"><br><br>
         <textarea name="feedback" placeholder="write your feedback here" id="" cols="30" rows="10"></textarea>
-        <input type="submit" value="Send" id="submit">
+        <button type="submit" id="submit">SignUp</button>
 
     </form>
 

@@ -9,10 +9,11 @@ $feedback = $_POST['feedback'];
 
 
 
-if ($feedback == true) {
+if (empty($feedback) || empty($course)) {echo "inou all data";}
+else{
     $sql = "INSERT INTO feedback (first, last, gname, course, feedback)
 VALUES ('$first','$last','$gname','$course','$feedback')"; echo "feedback sent";
-}else echo "error sending feedback";
+}
 
 $result = mysqli_query($db, $sql);
 
