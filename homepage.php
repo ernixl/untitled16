@@ -11,7 +11,7 @@
 <h1>Hello</h1>
 <a href="index.php">Home</a>
 <a href="sendfeedback.php">sendfeedback</a>
-<a href="upload.php">upload file</a>
+<a href="upload_front.php">upload file</a>
 <a href=""></a>
 
 
