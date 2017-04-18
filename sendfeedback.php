@@ -15,15 +15,11 @@
         <input type="text" name="groupname" placeholder="Groupname"><br><br>
         <input type="text" name="course" placeholder="Course Code"><br><br>
         <textarea name="feed" placeholder="write your feedback here" id="" cols="30" rows="10"></textarea>
-        <button type="submit" id="submit">Submit feedback</button>
+        <button type="submit" id="submit">Submit</button>
 
     </form>
 
 </div>
-
-
-
-
 </body>
 
 
