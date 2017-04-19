@@ -1,5 +1,6 @@
 <html>
 <head>
+
     <meta charset="utf-8">
     <title>North Lab</title>
     <link rel="stylesheet" href="style.css" type="text/css"/>
@@ -14,7 +15,7 @@
 
 </header>
 
-    <div id="div">
+    <div id="frm">
 
         <h3>Enter your login information </h3>
 
@@ -22,8 +23,8 @@
 
             Username: <input type="text" name="username" placeholder="Username"><br><br>
             Password: <input type="password" name="password" placeholder="Password"><br><br>
-            <button type="submit" name="register" id="button">Register</button>
-            <button type="submit" name="submit" id="button" >Login</button>
+            <button type="submit" name="register" id="btn">Register</button>
+            <button type="submit" name="submit" id="btn" >Login</button>
 
         </form>
 

@@ -1,18 +1,19 @@
+body{
+    background: #eee;
+    }
 
-#button {
-    background-color: purple;
- }
+#frm{
+    border:solid gray;
+    width: 20%;
+    border-radius: 5px;
+    margin: 100% auto;
+    background: white;
+    padding: 50px;
+}
 
-
-
-#div {
-    width: 70px;
-    height: 300px;
-    border: 1px solid #c3c3c3;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-align-content: center;
-    align-content: center;
+#btn{
+    color: #fff;
+    background: purple;
+    padding: 5px;
+    margin-left: 69%;
 }
