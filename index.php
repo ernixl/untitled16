@@ -13,7 +13,7 @@
 
     <h3>Enter your login information or click <a href="register.php">here</a> to register</h3>
     <br>
-    <form method="post" action="login.php">
+    <form method="post" action="index.php">
         <table>
 
             <tr>
@@ -36,6 +36,30 @@
     <div class="error"><?php // echo $err or; ?><?php // echo $user name; echo $passwor d; ?></div>
 </div>
 
+<?php
+
+$username = $_POST['username'];
+$password = $_POST['password'];
+
+
+include 'connect.php';
+
+$sql = "SELECT admin FROM login WHERE username='$username' and password='$password'";
+
+$result = mysqli_query($db, $sql);
+$row = mysqli_fetch_array($result);
+
+if (mysqli_num_rows($result) == 1 && $row['admin'] == 0) {
+header("location: homepage.php");
+} elseif (mysqli_num_rows($result) == 1 && $row['admin'] == 1) {
+header("Location: admin.php");}
+
+else
+echo "Incorrect username or password. ";
+
+
+
+?>
 
 </body>
 
