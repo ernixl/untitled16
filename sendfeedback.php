@@ -19,8 +19,6 @@
 
     </form>
 
-
-
 <?php
 
 if (isset($_POST['submit'])) {
@@ -44,7 +42,7 @@ VALUES ('$firstname','$lastname','$groupname','$course','$feed')";
     $result = mysqli_query($db, $sql);
 
     if ($result == true) {
-        echo " feedback sent successfully, click <a href=\"homepage.php\">here</a> to return to homepage";
+        echo "<b>feedback sent successfully, click <a href=\"homepage.php\">here</a> to return to homepage</b>";
     } else echo "some error occured";
 }
 ?>
