@@ -8,16 +8,36 @@ include 'connect.php';
 $sql = "SELECT uid, firstname, lastname, groupname, course, feed FROM feedback";
 $result = mysqli_query($db, $sql);
 
-if (mysqli_num_rows($result) > 0) {
-    // output data of each row
-    while ($row = $result->fetch_assoc()) {
-        echo "<br> " . $row["uid"] ." ". " <b><i> Name: </i></b> " ." ". $row["firstname"] ." ". "<b><i> LastName: </i></b> " ." ". $row["lastname"] ." ". "<b><i> Group: </i></b>" ." ". $row["groupname"] ." ". "<b><i> Course: </i></b>" ." ". $row["course"] ." ". "<b><i> Feedback: </i></b>" ." ". $row["feed"] . "<br>";
-    }
-} else {
-    echo "00 results";
-}
-
 ?>
+
+<td>Login Page Database</td>
+<table border="1">
+    <tr>
+        <th> First Name</th>
+        <th>Last Name</th>
+        <th>UserName</th>
+        <th>Password</th>
+        <th>Gender</th>
+        <th>D.O.B.</th>
+    </tr>
+
+    <?php
+
+    while ($row = mysqli_fetch_array($sql)) //<!-- Fetch each row from signup Table  -->
+    {
+        ?>
+        <tr>
+            <td><?php echo $row['uid']; ?></td>
+            <td><?php echo $row['firstname']; ?></td>
+            <td><?php echo $row['lastname']; ?></td>
+            <td><?php echo $row['groupname']; ?></td>
+            <td><?php echo $row['course']; ?></td>
+            <td><?php echo $row['feed']; ?></td>
+        </tr>
+        <?php
+    }
+    ?>
+</table>
 
 </body>
 </html>
