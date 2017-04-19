@@ -11,9 +11,13 @@
 
 <nav>
 
-    <button>View Coursework</button>
-    <button>Give feedback</button>
-    <button>Upload file</button>
+    <form action="homepage.php" method="post">
+
+        <button type="submit" name="coursework">View Coursework</button>
+        <button type="submit" name="feedback">Give feedback</button>
+        <button type="submit" name="upload">Upload file</button>
+
+    </form>
 
 
     <a href="viewcoursework.php">View Coursework</a></li>
@@ -25,7 +29,7 @@
 
 <h3>Course Description</h3>
 
-<main>
+
 
     <section>
 
@@ -33,7 +37,7 @@
     </section>
 
 
-</main>
+
 
 
 </body>
