@@ -1,6 +1,6 @@
 <html>
 <head>
-    <meta charset =" utf-8">
+    <meta charset=" utf-8">
     <title>Welcome</title>
     <link rel="stylesheet" href="style.css" type="text/css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +11,12 @@
 <header>
     <h1>Hello</h1>
 </header>
+<body>
+<form action="admin.php" method="post">
+
+    <input type="submit" value="Home">
+
+</form>
 
 <a href="index.php">Home</a>
 <a href="viewfeedback.php"> view feedbacks</a>
