@@ -23,9 +23,13 @@
         <div class="container-fluid">
             <ul class="nav navbar-nav">
 
+                <li>
+                    <form action="bootstrap.php" method="post">
+                <input type="submit" name="View" value="view"> </form></li>
                 <li><a href="viewcoursework.php">View Coursework</a></li>
                 <li><a href="sendfeedback.php">Give Feedback</a></li>
                 <li><a href="upload_front.php">Upload File</a></li>
+
 
     </nav>
     <main class="col-md-12">
