@@ -20,8 +20,7 @@
 
         <input type="text" name="username" placeholder="Username"><br><br>
         <input type="password" name="password" placeholder="Password"><br><br>
-        <input type="submit" name="submit" id="submit" value="Login">
-        click <a href="register.php">here</a> to register
+        <input type="submit" name="submit" id="submit" value="Login"> or click <a href="register.php">here</a> to register
     </form>
 </div>
 
