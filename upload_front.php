@@ -1,11 +1,10 @@
 <html>
 <head>
     <title>set course work</title>
-    <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
-<body id="body">
+<body>
 <h1>You can give upload files here</h1>
-<div id="form">
+<div>
 
 <form action="upload_front.php" method="post" enctype="multipart/form-data">
     Select image to upload:

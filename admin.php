@@ -1,10 +1,9 @@
 <html>
 <head>
     <title>set course work</title>
-    <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
 
-<body id="body">
+<body>
 <a href="index.php">Logout</a>
 <header>
     <h1>Hello</h1>

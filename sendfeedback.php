@@ -1,17 +1,16 @@
 <html>
 <head>
     <title>set course work</title>
-    <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
 <body>
-<div class="container">
-    <header class="col-md-12">
+<div>
+    <header>
         <h1>Peer To Peer Evaluation</h1>
         <h2>Give feedbacck</h2>
     </header>
-    <nav class="col-md-12 navbar navbar-primary">
-        <div class="container-fluid">
-            <ul class="nav navbar-nav">
+    <nav>
+        <div>
+            <ul>
 
                 <li><a href="viewcoursework.php">View Coursework</a></li>
                 <li><a href="sendfeedback.php">Give Feedback</a></li>
@@ -20,15 +19,15 @@
     </nav>
 
 
-    <article class="col-md-12">
-        <div id="experimentContainer" class="row">
-            <form action="sendfeedback.php" id="form" method="post">
+    <article>
+        <div>
+            <form action="sendfeedback.php" method="post">
                 <input type="text" name="firstname" placeholder="Firstname"><br><br>
                 <input type="text" name="lastname" placeholder="Lastname"><br><br>
                 <input type="text" name="groupname" placeholder="Groupname"><br><br>
                 <input type="text" name="course" placeholder="Course Code"><br><br>
-                <textarea name="feed" placeholder="write your feedback here" id="" cols="30" rows="10"></textarea>
-                <button type="submit" name="submit" id="submit">Submit</button>
+                <textarea name="feed" placeholder="write your feedback here"  cols="30" rows="10"></textarea>
+                <button type="submit" name="submit">Submit</button>
 
             </form>
     </article>

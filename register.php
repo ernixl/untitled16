@@ -1,9 +1,8 @@
 <html>
 <head>
     <title>set course work</title>
-    <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
-<body id="body">
+<body>
 <h1>Register to log</h1>
 
 <div id="frm">
@@ -16,7 +15,7 @@
         <input type="text" name="username" placeholder="Username"><br><br>
         <input type="password" name="password" placeholder="Password"><br><br>
         <input type="password" name="password2" placeholder="Repeat Password"><br><br>
-        <button type="submit" id="btn">SignUp</button>
+        <button type="submit" >SignUp</button>
     </form>
 </div>
 
