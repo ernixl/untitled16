@@ -13,7 +13,7 @@
 
 </header>
 
-<div id="frm">
+<div id="form">
 
     <h3>Enter your login information</h3>
 
