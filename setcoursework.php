@@ -5,11 +5,12 @@
 </head>
 <body id="body">
 <div id="form">
-    <form action="coursework.php" method="post"></form>
-    <input type="text" name="coursename" placeholder="course name"><br><br>
-    <input type="text" name="title" placeholder="title"><br><br>
+    <form action="coursework.php" method="post">
+        <input type="text" name="coursename" placeholder="course name"><br><br>
+        <input type="text" name="title" placeholder="title"><br><br>
 
-    <input type="submit" name="submit" value="submit" id="submit">
+        <input type="submit" name="submit" value="submit" id="submit">
+    </form>
 
 </div>
 
