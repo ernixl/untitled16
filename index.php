@@ -21,6 +21,8 @@
         <input type="text" name="username" placeholder="Username"><br><br>
         <input type="password" name="password" placeholder="Password"><br><br>
         <input type="submit" name="submit" id="submit" value="Login">
+        <input type="submit" name="register" id="submit" value="Register">
+
     </form>
 </div>
 
