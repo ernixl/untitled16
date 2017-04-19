@@ -16,10 +16,10 @@
 
     <h3>Enter your login information</h3>
 
-    <form  action="index.php" method="post">
+    <form action="index.php" method="post">
 
-        <input  type="text" name="username" placeholder="Username"><br><br>
-        <input  type="password" name="password" placeholder="Password"><br><br>
+        <input type="text" name="username" placeholder="Username"><br><br>
+        <input type="password" name="password" placeholder="Password"><br><br>
         <button type="submit" name="submit" id="submit" value="Login">Login</button>
         <button type="submit" name="register" id="submit">Register</button>
 
@@ -46,17 +46,14 @@
             echo "<i>error: Incorrect username or password</i>";
     }
 
-    if (isset($_POST['register'])){
+    if (isset($_POST['register'])) {
         header('Location: register.php');
     }
 
     ?>
 
 
-
-
 </div>
-
 
 
 </body>
