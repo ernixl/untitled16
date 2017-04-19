@@ -1,19 +1,19 @@
-body{
+ body{
     background: #eee;
-    }
+ }
 
-#frm{
+ #frm{
     border:solid gray;
     width: 20%;
     border-radius: 5px;
     margin: 100% auto;
     background: white;
     padding: 50px;
-}
+ }
 
-#btn{
+ #btn{
     color: #fff;
     background: purple;
     padding: 5px;
     margin-left: 69%;
-}
+ }
