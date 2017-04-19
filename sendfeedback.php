@@ -15,36 +15,39 @@
         <input type="text" name="groupname" placeholder="Groupname"><br><br>
         <input type="text" name="course" placeholder="Course Code"><br><br>
         <textarea name="feed" placeholder="write your feedback here" id="" cols="30" rows="10"></textarea>
-        <button type="submit" id="submit">Submit</button>
+        <button type="submit" name="submit" id="submit">Submit</button>
 
     </form>
 
 </div>
 
 <?php
-include 'connect.php';
 
-$firstname = $_POST['firstname'];
-$lastname = $_POST['lastname'];
-$groupname = $_POST['groupname'];
-$course = $_POST['course'];
-$feed = $_POST['feed'];
+if (isset($_POST['submit'])) {
+
+    include 'connect.php';
+
+    $firstname = $_POST['firstname'];
+    $lastname = $_POST['lastname'];
+    $groupname = $_POST['groupname'];
+    $course = $_POST['course'];
+    $feed = $_POST['feed'];
 
 
-if (empty($feed) || empty($course)) {
-    echo "input all data";
-} else {
-    $sql = "INSERT INTO feedback (firstname, lastname, groupname, course, feed)
+    if (empty($feed) || empty($course)) {
+        echo "input all data";
+    } else {
+        $sql = "INSERT INTO feedback (firstname, lastname, groupname, course, feed)
 VALUES ('$firstname','$lastname','$groupname','$course','$feed')";
+    }
+
+    $result = mysqli_query($db, $sql);
+
+    if ($result == true) {
+        echo " feedback sent successfully, click <a href=\"homepage.php\">here</a> to return to homepage";
+    } else echo "some error occured";
 }
-
-$result = mysqli_query($db, $sql);
-
-if ($result == true) {
-    echo " feedback sent successfully, click <a href=\"homepage.php\">here</a> to return to homepage";
-} else echo "some error occured";
 ?>
-
 
 
 
