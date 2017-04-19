@@ -13,12 +13,12 @@ $result = mysqli_query($db, $sql);
 <td>Login Page Database</td>
 <table border="1">
     <tr>
-        <th> First Name</th>
-        <th>Last Name</th>
-        <th>UserName</th>
-        <th>Password</th>
-        <th>Gender</th>
-        <th>D.O.B.</th>
+        <th> uid</th>
+        <th>firstname</th>
+        <th>lastname</th>
+        <th>groupname</th>
+        <th>course</th>
+        <th>feed</th>
     </tr>
 
     <?php
