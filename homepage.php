@@ -13,6 +13,7 @@
 <a href="sendfeedback.php">sendfeedback</a>
 <a href="upload_front.php">upload file</a>
 <a href="viewcoursework.php">courseworks</a>
+<a href="register.php">red</a>
 
 
 </body>

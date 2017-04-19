@@ -26,7 +26,6 @@
 
 </div>
 
- click <a href="admin.php">here</a>
 
 
 </body>
