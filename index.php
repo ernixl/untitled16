@@ -1,8 +1,8 @@
-<!DOCTYPE html>
 <html>
 <head>
-    <title>Login page</title>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset=" utf-8">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
