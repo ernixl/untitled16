@@ -50,7 +50,7 @@
         ?>
         <article>
 
-            <form action="hlfl.php" method="post">
+            <form action="homepage.php" method="post">
                 <input type="text" name="firstname" placeholder="Firstname"><br><br>
                 <input type="text" name="lastname" placeholder="Lastname"><br><br>
                 <input type="text" name="groupname" placeholder="Groupname"><br><br>
