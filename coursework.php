@@ -8,7 +8,7 @@ $description = $_POST['description'];
 
 if (empty($coursename) || empty($title)) {
     echo "input all data";
-}else{
+} else {
     $sql = "INSERT INTO setcourse ( coursename, title, description)
     VALUES ('$coursename','$title', $description)";
 }
@@ -17,7 +17,7 @@ $result = mysqli_query($db, $sql);
 
 if ($result == true) {
     header("Location: admin.php");
-}
+} else echo "failed";
 
 ?>
 
