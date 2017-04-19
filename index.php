@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="style.css" type="text/css"/>
 
 </head>
-click <a href="register.php">here to create account</a>
-<body id="body">
 
+<body id="body">
+click <a href="register.php">here to create account</a>
 <h1>PHP Peer to Peer Evaluation </h1>
 
 <div id="form">
