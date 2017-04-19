@@ -10,7 +10,7 @@
 
 <form action="upload_back.php" method="post" enctype="multipart/form-data">
     Select image to upload:
-    <input type="file" name="image" id="image"><br><br>
+    <input type="file" name="file" id="image"><br><br>
     <input type="submit" name="submit" value="Upload">
 </form>
 

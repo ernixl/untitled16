@@ -1,5 +1,6 @@
 <?php
 if (isset($_POST['submit'])) {
+    require ("connect.php");
     $file = $_FILES['file'];
 
     $filename = $_FILES['file']['name'];
