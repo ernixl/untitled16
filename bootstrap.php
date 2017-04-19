@@ -30,15 +30,8 @@
     </nav>
     <main class="col-md-12">
         <div id="experimentContainer" class="row">
-            <article class="col-md-4">
-                <img src="placeholder.png" alt="Placeholder Image">
-                <h3>Experiment Name</h3>
-                <p>Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
-                    ducunt
-                    ad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!</p>
-            </article>
-            <article class="col-md-8">
-                <img src="placeholder.png" alt="Placeholder Image">
+            <article class="col-md-12">
+
                 <h3>Experiment Name</h3>
                 <p>Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
                     ducunt
