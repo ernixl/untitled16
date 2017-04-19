@@ -1,20 +1,48 @@
 <html>
 <head>
-    <meta charset=" utf-8">
-    <title>Welcome</title>
-    <link rel="stylesheet" href="stylebasic.css" type="text/css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>North Lab</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+    <link href="bootstrap-material-design.css" rel="stylesheet">
+    <link href="ripples.min.css" rel="stylesheet">
 </head>
 
-<body id="body">
-<a href="index.php">Logout</a>
-<h1>Hello</h1>
-<a href="index.php">Home</a>
-<a href="sendfeedback.php">sendfeedback</a>
-<a href="upload_front.php">upload file</a>
-<a href="viewcoursework.php">courseworks</a>
-<a href="register.php">red</a>
+<body>
+<div class="container">
+    <header class="col-md-12">
+        <h1>Peer To Peer Evaluation</h1>
+        <h2>Web Application</h2>
+    </header>
+    <nav class="col-md-12 navbar navbar-primary">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+
+                <li><a href="viewcoursework.php">View Coursework</a></li>
+                <li><a href="sendfeedback.php">Give Feedback</a></li>
+                <li><a href="upload_front.php">Upload File</a></li>
+
+    </nav>
+    <main class="col-md-12">
+        <div id="experimentContainer" class="row">
+            <article class="col-md-12">
+
+                <h3>Course Description</h3>
 
 
+
+
+
+        </div><!--End of Experiment Container-->
+    </main>
+
+</div>
 </body>
+
+
 </html>
