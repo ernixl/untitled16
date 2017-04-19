@@ -17,13 +17,13 @@
         <table>
 
             <tr>
-                <td><b>username:</b></td>
+                <td><b>Username:</b></td>
                 <td><input type="text" name="username" class="textInput"></td>
             </tr>
             <br><br>
 
             <tr>
-                <td><b>password:</b></td>
+                <td><b>Password:</b></td>
                 <td><input type="password" name="password" class="textInput"></td>
             </tr>
 
