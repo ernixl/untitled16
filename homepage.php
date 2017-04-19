@@ -6,7 +6,7 @@
 <body>
 
 <header>
-    <h1>Peer To Peer Evaluion</h1>
+    <h1>Peer To Peer Evalution</h1>
 </header>
 
 <nav>
