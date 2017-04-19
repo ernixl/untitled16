@@ -20,7 +20,7 @@
         <h1>North Lab</h1>
         <h2>HCI Experiments from RGUx</h2>
     </header>
-    <nav class="col-md-12">
+    <nav class="col-md-12" navbar navbar-primary>
         <ul>
             <li><a href="#">Menu Item 1</a></li>
             <li><a href="#">Menu Item 2</a></li>
