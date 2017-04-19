@@ -32,25 +32,29 @@
             <article class="col-md-3">
                 <img src="placeholder.png" alt="Placeholder Image">
                 <h3>Experiment Name</h3>
-                <p>Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter ducunt
+                <p>Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
+                    ducunt
                     ad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!</p>
             </article>
             <article class="col-md-3">
                 <img src="placeholder.png" alt="Placeholder Image">
                 <h3>Experiment Name</h3>
-                <p>Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter ducunt
+                <p>Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
+                    ducunt
                     ad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!</p>
             </article>
             <article class="col-md-3">
                 <img src="placeholder.png" alt="Placeholder Image">
                 <h3>Experiment Name</h3>
-                <p>Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter ducunt
+                <p>Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
+                    ducunt
                     ad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!</p>
             </article>
             <article class="col-md-3">
                 <img src="placeholder.png" alt="Placeholder Image">
                 <h3>Experiment Name</h3>
-                <p>Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter ducunt
+                <p>Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
+                    ducunt
                     ad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!</p>
             </article>
         </div><!--End of Experiment Container-->
@@ -58,22 +62,22 @@
     <footer class="col-md-12">
         <section class="col-md-4">
             <h3>Footer Section</h3>
-            <p>Germanus, gratis seculas virtualiter demitto de emeritis, superbus devatio.Abactuss cadunt in emeritis hamburgum!</p>
+            <p>Germanus, gratis seculas virtualiter demitto de emeritis, superbus devatio.Abactuss cadunt in emeritis
+                hamburgum!</p>
         </section>
         <section class="col-md-4">
             <h3>Footer Section</h3>
-            <p>Germanus, gratis seculas virtualiter demitto de emeritis, superbus devatio.Abactuss cadunt in emeritis hamburgum!</p>
+            <p>Germanus, gratis seculas virtualiter demitto de emeritis, superbus devatio.Abactuss cadunt in emeritis
+                hamburgum!</p>
         </section>
         <section class="col-md-4">
             <h3>Footer Section</h3>
-            <p>Germanus, gratis seculas virtualiter demitto de emeritis, superbus devatio.Abactuss cadunt in emeritis hamburgum!</p>
+            <p>Germanus, gratis seculas virtualiter demitto de emeritis, superbus devatio.Abactuss cadunt in emeritis
+                hamburgum!</p>
         </section>
     </footer>
 </div>
 </body>
-
-
-
 
 
 </html>
