@@ -23,10 +23,10 @@
         <div class="container-fluid">
             <ul class="nav navbar-nav">
 
-                <li><a href="#">Give Feedback</a></li>
-                <li><a href="#">View Coursework</a></li>
-                <li><a href="#">Menu Item 3</a></li>
-            </ul>
+                <li><a href="viewcoursework.php">View Coursework</a></li>
+                <li><a href="sendfeedback.php">Give Feedback</a></li>
+                <li><a href="upload_front.php">Upload File</a></li>
+
     </nav>
     <main class="col-md-12">
         <div id="experimentContainer" class="row">
@@ -39,23 +39,7 @@
 
         </div><!--End of Experiment Container-->
     </main>
-    <footer class="col-md-12">
-        <section class="col-md-4">
-            <h3>Footer Section</h3>
-            <p>Germanus, gratis seculas virtualiter demitto de emeritis, superbus devatio.Abactuss cadunt in emeritis
-                hamburgum!</p>
-        </section>
-        <section class="col-md-4">
-            <h3>Footer Section</h3>
-            <p>Germanus, gratis seculas virtualiter demitto de emeritis, superbus devatio.Abactuss cadunt in emeritis
-                hamburgum!</p>
-        </section>
-        <section class="col-md-4">
-            <h3>Footer Section</h3>
-            <p>Germanus, gratis seculas virtualiter demitto de emeritis, superbus devatio.Abactuss cadunt in emeritis
-                hamburgum!</p>
-        </section>
-    </footer>
+
 </div>
 </body>
 
