@@ -9,7 +9,7 @@
     <input type="text" name="coursename" placeholder="course name"><br><br>
     <input type="text" name="title" placeholder="title"><br><br>
 
-    <input type="submit" value="submit" id="submit">
+    <input type="submit" name="submit" value="submit" id="submit">
 
 </div>
 
