@@ -26,29 +26,20 @@
                 <h3>Enter your login information </h3>
 
 
-                <form class="pure-form">
-                    <fieldset>
-                        <legend>Enter login information</legend>
+                <form action="index.php" method="post">
 
-                        <input type="email" placeholder="Email">
-                        <input type="password" placeholder="Password">
+                    Username: <input type="text" name="username" placeholder="Username"><br><br>
+                    Password: <input type="password" name="password" placeholder="Password"><br><br>
+                    <button type="submit" name="register" id="submit">Register</button>
+                    <button type="submit" name="submit" id="submit" value="Login">Login</button>
 
-                        <button type="submit" class="pure-button pure-button-primary">Sign in</button>
-                    </fieldset>
+
                 </form>
 
     </nav>
 
 
-    <form action="index.php" method="post">
 
-        Username: <input type="text" name="username" placeholder="Username"><br><br>
-        Password: <input type="password" name="password" placeholder="Password"><br><br>
-        <button type="submit" name="register" id="submit">Register</button>
-        <button type="submit" name="submit" id="submit" value="Login">Login</button>
-
-
-    </form>
 
 
     <?php
