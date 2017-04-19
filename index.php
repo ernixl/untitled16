@@ -32,7 +32,6 @@ if (isset($_POST['submit'])) {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-
     include 'connect.php';
 
     $sql = "SELECT admin FROM login WHERE username='$username' and password='$password'";
@@ -47,7 +46,7 @@ if (isset($_POST['submit'])) {
     } else
         echo "Incorrect username or password. ";
 }
-
+elseif (isset($_POST['register'])){header("Location: register.php");}
 ?>
 
 </body>
