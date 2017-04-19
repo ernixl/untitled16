@@ -32,7 +32,7 @@
 
     <article class="col-md-12">
         <div id="experimentContainer" class="row">
-            <form action="sendfeedback.php" method="post">
+            <form action="sendfeedback.php" id="form" method="post">
                 <input type="text" name="firstname" placeholder="Firstname"><br><br>
                 <input type="text" name="lastname" placeholder="Lastname"><br><br>
                 <input type="text" name="groupname" placeholder="Groupname"><br><br>
