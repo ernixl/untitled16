@@ -1,7 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
 <?php
-/**
- * Created by PhpStorm.
- * User: ernes
- * Date: 17/04/2017
- * Time: 08:45
- */
+include 'connect.php';
+
+$sql = "SELECT id, firstname, lastname, groupname, course, feed FROM feedback";
+$result = mysqli_query($db, $sql);
+
+if ($result->num_rows > 0) {
+    // output data of each row
+    while($row = $result->fetch_assoc()) {
+        echo "<br> ". $row["id"]. " - Name: ". $row["firstname"]. " " . $row["lastname"] .$row["groupname"] .$row["course"] .$row["feed"] . "<br>";
+    }
+} else {
+    echo "0 results";
+}
+
+?>
+
+</body>
+</html>
