@@ -16,6 +16,23 @@
 
     <h3>Enter your login information </h3>
 
+
+    <form class="pure-form">
+        <fieldset>
+            <legend>A compact inline form</legend>
+
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+
+            <label for="remember">
+                <input id="remember" type="checkbox"> Remember me
+            </label>
+
+            <button type="submit" class="pure-button pure-button-primary">Sign in</button>
+        </fieldset>
+    </form>
+
+
     <form action="index.php" method="post">
 
         Username: <input type="text" name="username" placeholder="Username"><br><br>
