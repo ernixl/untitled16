@@ -13,8 +13,6 @@
 
 </div>
 
-
-</body>
 <?php
 
 include 'connect.php';
@@ -35,4 +33,7 @@ if ($result == true) {
 }
 
 ?>
+
+</body>
+
 </html>
