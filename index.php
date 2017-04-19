@@ -13,7 +13,11 @@
 
     <h3>Enter your login information or click <a href="register.php">here</a> to register</h3>
     <br>
+
     <form method="post" action="index.php">
+
+        <input type="text" name="username" placeholder="Username">
+        <input type="submit" name="submit" id="submit" value="Login">
         <table>
 
             <tr>
@@ -38,8 +42,8 @@
 
 <?php
 if (isset($_POST['submit'])) {
-$username = $_POST['username'];
-$password = $_POST['password'];
+    $username = $_POST['username'];
+    $password = $_POST['password'];
 
 
 include 'connect.php';
@@ -58,7 +62,6 @@ header("Location: admin.php");
 else
 echo "Incorrect username or password. ";
 
-}
 
 ?>
 
