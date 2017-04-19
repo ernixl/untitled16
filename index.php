@@ -18,6 +18,8 @@
 
         <input type="text" name="username" placeholder="Username">
         <input type="submit" name="submit" id="submit" value="Login">
+
+
         <table>
 
             <tr>
@@ -42,8 +44,8 @@
 
 <?php
 if (isset($_POST['submit'])) {
-    $username = $_POST['username'];
-    $password = $_POST['password'];
+$username = $_POST['username'];
+$password = $_POST['password'];
 
 
 include 'connect.php';
