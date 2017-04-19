@@ -42,12 +42,12 @@
         } else {
             echo "no results found";
         }
-
-
-    } if(isset($_post['feedback'])) {echo "hi";}
+    }
     ?>
 
-
+    <?php
+    if(isset($_post['feedback'])) {echo "hi";}
+    ?>
 
 
 </section>
