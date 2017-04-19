@@ -1,8 +1,8 @@
-body {
+body{
     background-color: #eee;
 }
 
-#frm {
+#frm{
     background-color: white;
     border: solid gray 1px;
     width: 20px;
@@ -11,7 +11,7 @@ body {
     padding: 50px;
 }
 
-#btn {
+#btn{
     color: #fff;
     background: purple;
     padding: 5px;
