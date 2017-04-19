@@ -6,7 +6,7 @@
 <body>
 
 <header>
-    <h1>Peer To Peer Evaluation</h1>
+    <h1>Peer To Peer Eluation</h1>
 </header>
 
 <nav>
@@ -46,7 +46,7 @@
     ?>
 
     <?php
-    if(isset($_post['feed'])) {echo "hi";}
+    if(isset($_POST['feed'])){echo "hi";}
     ?>
 
 
