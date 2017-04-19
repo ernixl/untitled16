@@ -11,15 +11,29 @@
 
 <nav>
 
-    <ul>
-        <li><a href="viewcoursework.php">View Coursework</a></li>
-        <li><a href="sendfeedback.php">Give Feedback</a></li>
-        <li><a href="upload_front.php">Upload File</a></li>
-    </ul>
+    <button>View Coursework</button>
+    <button>Give feedback</button>
+    <button>Upload file</button>
+
+
+    <a href="viewcoursework.php">View Coursework</a></li>
+    <a href="sendfeedback.php">Give Feedback</a></li>
+    <a href="upload_front.php">Upload File</a></li>
+
 
 </nav>
 
 <h3>Course Description</h3>
+
+<main>
+
+    <section>
+
+
+    </section>
+
+
+</main>
 
 
 </body>
