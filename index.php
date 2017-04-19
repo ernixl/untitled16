@@ -20,50 +20,30 @@
         <input type="submit" name="submit" id="submit" value="Login">
 
 
-        <table>
-
-            <tr>
-                <td><b>Username:</b></td>
-                <td><input type="text" name="username" class="textInput"></td>
-            </tr>
-            <br><br>
-
-            <tr>
-                <td><b>Password:</b></td>
-                <td><input type="password" name="password" class="textInput"></td>
-            </tr>
-
-            <tr>
-                <td></td>
-                <td><input type="submit" name="submit" id="submit" value="login" class="textInput"></td>
-            </tr>
-
     </form>
-    <div class="error"><?php // echo $err or; ?><?php // echo $user name; echo $passwor d; ?></div>
+
 </div>
 
 <?php
 if (isset($_POST['submit'])) {
-$username = $_POST['username'];
-$password = $_POST['password'];
+    $username = $_POST['username'];
+    $password = $_POST['password'];
 
 
-include 'connect.php';
+    include 'connect.php';
 
-$sql = "SELECT admin FROM login WHERE username='$username' and password='$password'";
+    $sql = "SELECT admin FROM login WHERE username='$username' and password='$password'";
 
-$result = mysqli_query($db, $sql);
-$row = mysqli_fetch_array($result);
+    $result = mysqli_query($db, $sql);
+    $row = mysqli_fetch_array($result);
 
-if (mysqli_num_rows($result) == 1 && $row['admin'] == 0) {
-header("location: homepage.php");
-} elseif (mysqli_num_rows($result) == 1 && $row['admin'] == 1) {
-header("Location: admin.php");
+    if (mysqli_num_rows($result) == 1 && $row['admin'] == 0) {
+        header("location: homepage.php");
+    } elseif (mysqli_num_rows($result) == 1 && $row['admin'] == 1) {
+        header("Location: admin.php");
+    } else
+        echo "Incorrect username or password. ";
 }
-
-else
-echo "Incorrect username or password. ";
-
 
 ?>
 
