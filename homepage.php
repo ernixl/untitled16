@@ -6,7 +6,7 @@
 <body>
 
 <header>
-    <h1>Peer To Peer Evalution</h1>
+    <h1>Peer To Peer Evaluion</h1>
 </header>
 
 <nav>
@@ -14,7 +14,7 @@
     <form action="homepage.php" method="post">
 
         <button type="submit" name="coursework">View Coursework</button>
-        <button type="submit" name="feedback">Give feedback</button>
+        <button type="submit" name="feed">Give feedback</button>
         <button type="submit" name="upload">Upload file</button>
 
     </form>
