@@ -11,7 +11,7 @@
 <body id="body">
 
 
-What do you want to do?
+What do you want to
 
 <form action="index.php" method="post">
 
