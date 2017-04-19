@@ -20,16 +20,20 @@
 
         <input type="text" name="username" placeholder="Username"><br><br>
         <input type="password" name="password" placeholder="Password"><br><br>
-        <button type="submit" name="register" id="submit" value="Register">Register</button>
         <button type="submit" name="submit" id="submit" value="Login">Login</button>
+
+    </form>
+
+    <form action="register.php" method="post">
+
+    <button type="submit" name="register" id="submit" value="register"></button>
 
     </form>
 
 </div>
 
 <?php
-
-if (isset($_POST['register'])) {
+if (isset($_POST['submit'])) {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
@@ -47,7 +51,6 @@ if (isset($_POST['register'])) {
     } else
         echo "Incorrect username or password. ";
 }
-if (isset($_POST['register'])){header("Location: register.php");}
 
 ?>
 
