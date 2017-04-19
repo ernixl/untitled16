@@ -24,7 +24,7 @@
             <ul class="nav navbar-nav">
 
                 <li><a href="viewcoursework.php">View Coursework</a></li>
-                <li><a href=<?php echo "bootstrap.php?function" ?>>Give Feedback</a></li>
+                <li><a href=<?php echo "bootstrap.php?feedback" ?>>Give Feedback</a></li>
                 <li><a href="upload_front.php">Upload File</a></li>
 
     </nav>
@@ -36,7 +36,7 @@
 
                 <?php
 
-                if (isset($_GET['function'])){
+                if (isset($_GET['feedback'])){
                     header('Location: index.php');
                 }
 
