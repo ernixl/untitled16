@@ -16,7 +16,7 @@
 <body>
 <div class="container">
     <header class="col-md-12">
-        <h1>Peer To Peer Evaluation</h1>
+        <h1>Peer To Peer Evaluat</h1>
         <h2>Web Application</h2>
     </header>
     <nav class="col-md-12 navbar navbar-primary">
