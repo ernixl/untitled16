@@ -9,14 +9,14 @@
 </head>
 
 <body id="body">
-click <a href="register.php">here to create account</a>
+
 <h1>PHP Peer to Peer Evaluation </h1>
 
 <div id="form">
 
     <h3>Enter your login information</h3>
 
-    <form  action=".php" method="post">
+    <form  action="index.php" method="post">
 
         <input  type="text" name="username" placeholder="Username"><br><br>
         <input  type="password" name="password" placeholder="Password"><br><br>
