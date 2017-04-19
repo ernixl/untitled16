@@ -19,8 +19,6 @@
 
     </form>
 
-    <a href="upload_front.php">Upload File</a></li>
-
 
 </nav>
 
@@ -92,7 +90,7 @@ VALUES ('$firstname','$lastname','$groupname','$course','$feed')";
         ?>
         <div>
             <form action="homepage.php" method="post" enctype="multipart/form-data">
-                Select image to upload:
+                <b>Select image to upload:
                 <input type="file" name="file" id="image"><br><br>
                 <input type="submit" name="submit" value="Upload">
             </form>
