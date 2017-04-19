@@ -1,5 +1,8 @@
-<!DOCTYPE html>
 <html>
+<head>
+    <title>set course work</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
 <body>
 
 <?php

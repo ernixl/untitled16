@@ -1,6 +1,8 @@
-<!DOCTYPE html>
 <html>
-<body>
+<head>
+    <title>set course work</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
 
 <?php
 include 'connect.php';

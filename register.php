@@ -1,7 +1,6 @@
-<!DOCTYPE html>
 <html>
 <head>
-    <title>Register your details</title>
+    <title>set course work</title>
     <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
 <body id="body">

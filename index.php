@@ -1,10 +1,8 @@
 <html>
 <head>
-    <meta charset =" utf-8">
-    <title>Welcome</title>
-    <link rel ="stylesheet" href ="style.css" type="text/ css" />
+    <title>set course work</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
-
 <body>
 
 <header>

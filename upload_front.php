@@ -1,8 +1,7 @@
-<!DOCTYPE html>
 <html>
 <head>
-    <title>Register your details</title>
-    <link rel="stylesheet" href="stylebasic.css" type="text/css"/>
+    <title>set course work</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
 <body id="body">
 <h1>You can give upload files here</h1>
