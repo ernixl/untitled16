@@ -15,20 +15,20 @@
 
 </header>
 
-    <div id="frm">
+<div id="frm">
 
-        <h3>Enter your login informationjjjj </h3>
+    <h3>Enter your login informationjjjj </h3>
 
-        <form action="index.php" method="post">
+    <form action="index.php" method="post">
 
-            Username: <input type="text" name="username" placeholder="Username"><br><br>
-            Password: <input type="password" name="password" placeholder="Password"><br><br>
-            <button type="submit" name="register" id="btn">Register</button>
-            <button type="submit" name="submit" id="btn" >Login</button>
+        Username: <input type="text" name="username" placeholder="Username"><br><br>
+        Password: <input type="password" name="password" placeholder="Password"><br><br>
+        <button type="submit" name="register" id="btn">Register</button>
+        <button type="submit" name="submit" id="btn">Login</button>
 
-        </form>
+    </form>
 
-    </div>
+</div>
 
 
 <?php
