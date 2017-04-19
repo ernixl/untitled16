@@ -90,7 +90,7 @@ VALUES ('$firstname','$lastname','$groupname','$course','$feed')";
         ?>
         <div>
             <form action="homepage.php" method="post" enctype="multipart/form-data">
-                <b>Select image to upload:
+                <b>Select file to upload:<br><br>
                 <input type="file" name="file" id="image"><br><br>
                 <input type="submit" name="submit" value="Upload">
             </form>
