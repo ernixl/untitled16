@@ -17,6 +17,9 @@ button{
     color: #ffffff;
     margin-left: auto;
 }
+textarea{
+    width: 100%;
+}
 
 article{
     background-color: white;
@@ -24,7 +27,7 @@ article{
     border-radius: 5px;
     padding: 100px;
     max-width:250px;
-    margin: 50px auto;
+    margin: 20px auto;
 }
 
 
