@@ -14,7 +14,7 @@ if (mysqli_num_rows($result)  > 0) {
         echo "<br> ". $row["id"]. " - Nam: ". $row["firstname"]. " " . $row["lastname"] .$row["groupname"] .$row["course"] .$row["feed"] . "<br>";
     }
 } else {
-    echo "0 results";
+    echo "00 results";
 }
 
 ?>
