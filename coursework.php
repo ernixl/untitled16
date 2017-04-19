@@ -7,8 +7,8 @@ $title = $_POST['title'];
 $description = $_POST['description'];
 
 if (isset($_POST['submit'])) {
-    $sql = "INSERT INTO setcourse ( coursename, title)
-    VALUES ('$coursename','$title')";
+    $sql = "INSERT INTO setcourse ( coursename, title, description)
+    VALUES ('$coursename','$title', $description)";
 }
 
 $result = mysqli_query($db, $sql);
