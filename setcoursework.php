@@ -34,7 +34,7 @@ if (isset($_POST['submit'])) {
 
     if ($result == true) {
         header("Location: admin.php");
-    } else echo "<br>error 2: failed<br>";
+    } else echo "<p><b><i>error 2: failed</i></b></p>";
 }
 ?>
 
