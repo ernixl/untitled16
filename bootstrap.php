@@ -17,7 +17,7 @@
 <body>
 <div class="container">
     <header class="col-md-12">
-        <h1>North L</h1>
+        <h1>North Lab</h1>
         <h2>HCI Experiments from RGUx</h2>
     </header>
     <nav class="col-md-12">
