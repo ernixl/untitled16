@@ -3,51 +3,36 @@
 <meta charset="utf-8">
 <head>
 
-    <title>Peer to Peer Evaluation</title>
+    <title> Welcome to the Peer to Peer Evaluation web app</title>
     <link rel="stylesheet" href="style.css" type="text/css"/>
 
 </head>
 
 <body id="body">
 
-<h1>PHP Peer to Peer Evaluation </h1>
 
-<div id="form">
+What do you want to do?
 
-    <h3>Enter your login information</h3>
+<form action="index.php" method="post">
 
-    <form  action="index.php" method="post">
+    <button type="submit" name="login" id="submit">login</button>
+    <button type="reset" name="register" id="submit">register</button>
 
-        <input  type="text" name="username" placeholder="Username"><br><br>
-        <input  type="password" name="password" placeholder="Password"><br><br>
-        <button type="submit" name="submit" id="submit" value="Login">Login</button>
+</form>
 
-    </form>
-
-</div>
 
 <?php
-if (isset($_POST['submit'])) {
-    $username = $_POST['username'];
-    $password = $_POST['password'];
 
-    include 'connect.php';
-
-    $sql = "SELECT admin FROM login WHERE username='$username' and password='$password'";
-
-    $result = mysqli_query($db, $sql);
-    $row = mysqli_fetch_array($result);
-
-    if (mysqli_num_rows($result) == 1 && $row['admin'] == 0) {
-        header("location: homepage.php");
-    } elseif (mysqli_num_rows($result) == 1 && $row['admin'] == 1) {
-        header("Location: admin.php");
-    } else
-        echo "<i>error: Incorrect username or password</i>";
+if (isset($_POST['login' or 'register'])){
+    if ($_POST['login'] > 0){
+        header("Location: index.php");
+    } else {
+        header('Location: register.php');}
 }
 
-?>
 
+
+?>
 </body>
 
 </html>
