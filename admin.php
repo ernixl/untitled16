@@ -15,6 +15,9 @@
 <form action="admin.php" method="post">
 
     <input type="submit" value="Home">
+    <input type="submit" value="View Feedback">
+    <input type="submit" value="View Uploads">
+    <input type="submit" value="Set Coursework">
 
 </form>
 
