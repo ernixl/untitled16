@@ -23,20 +23,16 @@
         <div class="container-fluid">
             <ul class="nav navbar-nav">
 
-                <li>
-                    <form action="bootstrap.php" method="post">
-                <input type="submit" name="View" value="view"> </form></li>
                 <li><a href="viewcoursework.php">View Coursework</a></li>
                 <li><a href="sendfeedback.php">Give Feedback</a></li>
                 <li><a href="upload_front.php">Upload File</a></li>
-
 
     </nav>
     <main class="col-md-12">
         <div id="experimentContainer" class="row">
             <article class="col-md-12">
 
-                <h3>Experiment Na</h3>
+                <h3>Experiment Name</h3>
                 <p>Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
                     ducunt
                     ad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!</p>
