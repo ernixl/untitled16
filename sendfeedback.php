@@ -9,7 +9,7 @@
 <h1>You can give feedback here</h1>
 
 <div id="form">
-    <form action="feedback.php" method="post">
+    <form action="sendfeedback.php" method="post">
         <input type="text" name="firstname" placeholder="Firstname"><br><br>
         <input type="text" name="lastname" placeholder="Lastname"><br><br>
         <input type="text" name="groupname" placeholder="Groupname"><br><br>
