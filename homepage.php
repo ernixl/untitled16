@@ -90,11 +90,13 @@ VALUES ('$firstname','$lastname','$groupname','$course','$feed')";
     <?php
     if (isset($_POST['upload'])) {
         ?>
-        <form action="upload_front.php" method="post" enctype="multipart/form-data">
-            Select image to upload:
-            <input type="file" name="file" id="image"><br><br>
-            <input type="submit" name="submit" value="Upload">
-        </form>
+        <div>
+            <form action="homepage.php" method="post" enctype="multipart/form-data">
+                Select image to upload:
+                <input type="file" name="file" id="image"><br><br>
+                <input type="submit" name="submit" value="Upload">
+            </form>
+        </div>
 
         <?php
         if (isset($_POST['submit'])) {
@@ -134,7 +136,6 @@ VALUES ('$firstname','$lastname','$groupname','$course','$feed')";
     }
 
     ?>
-
 
 
 </section>
