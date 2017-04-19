@@ -23,7 +23,7 @@ if (isset($_POST['submit'])) {
     $description = $_POST['description'];
 
     if (empty($coursename) || empty($title)) {
-        echo "<br>error 1: input all data<br>";
+        echo "<p><b><i>error 1: input all data</i></b></p>";
     } else {
         $sql = "INSERT INTO setcourse( coursename, title, description)
     VALUES ('$coursename','$title', '$description')";
