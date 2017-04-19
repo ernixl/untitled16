@@ -46,7 +46,8 @@
     ?>
 
     <?php
-    if(isset($_POST['feed'])){?>
+    if (isset($_POST['feed'])) {
+        ?>
         <article>
 
             <form action="sendfeedback.php" method="post">
