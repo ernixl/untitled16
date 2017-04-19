@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" type="text/css"/>
 
 </head>
-
+click <a href="register.php">here to create account</a>
 <body id="body">
 
 <h1>PHP Peer to Peer Evaluation </h1>
@@ -21,12 +21,6 @@
         <input align="center" type="text" name="username" placeholder="Username"><br><br>
         <input align="center" type="password" name="password" placeholder="Password"><br><br>
         <button type="submit" name="submit" id="submit" value="Login">Login</button>
-
-    </form>
-
-    <form action="register.php" method="post">
-
-    <button type="submit" name="register" id="submit" value="register">Register</button>
 
     </form>
 
