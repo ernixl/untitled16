@@ -5,16 +5,16 @@
 <?php
 include 'connect.php';
 
-$sql = "SELECT id, firstname, lastname FROM MyGuests";
+$sql = "SELECT id, name, image FROM image";
 $result = mysqli_query($db, $sql);
 
-if ($result->num_rows > 0) {
-    // output data of each row
-    while($row = $result->fetch_assoc()) {
-        echo "<br> id: ". $row["id"]. " - Name: ". $row["firstname"]. " " . $row["lastname"] . "<br>";
+if (mysqli_num_rows($result) > 0) {
+
+    while ($row = $result->fetch_assoc()) {
+        echo "<br> " . $row["id"] ." ". " <b><i> Name: </i></b> " ." ". $row["name"] ." ". "<b><i> Image: </i></b> " ." ". $row["image"] . "<br>";
     }
 } else {
-    echo "0 results";
+    echo "no results found";
 }
 
 ?>
