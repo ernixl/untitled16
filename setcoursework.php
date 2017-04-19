@@ -28,14 +28,14 @@ if (isset($_POST['submit'])) {
         $sql = "INSERT INTO setcourse( coursename, title, description)
     VALUES ('$coursename','$title', '$description')";
     }
+
+
+    $result = mysqli_query($db, $sql);
+
+    if ($result == true) {
+        header("Location: admin.php");
+    } else echo "failed";
 }
-
-$result = mysqli_query($db, $sql);
-
-if ($result == true) {
-    header("Location: admin.php");
-} else echo "failed";
-
 ?>
 
 </body>
