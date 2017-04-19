@@ -1,7 +1,7 @@
 <html>
 <head>
     <title>set course work</title>
-    <link rel="stylesheet" href="styles.css" type="text/css"/>
+    <link rel="stylesheet" href="stylebasic.css" type="text/css"/>
 </head>
 <body id="body">
 <div id="form">

@@ -23,8 +23,8 @@
         <div class="container-fluid">
             <ul class="nav navbar-nav">
 
-                <li><a href="#">Menu Item 1</a></li>
-                <li><a href="#">Menu Item 2</a></li>
+                <li><a href="#">Give Feedback</a></li>
+                <li><a href="#">View Coursework</a></li>
                 <li><a href="#">Menu Item 3</a></li>
             </ul>
     </nav>
