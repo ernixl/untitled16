@@ -40,7 +40,7 @@
                 ?>
                 <h1>You can give feedback here</h1>
 
-                <div id="form">
+                <div id="">
                     <form action="sendfeedback.php" method="post">
                         <input type="text" name="firstname" placeholder="Firstname"><br><br>
                         <input type="text" name="lastname" placeholder="Lastname"><br><br>
