@@ -13,13 +13,9 @@
 
 </header>
 
-
-<nav>
-
     <div>
 
         <h3>Enter your login information </h3>
-
 
         <form action="index.php" method="post">
 
@@ -31,8 +27,6 @@
         </form>
 
     </div>
-
-</nav>
 
 
 <?php
