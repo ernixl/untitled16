@@ -1,12 +1,12 @@
 <html>
 <head>
     <title>set course work</title>
+    <link rel="stylesheet" href="styling.css">
 </head>
 <body>
 <div>
     <header >
         <h1>Peer To Peer Evaluation</h1>
-        <h2>Web Application</h2>
     </header>
     <nav >
         <div>
