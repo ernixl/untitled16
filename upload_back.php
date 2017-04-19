@@ -14,17 +14,9 @@ if (isset($_POST['submit'])) {
 
     if (in_array($fileActualExt, $allowed)) {
         if ($fileError === 0) {
-            if ($fileSize < 1000000) {
-                $fileNameNew = uniqid('', true) . "." . $fileActualExt;
-                $fileDestination = 'C:\Users\ernes\untitled16\uploads/' . $fileNameNew;
-                move_uploaded_file($fileTmpName, $fileDestination);
-                header("Location: homepage.php?uploadsuccess");
-
-
-            } else {
-                echo "your file is too big";
-            }
-
+            $fileNameNew = uniqid('', true) . "." . $fileActualExt;
+            $sql = "INSERT INTO image (name, image) VALUES ('$fileNameNew', '$fileTmpName')";
+            header("Location: homepage.php?uploadsuccess");
         } else {
             echo "you cannot upload files of this type due to error";
         }
