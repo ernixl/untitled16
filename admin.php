@@ -35,7 +35,8 @@
 
     <?php
     if (isset($_POST['set'])) { ?>
-        <div>
+        <article>
+
             <form action="admin.php" method="post">
                 <input type="text" name="coursename" placeholder="course name"><br><br>
                 <input type="text" name="title" placeholder="title"><br><br>
@@ -43,7 +44,7 @@
                 <input type="submit" name="submit" value="submit">
             </form>
 
-        </div>
+        </article>
 
         <?php
         if (isset($_POST['submit'])) {
