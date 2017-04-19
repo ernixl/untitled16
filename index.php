@@ -18,10 +18,10 @@
 
     <form action="index.php" method="post">
 
-        Username: <input type="text" name="username" placeholder="Username"><br><br>
-        Password: <input type="password" name="password" placeholder="Password"><br><br>
+        Username: <input type="text" name="username"><br><br>
+        Password: <input type="password" name="password" ><br><br>
         <button type="submit" name="register" >Register</button>
-        <button type="submit" name="submit" >Login</button>
+        <button type="submit" name="submit" >Login</button><br><br>
 
     </form>
 
