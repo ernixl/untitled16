@@ -26,7 +26,7 @@
 
 </div>
 
- click <a href="register.php">here</a>
+ click <a href="admin.php">here</a>
 
 
 </body>
