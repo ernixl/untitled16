@@ -12,6 +12,10 @@ input {
     width: 100%;
 }
 
+button{
+    background-color: purple;
+    color: #ffffff;
+}
 
 
 div {
