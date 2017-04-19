@@ -115,7 +115,7 @@ VALUES ('$firstname','$lastname','$groupname','$course','$feed')";
                 if ($fileError === 0) {
                     $fileNameNew = uniqid('', true) . "." . $fileActualExt;
                     $sql = "INSERT INTO image (name, image) VALUES ('$fileNameNew', '$fileTmpName')";
-                    header("Location: homepage.php?uploadsuccess");
+                    echo "upload successful";
                 } else {
                     echo "you cannot upload files of this type due to error";
                 }
