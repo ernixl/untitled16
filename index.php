@@ -3,33 +3,31 @@
 <meta charset="utf-8">
 <head>
 
-    <title> Welcome to the Peer to Peer Evaluation web app</title>
+    <title>Peer to Peer Evaluation</title>
     <link rel="stylesheet" href="style.css" type="text/css"/>
 
 </head>
 
 <body id="body">
 
+<h1>PHP Peer to Peer Evaluation </h1>
 
-What do you want to
+<div id="form">
 
-<form action="index.php" method="post">
+    <h3>Enter your login information</h3>
 
-    <button type="submit" name="login" id="submit">login</button>
-    <button type="reset" name="register" id="submit">register</button>
+    <form  action="login.php.php" method="post">
 
-</form>
+        <input  type="text" name="username" placeholder="Username"><br><br>
+        <input  type="password" name="password" placeholder="Password"><br><br>
+        <button type="submit" name="submit" id="submit" value="Login">Login</button>
 
+    </form>
 
-<?php
-
-if (isset($_POST['login' or 'register'])){
-    echo "yes";
-}
-
+</div>
+ click <a href="register.php">here</a>
 
 
-?>
 </body>
 
 </html>
