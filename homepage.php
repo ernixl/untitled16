@@ -19,9 +19,6 @@
 
     </form>
 
-
-    <a href="viewcoursework.php">View Coursework</a></li>
-    <a href="sendfeedback.php">Give Feedback</a></li>
     <a href="upload_front.php">Upload File</a></li>
 
 
