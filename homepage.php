@@ -44,10 +44,10 @@
         }
 
 
-    }
+    } if(isset($_post['feedback'])) {echo "hi";}
+    ?>
 
-    if (isset($_post['feedback'])) {echo "hi";}
-        ?>
+
 
 
 </section>
