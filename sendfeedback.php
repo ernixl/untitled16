@@ -17,7 +17,7 @@
 <div class="container">
     <header class="col-md-12">
         <h1>Peer To Peer Evaluation</h1>
-        <h2>Give feedback</h2>
+        <h2>Give feedbak</h2>
     </header>
     <nav class="col-md-12 navbar navbar-primary">
         <div class="container-fluid">
