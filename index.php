@@ -2,6 +2,7 @@
 <html>
 <meta charset="utf-8">
 <head>
+    click <a href="register.php">here</a> to register
     <title>Peer to Peer Evaluation</title>
     <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
@@ -11,8 +12,7 @@
 <h1>PHP Peer to Peer Evaluation </h1>
 <div id="form">
 
-    <h3>Enter your login information or click <a href="register.php">here</a> to register</h3>
-    <br>
+    <h3>Enter your login information or click <a href="register.php">here</a> to register</h3> <br>
 
     <form method="post" action="index.php">
 
@@ -20,9 +20,7 @@
         <input type="password" name="password" placeholder="Password">
         <input type="submit" name="submit" id="submit" value="Login">
 
-
     </form>
-
 </div>
 
 <?php
