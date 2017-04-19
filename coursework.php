@@ -9,8 +9,8 @@ $description = $_POST['description'];
 if (empty($coursename) || empty($title)) {
     echo "input all data";
 } else {
-    $sql = "INSERT INTO setcourse ( coursename, title, description)
-    VALUES ('$coursename','$title', $description)";
+    $sql = "INSERT INTO setcourse( coursename, title, description)
+    VALUES ('$coursename','$title', '$description')";
 }
 
 $result = mysqli_query($db, $sql);
