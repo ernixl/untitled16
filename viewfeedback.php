@@ -13,7 +13,7 @@ $result = mysqli_query($db, $sql);
 <td>Login Page Database</td>
 <table border="1">
     <tr>
-        <th> uid</th>
+        <th>uid</th>
         <th>firstname</th>
         <th>lastname</th>
         <th>groupname</th>
