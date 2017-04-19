@@ -25,4 +25,13 @@ if (isset($_POST['submit'])) {
         echo "you cannot upload files of this type";
     }
 }
+
+
+$result = mysqli_query($db, $sql);
+
+if ($result == true){
+header("Location: index.php");}
+
+
+
 ?>
