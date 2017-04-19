@@ -11,7 +11,7 @@
 
 </header>
 
-<div id="form">
+<div>
 
     <h3>Enter your login information</h3>
 
@@ -19,8 +19,8 @@
 
         Username: <input type="text" name="username" placeholder="Username"><br><br>
         Password: <input type="password" name="password" placeholder="Password"><br><br>
-        <button type="submit" name="register" id="btn">Register</button>
-        <button type="submit" name="submit" id="btn">Login</button>
+        <button type="submit" name="register" >Register</button>
+        <button type="submit" name="submit" >Login</button>
 
     </form>
 
