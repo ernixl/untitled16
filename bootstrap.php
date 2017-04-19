@@ -10,7 +10,7 @@
     <!--<link rel="stylesheet" href="badcolors.css">-->
 
 
-    <link href="bootstrap-material-design.min.css" rel="stylesheet">
+    <link href="bootstrap-material-design.css" rel="stylesheet">
     <link href="ripples.min.css" rel="stylesheet">
 </head>
 
