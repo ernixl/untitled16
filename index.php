@@ -25,7 +25,7 @@
 
     </form>
 
-</div>
+
 
 
 <?php
@@ -53,6 +53,7 @@ if (isset($_POST['register'])) {
 }
 
 ?>
+</div>
 </body>
 
 </html>
