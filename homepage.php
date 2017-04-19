@@ -128,9 +128,7 @@ VALUES ('$firstname','$lastname','$groupname','$course','$feed')";
 
         $result = mysqli_query($db, $sql);
 
-        if ($result == true) {
-            header("Location: index.php");
-        }
+
     }
 
     ?>
