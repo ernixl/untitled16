@@ -36,7 +36,7 @@
         <div id="experimentContainer" class="row">
             <article class="col-md-12">
 
-                <h3>Experiment Name</h3>
+                <h3>Experiment Na</h3>
                 <p>Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
                     ducunt
                     ad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!</p>
