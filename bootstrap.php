@@ -19,7 +19,7 @@
         <h1>Peer To Peer Evaluation</h1>
         <h2>Web Application</h2>
     </header>
-    <nav class="col-md-12" navbar navbar-primary>
+    <nav class="col-md-12" >
         <div class="container-fluid">
             <ul class="nav navbar-nav">
 
@@ -30,34 +30,20 @@
     </nav>
     <main class="col-md-12">
         <div id="experimentContainer" class="row">
-            <article class="col-md-3">
+            <article class="col-md-4">
                 <img src="placeholder.png" alt="Placeholder Image">
                 <h3>Experiment Name</h3>
                 <p>Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
                     ducunt
                     ad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!</p>
             </article>
-            <article class="col-md-3">
+            <article class="col-md-8">
                 <img src="placeholder.png" alt="Placeholder Image">
                 <h3>Experiment Name</h3>
                 <p>Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
                     ducunt
                     ad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!</p>
-            </article>
-            <article class="col-md-3">
-                <img src="placeholder.png" alt="Placeholder Image">
-                <h3>Experiment Name</h3>
-                <p>Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
-                    ducunt
-                    ad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!</p>
-            </article>
-            <article class="col-md-3">
-                <img src="placeholder.png" alt="Placeholder Image">
-                <h3>Experiment Name</h3>
-                <p>Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
-                    ducunt
-                    ad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!</p>
-            </article>
+
         </div><!--End of Experiment Container-->
     </main>
     <footer class="col-md-12">
