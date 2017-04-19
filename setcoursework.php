@@ -23,7 +23,7 @@ if (isset($_POST['submit'])) {
     $description = $_POST['description'];
 
     if (empty($coursename) || empty($title)) {
-        echo "input all data";
+        echo "<br>error 1: input all data<br>";
     } else {
         $sql = "INSERT INTO setcourse( coursename, title, description)
     VALUES ('$coursename','$title', '$description')";
@@ -34,7 +34,7 @@ if (isset($_POST['submit'])) {
 
     if ($result == true) {
         header("Location: admin.php");
-    } else echo "failed";
+    } else echo "<br>error 2: failed<br>";
 }
 ?>
 
