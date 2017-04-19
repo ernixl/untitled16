@@ -2,11 +2,12 @@
 
 include 'connect.php';
 
-$coursename = $_POST['coursename'];
-$title = $_POST['title'];
-$description = $_POST['description'];
+
 
 if (isset($_POST['submit'])) {
+    $coursename = $_POST['coursename'];
+    $title = $_POST['title'];
+    $description = $_POST['description'];
     $sql = "INSERT INTO setcourse ( coursename, title, description)
     VALUES ('$coursename','$title', $description)";
 }else{
@@ -20,3 +21,5 @@ if ($result == true) {
 }
 
 ?>
+
+
