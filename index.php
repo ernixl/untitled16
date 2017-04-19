@@ -30,7 +30,7 @@
 
                     Username: <input type="text" name="username" placeholder="Username"><br><br>
                     Password: <input type="password" name="password" placeholder="Password"><br><br>
-                    <button type="submit" name="register" id="submit">Register</button>
+                    <button type="submit" name="register" id="button">Register</button>
                     <button type="submit" name="submit" id="button" value="Login">Login</button>
 
 
