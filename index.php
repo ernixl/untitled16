@@ -20,8 +20,8 @@
 
         <input type="text" name="username" placeholder="Username"><br><br>
         <input type="password" name="password" placeholder="Password"><br><br>
-        <button type="submit" name="register" id="" value="Register"></button>
-        <button type="submit" name="submit" id="" value="Login"></button>
+        <button type="submit" name="register" id="submit" value="Register"></button>
+        <button type="submit" name="submit" id="submit" value="Login"></button>
 
     </form>
 
