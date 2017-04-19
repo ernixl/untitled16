@@ -19,7 +19,7 @@
         <h1>Peer To Peer Evaluation</h1>
         <h2>Web Application</h2>
     </header>
-    <nav class="col-md-12" >
+    <nav class="col-md-12 navbar navbar-primary">
         <div class="container-fluid">
             <ul class="nav navbar-nav">
 
