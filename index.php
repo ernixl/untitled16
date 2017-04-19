@@ -19,7 +19,7 @@
     <form method="post" action="index.php">
 
         <input type="text" name="username" placeholder="Username"><br><br>
-        <input type="password" name="password" placeholder="Password"><br><br>
+        <input align="center" type="password" name="password" placeholder="Password"><br><br>
         <button type="submit" name="submit" id="submit" value="Login">Login</button>
 
     </form>
