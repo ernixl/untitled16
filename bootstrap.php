@@ -24,7 +24,7 @@
             <ul class="nav navbar-nav">
 
                 <li><a href="viewcoursework.php">View Coursework</a></li>
-                <li><a href="sendfeedback.php">Give Feedback</a></li>
+                <li><a href=<?php echo "bootstrap.php?function" ?>>Give Feedback</a></li>
                 <li><a href="upload_front.php">Upload File</a></li>
 
     </nav>
@@ -33,9 +33,14 @@
             <article class="col-md-12">
 
                 <h3>Experiment Name</h3>
-                <p>Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
-                    ducunt
-                    ad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!</p>
+
+                <?php
+
+                if (isset($_GET['function'])){
+                    header('Location: index.php');
+                }
+
+                ?>
 
         </div><!--End of Experiment Container-->
     </main>
