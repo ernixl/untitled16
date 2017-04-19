@@ -4,7 +4,7 @@
 <head>
 
     <title>Peer to Peer Evaluation</title>
-    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="stylesheet" href="styles.css" type="text/css"/>
 
 </head>
 
