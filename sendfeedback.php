@@ -29,7 +29,9 @@
 
     </nav>
 
-    <div id="form">
+
+    <article class="col-md-12">
+    <div id="experimentContainer" class="row">
         <form action="sendfeedback.php" method="post">
             <input type="text" name="firstname" placeholder="Firstname"><br><br>
             <input type="text" name="lastname" placeholder="Lastname"><br><br>
@@ -39,6 +41,7 @@
             <button type="submit" name="submit" id="submit">Submit</button>
 
         </form>
+    </article>
 
         <?php
 
