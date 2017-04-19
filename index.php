@@ -45,7 +45,7 @@ if (isset($_POST['submit'])) {
     } elseif (mysqli_num_rows($result) == 1 && $row['admin'] == 1) {
         header("Location: admin.php");
     } else
-        echo "<i>error: Incorrect username or password</i>";
+        echo "<i>Incorrect username or password</i>";
 }
 
 if (isset($_POST['register'])) {
