@@ -7,7 +7,7 @@
 <body id="body">
 <h1>Register to log</h1>
 
-<div id="form">
+<div id="frm">
     <h3>Register to login</h3>
 
     <form action="register.php" method="post">
@@ -17,7 +17,7 @@
         <input type="text" name="username" placeholder="Username"><br><br>
         <input type="password" name="password" placeholder="Password"><br><br>
         <input type="password" name="password2" placeholder="Repeat Password"><br><br>
-        <button type="submit" id="submit">SignUp</button>
+        <button type="submit" id="btn">SignUp</button>
     </form>
 </div>
 
