@@ -41,7 +41,7 @@
                 <input type="text" name="coursename" placeholder="course name"><br><br>
                 <input type="text" name="title" placeholder="title"><br><br>
                 <textarea name="description" placeholder="description" id="" cols="30" rows="10"></textarea>
-                <input type="submit" name="submit" value="submit">
+                <button type="submit" name="submit">Submit</button>
             </form>
 
         </article>
