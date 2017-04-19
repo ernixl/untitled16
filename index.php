@@ -25,6 +25,8 @@
 
     </form>
 
+    <a href="bootstrap.php">trial</a>
+
 
     <?php
     if (isset($_POST['submit'])) {
