@@ -24,10 +24,7 @@ What do you want to do?
 <?php
 
 if (isset($_POST['login' or 'register'])){
-    if ($_POST['login'] > 0){
-        header("Location: index.php");
-    } else {
-        header('Location: register.php');}
+    echo "yes";
 }
 
 
