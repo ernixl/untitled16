@@ -26,7 +26,7 @@
 
     <form action="register.php" method="post">
 
-    <button type="submit" name="register" id="submit" value="register"></button>
+    <button type="submit" name="register" id="submit" value="register">Register</button>
 
     </form>
 
