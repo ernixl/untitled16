@@ -54,7 +54,7 @@
                 <input type="text" name="lastname" placeholder="Lastname"><br><br>
                 <input type="text" name="groupname" placeholder="Groupname"><br><br>
                 <input type="text" name="course" placeholder="Course Code"><br><br>
-                <textarea name="feed" placeholder="write your feedback here" cols="30" rows="10"></textarea>
+                <textarea name="feed" placeholder="write your feedback here" cols="30" rows="10"></textarea><br><br>
                 <button type="submit" name="submit">Submit</button>
             </form>
 
