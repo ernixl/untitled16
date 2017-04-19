@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="styles.css">
-    <!--<link rel="stylesheet" href="badcolors.css">-->
+    <link rel="stylesheet" href="badcolors.css">
 
 
     <link href="bootstrap-material-design.css" rel="stylesheet">
