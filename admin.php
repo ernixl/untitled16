@@ -13,7 +13,7 @@
 
 <body>
 
-<nav>
+<div>
 
     <form action="admin.php" method="post">
 
@@ -24,12 +24,42 @@
     </form>
 
 
-</nav>
+</div>
 
 
 <a href="viewfeedback.php"> view feedbacks</a>
 <a href="viewupload.php">view uploads</a>
 <a href="setcoursework.php">setcoursework</a>
+
+
+<section>
+
+    <?php
+    if (isset($_POST['set'])) {
+        include 'connect.php';
+
+        $coursename = $_POST['coursename'];
+        $title = $_POST['title'];
+        $description = $_POST['description'];
+
+        if (empty($coursename) || empty($title)) {
+            echo "<p><b><i>error 1: input all data</i></b></p>";
+        } else {
+            $sql = "INSERT INTO setcourse( coursename, title, description)
+    VALUES ('$coursename','$title', '$description')";
+        }
+
+
+        $result = mysqli_query($db, $sql);
+
+        if ($result == true) {
+            header("Location: admin.php");
+        } else echo "<p><b><i>error 2: failed</i></b></p>";
+    }
+    ?>
+
+
+</section>
 
 </body>
 </html>
