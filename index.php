@@ -16,7 +16,7 @@
 
     <h3>Enter your login information</h3>
 
-    <form  action="login.php.php" method="post">
+    <form  action="login.php" method="post">
 
         <input  type="text" name="username" placeholder="Username"><br><br>
         <input  type="password" name="password" placeholder="Password"><br><br>
@@ -25,6 +25,7 @@
     </form>
 
 </div>
+
  click <a href="register.php">here</a>
 
 
