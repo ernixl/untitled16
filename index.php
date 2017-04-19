@@ -8,7 +8,7 @@
 
 <header>
 
-    <h1> Peer To Peer Eation </h1>
+    <h1> Peer To Peer ation </h1>
 
 </header>
 
