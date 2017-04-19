@@ -18,7 +18,7 @@
 
 <div id="frm">
 
-    <h3>Enter your login informationjjjj </h3>
+    <h3>Enter your login information</h3>
 
     <form action="index.php" method="post">
 
