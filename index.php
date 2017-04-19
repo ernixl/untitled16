@@ -46,7 +46,8 @@ if (isset($_POST['submit'])) {
     } else
         echo "Incorrect username or password. ";
 }
-elseif (isset($_POST['register'])){header("Location: register.php");}
+if (isset($_POST['register'])){header("Location: register.php");}
+
 ?>
 
 </body>
