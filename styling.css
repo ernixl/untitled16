@@ -15,6 +15,7 @@ input {
 button{
     background-color: purple;
     color: #ffffff;
+    text-align: end;
 }
 
 
