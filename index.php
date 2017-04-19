@@ -14,7 +14,7 @@
 
 <div id="form">
 
-    <h3>Enter your login information or click <a href="register.php">here</a> to register</h3> <br>
+    <h3>Enter your login information</h3>
 
     <form method="post" action="index.php">
 
