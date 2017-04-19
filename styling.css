@@ -9,7 +9,7 @@ h1 {
 }
 
 input {
-    width: 50%;
+    width: 100%;
 }
 
 button{
@@ -25,9 +25,9 @@ article{
     background-color: white;
     border: solid gray 1px;
     border-radius: 5px;
-    padding: 100px;
-    max-width:500px;
-    margin: 20px auto;
+    padding: 80px;
+    max-width:4000px;
+    margin: 10px auto;
 }
 
 
