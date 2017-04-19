@@ -16,7 +16,7 @@ click <a href="register.php">here to create account</a>
 
     <h3>Enter your login information</h3>
 
-    <form  action="index.php" method="post">
+    <form  action=".php" method="post">
 
         <input  type="text" name="username" placeholder="Username"><br><br>
         <input  type="password" name="password" placeholder="Password"><br><br>
