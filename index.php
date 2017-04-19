@@ -1,9 +1,10 @@
+<!DOCTYPE html>
 <html>
 <head>
 
     <meta charset="utf-8">
-    <title>North Lab</title>
-    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <title>Login page</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 
 </head>
 
