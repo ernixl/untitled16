@@ -5,7 +5,7 @@
 <?php
 include 'connect.php';
 
-$sql = "SELECT uid, firstname, lastname, groupname, course, feed FROM feedback";
+$sql = "SELECT * FROM feedback";
 $result = mysqli_query($db, $sql);
 
 ?>
