@@ -46,7 +46,7 @@
     ?>
 
     <?php
-    if(isset($_post['feedback'])) {echo "hi";}
+    if(isset($_post['feed'])) {echo "hi";}
     ?>
 
 
