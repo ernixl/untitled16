@@ -47,7 +47,7 @@
 
     <?php
     if(isset($_POST['feed'])){?>
-        <div>
+        <article>
 
             <form action="sendfeedback.php" method="post">
                 <input type="text" name="firstname" placeholder="Firstname"><br><br>
@@ -58,7 +58,7 @@
                 <button type="submit" name="submit">Submit</button>
             </form>
 
-        </div>
+        </article>
 
         <?php
 
@@ -88,9 +88,6 @@ VALUES ('$firstname','$lastname','$groupname','$course','$feed')";
         }
     }
     ?>
-
-    }
-
 
 
 </section>

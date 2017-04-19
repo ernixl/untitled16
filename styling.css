@@ -18,6 +18,16 @@ button{
     margin-left: auto;
 }
 
+article{
+    background-color: white;
+    border: solid gray 1px;
+    border-radius: 5px;
+    padding: 100px;
+    max-width:250px;
+    margin: 100px auto;
+}
+
+
 nav{
     /*background-color: purple;
     color: #ffffff; */
