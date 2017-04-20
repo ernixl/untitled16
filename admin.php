@@ -28,7 +28,7 @@
 
 
 <a href="viewupload.php">view uploads</a>
-<a href="setcoursework.php">setcoursework</a>
+<a href="setcoursework.php">set</a>
 
 
 <section>
