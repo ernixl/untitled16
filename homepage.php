@@ -6,7 +6,7 @@
 <body>
 
 <header>
-    <h1>Peer To Peer Evaluation</h1>
+    <h1>Peer To Peer Evion</h1>
 </header>
 
 <nav>
@@ -94,12 +94,12 @@ VALUES ('$firstname','$lastname','$groupname','$course','$feed')";
             <form action="homepage.php" method="post" enctype="multipart/form-data">
                 <b>Select file to upload:<br><br>
                     <input type="file" name="file" id="file"><br><br>
-                    <button type="submit" name="submit">Upload</button>
+                    <button type="submit" name="summit">Upload</button>
             </form>
         </div>
 
         <?php
-        if (isset($_POST['submit'])) {
+        if (isset($_POST['summit'])) {
             require("connect.php");
             $file = $_FILES['file'];
 
