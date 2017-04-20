@@ -33,7 +33,7 @@ if (isset($_POST['submit'])) {
     if (empty($password) || empty($password2)) {
         if (empty($first) || empty($last)) {
 
-            if ($pwd != $pwd2) {
+            if ($password != $password2) {
 
                 $sql = "INSERT INTO login (first, last, email, username, password)
         VALUES ('$first','$last','$email','$username','$password')";
