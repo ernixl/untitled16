@@ -1,5 +1,9 @@
 <?php
 session_start();
+if (isset($_SESSION['username'])){
+
+} else{
+    header('Location: index.php');}
 echo "You are logged in as " . $_SESSION['username'];
 ?>
 
