@@ -110,7 +110,6 @@ VALUES ('$firstname','$lastname','$groupname','$course','$feed')";
             }
         }
         ?>
-
     </table>
 
 </section>

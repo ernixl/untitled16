@@ -38,7 +38,7 @@
             <input type="text" name="coursename" placeholder="course name"><br><br>
             <input type="text" name="title" placeholder="title"><br><br>
             <textarea name="description" placeholder="description" id="" cols="30" rows="10"></textarea><br><br>
-            <button type="submit" name="submit" value="submit">submit</button>
+            <button type="submit" id="buttonindex" name="submit" value="submit">submit</button>
         </form>
 
 
@@ -66,24 +66,50 @@
     }
     ?>
 
+
+
     <?php
     if (isset($_POST['view'])) {
 
         include 'connect.php';
 
         $sql = "SELECT uid, firstname, lastname, groupname, course, feed FROM feedback";
-        $result = mysqli_query($db, $sql);
-
-        if (mysqli_num_rows($result) > 0) {
-
-            while ($row = $result->fetch_assoc()) {
-                echo "<br> " . $row["uid"] . " " . " <b><i> Name: </i></b> " . " " . $row["firstname"] . " " . "<b><i> LastName: </i></b> " . " " . $row["lastname"] . " " . "<b><i> Group: </i></b>" . " " . $row["groupname"] . " " . "<b><i> Course: </i></b>" . " " . $row["course"] . " " . "<b><i> Feedback: </i></b>" . " " . $row["feed"] . "<br>";
-            }
-        } else {
-            echo "no results found";
-        }
-    }
+        $result = mysqli_query($db, $sql);}
     ?>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>FIRSTNAME</th>
+            <th>LASTNAME</th>
+            th>GROUPNAME</th>
+            th>COURSE</th>
+            th>FEEDBACK</th>
+        </tr>
+
+        <?php
+        $result = mysqli_query($db, $sql);
+        If (mysqli_num_rows($result) > 0) {
+            while ($row = mysqli_fetch_array($result)) {
+                ?>
+                <tr>
+                    <td><?php echo $row['uid']; ?></td>
+                    <td><?php echo $row['firstname']; ?></td>
+                    <td><?php echo $row['lastname']; ?></td>
+                    <td><?php echo $row['grouname']; ?></td>
+                    <td><?php echo $row['course']; ?></td>
+                    <td><?php echo $row['feed']; ?></td>
+                </tr>
+                <?php
+            }
+        }
+        ?>
+    </table>
+
+
+
+
+
+
 
 
     <?php
