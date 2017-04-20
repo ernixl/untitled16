@@ -85,7 +85,6 @@
 
 
         <?php
-
         if (isset($_POST['files'])){
             include 'connect.php';
 
@@ -102,8 +101,11 @@
             }
         }
         ?>
+
     </div>
+
 </section>
+
 
 </body>
 </html>
