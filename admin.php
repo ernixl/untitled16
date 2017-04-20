@@ -41,13 +41,13 @@
                 <input type="text" name="coursename" placeholder="course name"><br><br>
                 <input type="text" name="title" placeholder="title"><br><br>
                 <textarea name="description" placeholder="description" id="" cols="30" rows="10"></textarea><br><br>
-                <button type="submit" name="summit">Submit</button>
+                <button type="submit" name="submit">Submit</button>
             </form>
 
         </article>
 
         <?php
-        if (isset($_POST['summit'])) {
+        if (isset($_POST['submit'])) {
 
             include 'connect.php';
 
@@ -59,13 +59,13 @@
                 echo "<p><b><i>error 1: input all data</i></b></p>";
             } else {
                 $sql = "INSERT INTO setcourse( coursename, title, description)
-    VALUES ('$coursename','$title', '$description')"; echo "success";
+    VALUES ('$coursename','$title', '$description')";
             }
 
 
             $result = mysqli_query($db, $sql);
 
-            if ($result == true) {echo "done";
+            if ($result == true) {echo "<b>feedback sent successfully, click <a href=\"homepage.php\">here</a> to return to homepage</b>";
             } else echo "<p><b><i>error 2: failed</i></b></p>";
         }
     }
