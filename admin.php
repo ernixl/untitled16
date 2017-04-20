@@ -1,8 +1,8 @@
-
+<!DOCTYPE html>
 <html>
 <head>
     <title>set course work</title>
-    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet"type="text/css" href="styling.css">
 </head>
 
 <body>
