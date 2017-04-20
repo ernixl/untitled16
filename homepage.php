@@ -91,7 +91,7 @@ VALUES ('$firstname','$lastname','$groupname','$course','$feed')";
         <tr>
             <th>ID</th>
             <th>COURSENAME</th>
-            <th>DESCRIPTION</th>
+            <th>COURSEWORK DETAILS</th>
         </tr>
 
         <?php
