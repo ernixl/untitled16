@@ -35,7 +35,7 @@
         <form action="admin.php" method="post">
             <input type="text" name="coursename" placeholder="course name"><br><br>
             <input type="text" name="title" placeholder="title"><br><br>
-            <textarea name="description" placeholder="description" id="" cols="30" rows="10"></textarea>
+            <textarea name="description" placeholder="description" id="" cols="30" rows="10"></textarea><br><br>
             <button type="submit" name="submit" value="submit">submit</button>
         </form>
 
