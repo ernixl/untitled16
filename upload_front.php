@@ -1,10 +1,10 @@
 <?php
 session_start();
-if (isset($_SESSION['username'])){
-
-} else{
-     header('Location: index.php');}
-echo "You are logged in as " . $_SESSION['username'];
+if (!$_SESSION['username']) {
+    header('location: index.php');
+} else {
+    echo "You are logged in as " . $_SESSION['username'];
+}
 ?>
 <a href="logout.php">logout</a>
 <!DOCTYPE <html>

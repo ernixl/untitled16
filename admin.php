@@ -1,10 +1,10 @@
 <?php
 session_start();
-if (isset($_SESSION['username'])){
-
-} else{
-    header('Location: index.php');}
-echo "You are logged in as " . $_SESSION['username'];
+if (!$_SESSION['username']) {
+    header('location: index.php');
+} else {
+    echo "You are logged in as " . $_SESSION['username'];
+}
 ?>
 <a href="logout.php">logout</a>
 
@@ -12,7 +12,7 @@ echo "You are logged in as " . $_SESSION['username'];
 <html>
 <head>
     <title>anotherpage</title>
-    <link rel="stylesheet"type="text/css" href="styling.css"/>
+    <link rel="stylesheet" type="text/css" href="styling.css"/>
 </head>
 
 <body>
@@ -81,10 +81,10 @@ echo "You are logged in as " . $_SESSION['username'];
     <?php
     if (isset($_POST['view'])) {
 
-        include 'connect.php';
+    include 'connect.php';
 
-        $sql = "SELECT uid, firstname, lastname, course, feed FROM feedback";
-        $result = mysqli_query($db, $sql);
+    $sql = "SELECT uid, firstname, lastname, course, feed FROM feedback";
+    $result = mysqli_query($db, $sql);
     ?>
     <table>
         <tr>
@@ -115,19 +115,13 @@ echo "You are logged in as " . $_SESSION['username'];
     </table>
 
 
-
-
-
-
-
-
     <?php
     if (isset($_POST['files'])) {
-        include 'connect.php';
+    include 'connect.php';
 
-        $sql = "SELECT id, name, image FROM image";
-        $result = mysqli_query($db, $sql);
-        ?>
+    $sql = "SELECT id, name, image FROM image";
+    $result = mysqli_query($db, $sql);
+    ?>
     <table>
         <tr>
             <th>ID</th>
@@ -149,11 +143,10 @@ echo "You are logged in as " . $_SESSION['username'];
                 </tr>
                 <?php
             }
-            }
+        }
         }
         ?>
     </table>
-
 
 
 </div>
