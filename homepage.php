@@ -43,7 +43,7 @@
 <?php
 if (isset($_POST['feed'])) {
     ?>
-    <article>
+
 
         <form action="homepage.php" method="post">
             <input type="text" name="firstname" placeholder="Firstname"><br><br>
@@ -54,7 +54,6 @@ if (isset($_POST['feed'])) {
             <button type="submit" name="submit">Submit</button>
         </form>
 
-    </article>
 
     <?php
 
