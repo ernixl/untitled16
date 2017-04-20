@@ -65,7 +65,7 @@
         ?>
 
         <?php
-        if (isset($_POST['view'])){
+        if (isset($_POST['view'])) {
 
             include 'connect.php';
 
@@ -75,7 +75,7 @@
             if (mysqli_num_rows($result) > 0) {
 
                 while ($row = $result->fetch_assoc()) {
-                    echo "<br> " . $row["uid"] ." ". " <b><i> Name: </i></b> " ." ". $row["firstname"] ." ". "<b><i> LastName: </i></b> " ." ". $row["lastname"] ." ". "<b><i> Group: </i></b>" ." ". $row["groupname"] ." ". "<b><i> Course: </i></b>" ." ". $row["course"] ." ". "<b><i> Feedback: </i></b>" ." ". $row["feed"] . "<br>";
+                    echo "<br> " . $row["uid"] . " " . " <b><i> Name: </i></b> " . " " . $row["firstname"] . " " . "<b><i> LastName: </i></b> " . " " . $row["lastname"] . " " . "<b><i> Group: </i></b>" . " " . $row["groupname"] . " " . "<b><i> Course: </i></b>" . " " . $row["course"] . " " . "<b><i> Feedback: </i></b>" . " " . $row["feed"] . "<br>";
                 }
             } else {
                 echo "no results found";
@@ -85,7 +85,7 @@
 
 
         <?php
-        if (isset($_POST['files'])){
+        if (isset($_POST['files'])) {
             include 'connect.php';
 
             $sql = "SELECT id, name, image FROM image";
@@ -99,7 +99,7 @@
                     $name = $row["name"];
                     $path = $row["image"];
 
-                    echo $id . " " . $name . " <a href='download.php?dow=$path'>Download</a> ". " " . " <br> ";
+                    echo $id . " " . $name . " <a href='download.php?dow=$path'>Download</a> " . " " . " <br> ";
                 }
             } else {
                 echo "no results found";
