@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-echo "You are logged in as " . $_SESSION['user'];
+echo "You are logged in as " . $username;
 ?>
 
 
