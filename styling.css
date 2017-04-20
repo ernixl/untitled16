@@ -30,7 +30,14 @@ article{
     margin: 20px auto;
 }
 
-
+section{
+    background-color: white;
+    border: solid gray 1px;
+    border-radius: 5px;
+    padding: 50px;
+    max-width:250px;
+    margin: 100px auto;
+}
 
 
 nav{

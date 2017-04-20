@@ -22,7 +22,7 @@
 
 </nav>
 
-<div>
+<section>
     <?php
     if (isset($_POST['coursework'])) {
         include 'connect.php';
@@ -39,7 +39,7 @@
         }
     }
     ?>
-</div>
+</section>
 
     <?php
     if (isset($_POST['feed'])) {
