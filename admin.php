@@ -48,23 +48,21 @@
             $description = $_POST['description'];
 
             if (empty($coursename) || empty($title)) {
-                echo "<p><b><i>error 1: input all data</i></b></p>";
+                echo "<p><i>error 1: input all data</i></p>";
             } else {
                 $sql = "INSERT INTO setcourse( coursename, title, description)
     VALUES ('$coursename','$title', '$description')";
             }
 
-
             $result = mysqli_query($db, $sql);
 
             if ($result == true) {
                 header("Location: admin.php");
-            } else echo "<p><b><i>error 2: failed</i></b></p>";
+            } else echo "<i>error 2: failed</i>";
         }
         }
 
         ?>
-        }
 
     </div>
 </section>
