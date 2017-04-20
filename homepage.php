@@ -18,8 +18,6 @@
         <button type="submit" id="buttonuser" name="image">Upload file</button>
         <button type="submit" id="buttonuser" name="coursework">View Coursework</button>
 
-
-
     </form>
 
 </nav>
@@ -35,7 +33,9 @@
         header('Location: upload_front.php');
     }
     ?>
+</div>
 
+<div>
     <?php
     if (isset($_POST['feed'])) {
         ?>
@@ -79,7 +79,9 @@ VALUES ('$firstname','$lastname','$groupname','$course','$feed')";
         }
     }
     ?>
+</div>
 
+<div>
     <?php
     if (isset($_POST['coursework'])) {
         include 'connect.php';
