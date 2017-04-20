@@ -15,7 +15,7 @@ input {
 button{
     background-color: purple;
     color: #ffffff;
-    margin-right: auto;
+    margin-right: 0px;
 }
 textarea{
     width: 100%;
