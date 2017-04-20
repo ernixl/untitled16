@@ -56,9 +56,6 @@
             $title = $_POST['title'];
             $description = $_POST['description'];
 
-            if (empty($coursename) || empty($title)) {
-                echo "<p><b><i>error 1: input all data</i></b></p>";
-            } else {
                 $sql = "INSERT INTO setcourse( coursename, title, description)
     VALUES ('$coursename','$title', '$description')";
             }
@@ -69,7 +66,7 @@
             if ($result == true) {echo "<b>feedback sent successfully, click <a href=\"homepage.php\">here</a> to return to homepage</b>";
             } else echo "<p><b><i>error 2: failed</i></b></p>";
         }
-    }
+
     ?>
 
 
