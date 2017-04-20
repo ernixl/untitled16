@@ -14,8 +14,8 @@
 
     <form action="homepage.php" method="post">
 
-        <button type="submit" id="buttonuser" name="feed">Give feedback</button>
         <button type="submit" id="buttonuser" name="image">Upload file</button>
+        <button type="submit" id="buttonuser" name="feed">Give feedback</button>
         <button type="submit" id="buttonuser" name="coursework">View Coursework</button>
 
     </form>
