@@ -14,7 +14,7 @@
 </div>
 
 <?php
-if (isset($_POST['submit'])) {?>
+if (isset($_POST['submit'])) { ?>
 <div>
     <form action="setcoursework.php" method="post">
         <input type="text" name="coursename" placeholder="course name"><br><br>
@@ -46,10 +46,10 @@ if (isset($_POST['submit'])) {
     if ($result == true) {
         header("Location: admin.php");
     } else echo "<p><b><i>error 2: failed</i></b></p>";
-}
+}}
 ?>
 }
-?>
+
 
 </body>
 
