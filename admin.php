@@ -18,9 +18,11 @@
 
     <form action="admin.php" method="post">
 
-        <button type="submit" name="description">Set Coursework</button>
-        <button type="submit" name="view">View feedback</button>
-        <button type="submit" name="files">View files</button>
+        <button type="submit" id="buttonuser" name="description">Set Coursework</button>
+        <button type="submit" id="buttonuser" name="view">View feedback</button>
+        <button type="submit" id="buttonuser" name="files">View files</button>
+        <button type="submit" id="buttonuser" name="files">View files</button>
+        <button type="submit" id="buttonuser" name="files">View files</button>
 
     </form>
 
