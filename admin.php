@@ -115,23 +115,32 @@
         include 'connect.php';
 
         $sql = "SELECT id, name, image FROM image";
+        $result = mysqli_query($db, $sql);}
+        ?>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>FILENAME</th>
+            <th>DOWNLOAD LINK</th>
+        </tr>
+
+        <?php
+
         $result = mysqli_query($db, $sql);
-
-        if (mysqli_num_rows($result) > 0) {
-
-            while ($row = $result->fetch_assoc()) {
-
-                $id = $row["id"];
-                $name = $row["name"];
-                $path = $row["image"];
-
-                echo $id . " " . $name . " <a href='download.php?dow=$path'>Download</a> " . " " . " <br><br> ";
+        If (mysqli_num_rows($result) > 0) {
+            while ($row = mysqli_fetch_array($result)) {$path = $row["image"];
+                ?>
+                <tr>
+                    <td><?php echo $row['id']; ?></td>
+                    <td><?php echo $row['name']; ?></td>
+                    <td><?php echo " <a href='download.php?dow=$path'>Download</a> "; ?></td>
+                </tr>
+                <?php
             }
-        } else {
-            echo "no results found";
         }
-    }
-    ?>
+        ?>
+    </table>
+
 
 
 </div>
