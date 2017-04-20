@@ -5,7 +5,7 @@
 </head>
 
 <body>
-<a href="index.php">Logoutkkk</a>
+<a href="index.php">Logout</a>
 
 <header>
     <h1>Peer to Peer Ev</h1>
