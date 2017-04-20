@@ -27,7 +27,7 @@
 </nav>
 
 
-<a href="viewupload.php">view uploads</a>
+<a href="viewupload.php">view</a>
 <a href="setcoursework.php">set</a>
 
 
@@ -48,29 +48,10 @@
 
         <?php
         if (isset($_GET['function'])) {
-            include 'connect.php';
-
-            $coursename = $_POST['coursename'];
-            $title = $_POST['title'];
-            $description = $_POST['description'];
-
-            if (empty($coursename) || empty($title)) {
-                echo "<p><b><i>error 1: input all data</i></b></p>";
-            } else {
-                $sql = "INSERT INTO setcourse( coursename, title, description)
-    VALUES ('$coursename','$title', '$description')"; echo "success";
-            }
-
-
-            $result = mysqli_query($db, $sql);
-
-            if ($result == true) {
-                header("Location: admin.php");
-            } else echo "<p><b><i>error 2: failed</i></b></p>";
+            echo "you";
         }
     }
     ?>
-    }
 
 
 </section>
