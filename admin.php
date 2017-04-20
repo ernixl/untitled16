@@ -81,9 +81,9 @@
             <th>ID</th>
             <th>FIRSTNAME</th>
             <th>LASTNAME</th>
-            th>GROUPNAME</th>
-            th>COURSE</th>
-            th>FEEDBACK</th>
+            <th>GROUPNAME</th>
+            <th>COURSE</th>
+            <th>FEEDBACK</th>
         </tr>
 
         <?php
