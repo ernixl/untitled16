@@ -42,7 +42,7 @@
                         echo "<i>password mismatch</i><br>";
                     }
                 } else {
-                    echo "username field empty";
+                    echo "<i>username field empty<i></i>";
                 }
 
             } else {
