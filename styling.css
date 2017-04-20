@@ -66,6 +66,10 @@ table {
     width: 100%;
 }
 
+tr{
+    text-align: center;
+}
+
 th {
     height: 50px;
 }
