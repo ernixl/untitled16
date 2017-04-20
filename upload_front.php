@@ -33,11 +33,11 @@
                 $fileNameNew = uniqid('', true) . "." . $fileActualExt;
                 $sql = "INSERT INTO image (name, image) VALUES ('$fileNameNew', '$fileTmpName')";
             } else {
-                echo "you need to select a file to upload";
+                echo "you cannot upload files of this type due to error";
             }
 
         } else {
-            echo "you cannot upload files of this type";
+            echo "choose a file to upload";
         }
     }
 
