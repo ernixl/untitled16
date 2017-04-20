@@ -28,7 +28,7 @@
 
 
 <a href="viewupload.php">view</a>
-<a href="setcoursework.php">set</a>
+<a href="setcoursework.php">ggggggset</a>
 
 
 <section>
@@ -47,7 +47,7 @@
         </article>
 
         <?php
-        if (isset($_GET['function'])) {
+        if (isset($_POST['function'])) {
             echo "you";
         }
     }
