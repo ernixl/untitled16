@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="styling.css">
 </head>
 <body>
-<h1>File Uoad</h1>
+<h1>File Upload</h1>
 <div>
 
     <form action="upload_front.php" method="post" enctype="multipart/form-data">
@@ -33,7 +33,7 @@
                 $fileNameNew = uniqid('', true) . "." . $fileActualExt;
                 $sql = "INSERT INTO image (name, image) VALUES ('$fileNameNew', '$fileTmpName')";
             } else {
-                echo "you cannot upload files of this type due to error";
+                echo "you need to select a file to upload";
             }
 
         } else {
@@ -45,7 +45,7 @@
     $result = mysqli_query($db, $sql);
 
     if ($result == true) {
-        echo "file uploaded click <a href=\"homepage.php\">here</a> to return to homepage ";
+        echo "File uploaded click <a href=\"homepage.php\">here</a> to return to homepage ";
     }
 
 
