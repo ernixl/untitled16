@@ -36,7 +36,7 @@
             <th>coursename</th>
             <th>description</th>
         </tr>
-        <tr>
+
             <?php
             $result = mysqli_query($db, $sql);
             If (mysqli_num_rows($result) > 0) {
@@ -51,7 +51,7 @@
         }
         }
         ?>
-        </tr>
+
     </table>
 
 
