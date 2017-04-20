@@ -48,7 +48,7 @@ if (isset($_POST['submit'])) {
     } else echo "<p><b><i>error 2: failed</i></b></p>";
 }}
 ?>
-}
+
 
 
 </body>
