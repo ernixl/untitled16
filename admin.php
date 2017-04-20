@@ -5,7 +5,7 @@
 </head>
 
 <body>
-<a href="index.php">Logout</a>
+<a href="index.php">Logoutkkk</a>
 
 <header>
     <h1>Peer to Peer Evaluation</h1>
@@ -17,7 +17,7 @@
 
     <form action="admin.php" method="post">
 
-        <button type="submit" name="set">Set Coursework</button>
+        <button type="submit" name="description">Set Coursework</button>
         <button type="submit" name="view">View feedback</button>
         <button type="submit" name="files">View files</button>
 
@@ -28,7 +28,7 @@
 
 <section>
     <?php
-    if (isset($_POST['set'])) {
+    if (isset($_POST['description'])) {
         ?>
         <div>
             <form action="admin.php" method="post">
