@@ -1,7 +1,7 @@
 <html>
 <head>
     <title>set course work</title>
-    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" href="styling.css"/>
 </head>
 <body>
 <h1>File Upload</h1>
