@@ -6,6 +6,7 @@ if (isset($_SESSION['username'])){
     header('Location: index.php');}
 echo "You are logged in as " . $_SESSION['username'];
 ?>
+<a href="logout.php">logout</a>
 
 <!DOCTYPE html>
 <html>

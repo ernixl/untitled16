@@ -4,8 +4,10 @@ if (isset($_SESSION['username'])){
 
 } else{
      header('Location: index.php');}
+echo "You are logged in as " . $_SESSION['username'];
 ?>
-<!DOCTYPE html>
+<a href="logout.php">logout</a>
+<!DOCTYPE <html>
 <html>
 <head>
     <title>set course work</title>
