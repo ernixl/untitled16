@@ -22,7 +22,7 @@
         Password: <input type="password" name="password"><br><br>
         <button type="submit" name="submit">Login</button>
         <br><br>
-        <i><a href="register.php">Register</a></i>
+        <i>Click <a href="register.php">register</a></i> to create an account.
 
     </form>
 
