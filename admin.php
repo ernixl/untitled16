@@ -14,7 +14,7 @@
 </head>
 
 <body>
-<a href="index.php">Logoutwww</a>
+<a href="index.php">Logout</a>
 
 <header>
     <h1>Peer to Peer Evaluation</h1>
