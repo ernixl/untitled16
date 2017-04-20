@@ -6,7 +6,7 @@
 <body>
 
 <header>
-    <h1>Peer To Peer Evalytooooo</h1>
+    <h1>Peer To Peer Evaluation</h1>
 </header>
 
 <nav>
@@ -41,60 +41,61 @@
     ?>
 </section>
 
+<?php
+if (isset($_POST['feed'])) {
+    ?>
+    <article>
+
+        <form action="homepage.php" method="post">
+            <input type="text" name="firstname" placeholder="Firstname"><br><br>
+            <input type="text" name="lastname" placeholder="Lastname"><br><br>
+            <input type="text" name="groupname" placeholder="Groupname"><br><br>
+            <input type="text" name="course" placeholder="Course Code"><br><br>
+            <textarea name="feed" placeholder="write your feedback here" cols="30" rows="10"></textarea><br><br>
+            <button type="submit" name="submit">Submit</button>
+        </form>
+
+    </article>
+
     <?php
-    if (isset($_POST['feed'])) {
-        ?>
-        <article>
 
-            <form action="homepage.php" method="post">
-                <input type="text" name="firstname" placeholder="Firstname"><br><br>
-                <input type="text" name="lastname" placeholder="Lastname"><br><br>
-                <input type="text" name="groupname" placeholder="Groupname"><br><br>
-                <input type="text" name="course" placeholder="Course Code"><br><br>
-                <textarea name="feed" placeholder="write your feedback here" cols="30" rows="10"></textarea><br><br>
-                <button type="submit" name="submit">Submit</button>
-            </form>
+    if (isset($_POST['submit'])) {
 
-        </article>
+        include 'connect.php';
 
-        <?php
-
-        if (isset($_POST['submit'])) {
-
-            include 'connect.php';
-
-            $firstname = $_POST['firstname'];
-            $lastname = $_POST['lastname'];
-            $groupname = $_POST['groupname'];
-            $course = $_POST['course'];
-            $feed = $_POST['feed'];
+        $firstname = $_POST['firstname'];
+        $lastname = $_POST['lastname'];
+        $groupname = $_POST['groupname'];
+        $course = $_POST['course'];
+        $feed = $_POST['feed'];
 
 
-            if (empty($feed) || empty($course)) {
-                echo "input all data";
-            } else {
-                $sql = "INSERT INTO feedback (firstname, lastname, groupname, course, feed)
+        if (empty($feed) || empty($course)) {
+            echo "input all data";
+        } else {
+            $sql = "INSERT INTO feedback (firstname, lastname, groupname, course, feed)
 VALUES ('$firstname','$lastname','$groupname','$course','$feed')";
-            }
-
-            $result = mysqli_query($db, $sql);
-
-            if ($result == true) {
-                echo "<b>feedback sent successfully, click <a href=\"homepage.php\">here</a> to return to homepage</b>";
-            } else echo "some error occured";
         }
+
+        $result = mysqli_query($db, $sql);
+
+        if ($result == true) {
+            echo "<b>feedback sent successfully, click <a href=\"homepage.php\">here</a> to return to homepage</b>";
+        } else echo "some error occured";
     }
+}
+?>
+
+
+<?php
+if (isset($_POST['image'])) {
     ?>
 
-
-    <?php
-    if (isset($_POST['image'])) {
-        ?>
-
     <?php
 
-    header('Location: upload_front.php');}
-    ?>
+    header('Location: upload_front.php');
+}
+?>
 
 
 </body>
