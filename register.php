@@ -4,10 +4,10 @@
     <link rel="stylesheet" href="styling.css">
 </head>
 <body>
-<h1>Register to log</h1>
+<h1>Account registeration</h1>
 
 <div id="frm">
-    <h3>Register to login</h3>
+    <h3>Enter details</h3>
 
     <form action="register.php" method="post">
         <input type="text" name="first" placeholder="Firstname"><br><br>
@@ -16,7 +16,7 @@
         <input type="text" name="username" placeholder="Username"><br><br>
         <input type="password" name="password" placeholder="Password"><br><br>
         <input type="password" name="password2" placeholder="Repeat Password"><br><br>
-        <button type="submit" name="submit" value="submit">SignUp</button>
+        <button type="submit" name="submit" value="submit">Register</button>
     </form>
 
     <?php
