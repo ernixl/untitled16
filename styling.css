@@ -76,14 +76,11 @@ section{
 }
 
 
-div {
-    background-color: white;
-    width: 500px;
-    border: 1px solid gray;
-    padding: 80px;
-    margin: 50px auto;
+
+div{
+    margin-left:25%;
+    padding:1px 16px;
+    height:1000px;
 }
-
-
 
 
