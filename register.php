@@ -32,25 +32,30 @@ if (isset($_POST['submit'])) {
     $password2 = $_POST['password2'];
 
     if (empty($password) || empty($password2)) {
-        echo "<br><b><i>enter password field</b></i><br>";
-    }
+        if (empty($first) || empty($last)) {
 
-    if ($pwd != $pwd2) {
-        echo "<b><i>password mismatch</b></i>";
+            if ($pwd != $pwd2) {
+
+                $sql = "INSERT INTO login (first, last, email, username, password)
+        VALUES ('$first','$last','$email','$username','$password')";
+            } else {
+                echo "<i>password mismatch</i><br>";
+            }
+
+        } else {
+            echo "<i>empty name field</i><br>";
+        }
     } else {
-        $sql = "INSERT INTO login (first, last, email, username, password)
-    VALUES ('$first','$last','$email','$username','$password')";
-    }
-
-    $result = mysqli_query($db, $sql);
-
-    if ($result == true) {
-        header("Location: index.php");
+        echo "<i>enter password field</i>";
     }
 }
+
+    $result = mysqli_query($db, $sql);
+    if ($result == true) {
+        header("Location: index.php"); echo "<b><i> Account sucessfully created</i></b>";
+    }
+
 ?>
 
 </body>
-
-
 </html>
