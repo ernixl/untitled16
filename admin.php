@@ -87,7 +87,7 @@
         include 'connect.php';
 
         $sql = "SELECT id, name, image FROM image";
-        $result = mysqli_query($db, $sql);}
+        $result = mysqli_query($db, $sql);
         ?>
     <table>
         <tr>
@@ -109,6 +109,7 @@
                 </tr>
                 <?php
             }
+        }
         }
         ?>
     </table>
