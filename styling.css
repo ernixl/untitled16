@@ -30,12 +30,20 @@ article{
     margin: 20px auto;
 }
 
+#index{
+    background-color: white;
+    width: 300px;
+    border: 1px solid gray;
+    padding: 25px;
+    margin: 100px auto;
+}
+
 div {
     background-color: white;
     width: 300px;
-    border: 2px solid gray;
+    border: 1px solid gray;
     padding: 25px;
-    margin: 100px auto;
+    margin: 70px auto;
 }
 
 

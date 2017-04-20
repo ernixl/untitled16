@@ -12,7 +12,7 @@
 
 </header>
 
-<div>
+<div id="index">
 
     <h3>Enter your login information</h3>
 
