@@ -18,7 +18,6 @@
         <input type="password" name="password2" placeholder="Repeat Password"><br><br>
         <button type="submit" name="submit" value="submit">SignUp</button>
     </form>
-</div>
 
 <?php
 if (isset($_POST['submit'])) {
@@ -56,6 +55,7 @@ if (isset($_POST['submit'])) {
     }
 
 ?>
+</div>
 
 </body>
 </html>
