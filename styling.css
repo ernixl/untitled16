@@ -21,7 +21,7 @@ textarea{
     width: 100%;
 }
 
-article{
+article, section{
     background-color: white;
     border: solid gray 1px;
     border-radius: 5px;
@@ -30,10 +30,7 @@ article{
     margin: 20px auto;
 }
 
-section{
-    text-align: center;
-    background-color: white;
-}
+
 
 
 nav{
