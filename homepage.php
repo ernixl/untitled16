@@ -47,57 +47,11 @@
     if (isset($_POST['image'])) {
         ?>
 
-        <div>
-            <form action="homepage.php" method="post" enctype="multipart/form-data">
-                <b>Select file to upload:<br><br>
-                    <input type="file" name="image" id="file"><br><br>
-                    <button type="submit" name="submit">Upload</button>
-            </form>
-        </div>
+    <?php
 
-        <?php
-        if (isset($_POST['submit'])) {
-            require("connect.php");
-            $file = $_FILES['file'];
-
-            $filename = $_FILES['file']['name'];
-            $fileTmpName = $_FILES['file']['tmp_name'];
-            $fileSize = $_FILES['file']['size'];
-            $fileError = $_FILES['file']['error'];
-            $fileType = $_FILES['file']['type'];
-
-            $fileExt = explode('.', $filename);
-            $fileActualExt = strtolower(end($fileExt));
-            $allowed = array('jpg', 'jpeg', 'png', 'pdf', 'docx');
-
-            if (in_array($fileActualExt, $allowed)) {
-                if ($fileError === 0) {
-                    $fileNameNew = uniqid('', true) . "." . $fileActualExt;
-                    $sql = "INSERT INTO image (name, image) VALUES ('$fileNameNew', '$fileTmpName')";
-                    echo "upload successful";
-                } else {
-                    echo "you cannot upload files of this type due to error";
-                }
-
-            } else {
-                echo "you cannot upload files of this type";
-            }
-        }
+    header('Location: upload_front.php');}
 
 
-        $result = mysqli_query($db, $sql);
-
-
-
-
-
-
-
-
-
-
-
-    }
     ?>
 </section>
 
