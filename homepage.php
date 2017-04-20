@@ -7,16 +7,18 @@
 <body>
 
 <header>
-    <h1>Peer To Peer Evaluati</h1>
+    <h1>Peer To Peer Evaluation</h1>
 </header>
 
 <nav>
 
     <form action="homepage.php" method="post">
 
-        <button type="submit" id="buttonuser" name="coursework">View Coursework</button>
         <button type="submit" id="buttonuser" name="feed">Give feedback</button>
         <button type="submit" id="buttonuser" name="image">Upload file</button>
+        <button type="submit" id="buttonuser" name="coursework">View Coursework</button>
+
+
 
     </form>
 
