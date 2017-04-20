@@ -4,7 +4,7 @@
 </head>
 <body>
 <div>
-    <form action="h.php" method="post">
+    <form action="setcoursework.php" method="post">
         <input type="text" name="coursename" placeholder="course name"><br><br>
         <input type="text" name="title" placeholder="title"><br><br>
         <textarea name="description" placeholder="description" id="" cols="30" rows="10"></textarea>
