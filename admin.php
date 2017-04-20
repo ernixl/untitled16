@@ -9,7 +9,7 @@
 <a href="index.php">Logout</a>
 
 <header>
-    <h1>Peer to Peer Evalua</h1>
+    <h1>Peer to Peer Evaluation</h1>
 </header>
 
 <body>
