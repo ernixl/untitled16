@@ -30,10 +30,10 @@
         $password = $_POST['password'];
         $password2 = $_POST['password2'];
 
-        if (empty($password) || empty($password2)) {
-            if (empty($first) || empty($last)) {
+        if ($password == true && $password2 == true) {
+            if ($first == true && $last == true){
 
-                if ($password != $password2) {
+                if ($password == $password2) {
 
                     $sql = "INSERT INTO login (first, last, email, username, password)
         VALUES ('$first','$last','$email','$username','$password')";
