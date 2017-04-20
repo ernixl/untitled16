@@ -16,6 +16,9 @@ button{
     background-color: purple;
     color: #ffffff;
     margin-right: 0px;
+    float:right;
+    display:block;
+    clear:left;
 }
 textarea{
     width: 100%;
