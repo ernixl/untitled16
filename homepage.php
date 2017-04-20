@@ -32,9 +32,9 @@
     ?>
     <table class="table table-hover">
         <tr>
-            <th>id</th>
-            <th>coursename</th>
-            <th>description</th>
+            <th>ID</th>
+            <th>COURSENAME</th>
+            <th>DESCRIPTION</th>
         </tr>
 
             <?php
