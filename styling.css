@@ -20,6 +20,22 @@ button{
     display:block;
     clear:left;
 }
+
+#buttonuser{
+    background-color: purple;
+    color: #ffffff;
+    margin-left: 0px;
+    float:left;
+    display:block;
+    clear:right;
+}
+
+
+
+
+
+
+
 textarea{
     width: 100%;
 }
