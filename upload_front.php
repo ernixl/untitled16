@@ -31,8 +31,8 @@
 
         if (in_array($fileActualExt, $allowed)) {
             if ($fileError === 0) {
-                $fileNameNew = $filename . "." . $fileActualExt;
-                $sql = "INSERT INTO image (name, image) VALUES ('$fileNameNew', '$fileTmpName')";
+                $fileNameNew = uniqid('', true) . "." . $fileActualExt;
+                $sql = "INSERT INTO image (name, image) VALUES ('$filename, '$fileTmpName')";
             } else {
                 echo "you cannot upload files of this type due to error";
             }
