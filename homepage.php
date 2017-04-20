@@ -15,7 +15,7 @@
 
         <button type="submit" name="coursework">View Coursework</button>
         <button type="submit" name="feed">Give feedback</button>
-        <button type="submit" name="file">Upload file</button>
+        <button type="submit" name="image">Upload file</button>
 
     </form>
 
@@ -87,7 +87,7 @@ VALUES ('$firstname','$lastname','$groupname','$course','$feed')";
     ?>
 
     <?php
-    if (isset($_POST['file'])) {
+    if (isset($_POST['image'])) {
         ?>
 
         <div>
