@@ -73,7 +73,7 @@
 
         include 'connect.php';
 
-        $sql = "SELECT uid, firstname, lastname, groupname, course, feed FROM feedback";
+        $sql = "SELECT uid, firstname, lastname, course, feed FROM feedback";
         $result = mysqli_query($db, $sql);}
     ?>
     <table>
@@ -81,7 +81,6 @@
             <th>ID</th>
             <th>FIRSTNAME</th>
             <th>LASTNAME</th>
-            <th>GROUPNAME</th>
             <th>COURSE</th>
             <th>FEEDBACK</th>
         </tr>
@@ -95,7 +94,6 @@
                     <td><?php echo $row['uid']; ?></td>
                     <td><?php echo $row['firstname']; ?></td>
                     <td><?php echo $row['lastname']; ?></td>
-                    <td><?php echo $row['grouname']; ?></td>
                     <td><?php echo $row['course']; ?></td>
                     <td><?php echo $row['feed']; ?></td>
                 </tr>
