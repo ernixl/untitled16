@@ -6,7 +6,7 @@
 <body>
 
 <header>
-    <h1>Peer To Peer Evaluations</h1>
+    <h1>Peer To Peer Eval</h1>
 </header>
 
 <nav>
@@ -89,45 +89,8 @@ VALUES ('$firstname','$lastname','$groupname','$course','$feed')";
     <?php
     if (isset($_POST['file'])) {
         ?>
-        <div>
-            <form action="homepage.php" method="post" enctype="multipart/form-data">
-                <b>Select file to upload:<br><br>
-                <input type="file" name="file" id="image"><br><br>
-                <input type="submit" name="submit" value="Upload">
-            </form>
-        </div>
-
-        <?php
-        if (isset($_POST['submit'])) {
-            require("connect.php");
-            $file = $_FILES['file'];
-
-            $filename = $_FILES['file']['name'];
-            $fileTmpName = $_FILES['file']['tmp_name'];
-            $fileSize = $_FILES['file']['size'];
-            $fileError = $_FILES['file']['error'];
-            $fileType = $_FILES['file']['type'];
-
-            $fileExt = explode('.', $filename);
-            $fileActualExt = strtolower(end($fileExt));
-            $allowed = array('jpg', 'jpeg', 'png', 'pdf', 'docx');
-
-            if (in_array($fileActualExt, $allowed)) {
-                if ($fileError === 0) {
-                    $fileNameNew = uniqid('', true) . "." . $fileActualExt;
-                    $sql = "INSERT INTO image (name, image) VALUES ('$fileNameNew', '$fileTmpName')";
-                    echo "upload successful";
-                } else {
-                    echo "you cannot upload files of this type due to error";
-                }
-
-            } else {
-                echo "you cannot upload files of this type";
-            }
-        }
-
-
-        $result = mysqli_query($db, $sql);
+       <?php
+        echo "hi";
 
 
     }
