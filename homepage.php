@@ -26,19 +26,33 @@
     <?php
     if (isset($_POST['coursework'])) {
         include 'connect.php';
-        $sql = "SELECT coursename, description FROM setcourse";
+        $sql = "SELECT id, coursename, description FROM setcourse";
         $result = mysqli_query($db, $sql);
-
-        if (mysqli_num_rows($result) > 0) {
-
-            while ($row = $result->fetch_assoc()) {
-                echo "<b><i> Coursename: </i></b>" . " " . $row["coursename"] . " " . "<b><i> description: </i></b>" . " " . $row["description"] . "<br>";
-            }
-        } else {
-            echo "no results found";
-        }
     }
     ?>
+    <table class="table table-hover">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Designation</th>
+        </tr>
+        <tr>
+            <?php
+
+            If (mysql_num_rows($result) > 0) {
+            while ($row = mysqli_fetch_array($result)) {
+            ?>
+        <tr>
+            <td><?php echo $row['id']; ?></td>
+            <td><?php echo $row['coursename']; ?></td>
+            <td><?php echo $row['description']; ?></td>
+        </tr>
+        <?php
+        }
+        }
+        ?>
+        </tr>
+    </table>
 
 
 <?php
