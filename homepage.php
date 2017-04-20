@@ -6,7 +6,7 @@
 <body>
 
 <header>
-    <h1>Peer To Peer Eval</h1>
+    <h1>Peer To Peer Evaluation</h1>
 </header>
 
 <nav>
@@ -94,7 +94,7 @@ VALUES ('$firstname','$lastname','$groupname','$course','$feed')";
             <form action="homepage.php" method="post" enctype="multipart/form-data">
                 <b>Select file to upload:<br><br>
                     <input type="file" name="file" id="file"><br><br>
-                    <input type="submit" name="submit" value="Upload">
+                    <button type="submit" name="submit">Upload</button>
             </form>
         </div>
 
