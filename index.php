@@ -25,7 +25,7 @@ session_start();
         Password: <input type="password" name="password"><br><br>
         <button type="submit" id="buttonindex" name="submit">Login</button>
         <br><br>
-        <i>Click <a href="register.php">register</a></i> to create an account.
+        <i>Click <a href="register.php">register</a> to create an account.</i>
 
     </form>
 
