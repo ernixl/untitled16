@@ -38,7 +38,7 @@
         ?>
         <article>
 
-            <form action="admin.php)))" method="post">
+            <form action="admin.php" method="post">
                 <input type="text" name="coursename" placeholder="course name"><br><br>
                 <input type="text" name="title" placeholder="title"><br><br>
                 <textarea name="description" placeholder="description" id="" cols="30" rows="10"></textarea><br><br>
@@ -49,26 +49,10 @@
 
         <?php
         if (isset($_POST['submit'])) {
-
-            include 'connect.php';
-
-            $coursename = $_POST['coursename'];
-            $title = $_POST['title'];
-            $description = $_POST['description'];
-
-                $sql = "INSERT INTO setcourse( coursename, title, description)
-    VALUES ('$coursename','$title', '$description')";
-            }
-
-
-            $result = mysqli_query($db, $sql);
-
-            if ($result == true) {echo "<b>feedback sent successfully, click <a href=\"homepage.php\">here</a> to return to homepage</b>";
-            } else echo "<p><b><i>error 2: failed</i></b></p>";
+            echo "print";
         }
-
+    }
     ?>
-
 
 
 </section>

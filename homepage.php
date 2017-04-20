@@ -24,6 +24,7 @@
 
 <section>
     <?php
+
     if (isset($_POST['coursework'])) {
         include 'connect.php';
         $sql = "SELECT coursename, description FROM setcourse";
