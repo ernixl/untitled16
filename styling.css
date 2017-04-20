@@ -66,6 +66,14 @@ th {
     height: 50px;
 }
 
+section{
+    background-color: white;
+    width: 500px;
+    border: 1px solid gray;
+    padding: 80px;
+    margin: 50px auto;
+}
+
 
 div {
     background-color: white;

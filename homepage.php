@@ -22,7 +22,7 @@
 
 </nav>
 
-<div>
+<section>
 
     <?php
     if (isset($_POST['image'])) {
@@ -33,9 +33,8 @@
         header('Location: upload_front.php');
     }
     ?>
-</div>
 
-<div>
+
     <?php
     if (isset($_POST['feed'])) {
         ?>
@@ -79,9 +78,8 @@ VALUES ('$firstname','$lastname','$groupname','$course','$feed')";
         }
     }
     ?>
-</div>
 
-<div>
+
     <?php
     if (isset($_POST['coursework'])) {
         include 'connect.php';
@@ -113,7 +111,7 @@ VALUES ('$firstname','$lastname','$groupname','$course','$feed')";
 
     </table>
 
-</div>
+</section>
 </body>
 
 
