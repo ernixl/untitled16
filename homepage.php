@@ -52,7 +52,7 @@ if (isset($_POST['feed'])) {
             <input type="text" name="groupname" placeholder="Groupname"><br><br>
             <input type="text" name="course" placeholder="Course Code"><br><br>
             <textarea name="feed" placeholder="write your feedback here" cols="30" rows="10"></textarea><br><br>
-            <button type="submit" id="buttonuser" name="submit">Submit</button>
+            <button type="submit" id="buttonindex" name="submit">Submit</button>
         </form>
 
 
