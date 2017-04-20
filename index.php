@@ -48,7 +48,7 @@ session_start();
             header("location: homepage.php");
         } elseif (mysqli_num_rows($result) == 1 && $row['admin'] == 1) {
             $_SESSION['logged_in'] = true;
-            $_SESSION['admin'] = $username;
+            $_SESSION['username'] = $username;
             header("Location: admin.php");
         } else
             echo "<i>Incorrect username or password</i>";
