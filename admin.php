@@ -15,7 +15,7 @@
 
 <nav>
 
-    <form action="admin.php" method="post">
+    <form action="admin.php))))" method="post">
 
         <button type="submit" name="set">Set Coursework</button>
         <button type="submit" name="view">View feedback</button>
@@ -38,7 +38,7 @@
         ?>
         <article>
 
-            <form action="admin.php" method="post">
+            <form action="admin.php???" method="post">
                 <input type="text" name="coursename" placeholder="course name"><br><br>
                 <input type="text" name="title" placeholder="title"><br><br>
                 <textarea name="description" placeholder="description" id="" cols="30" rows="10"></textarea><br><br>
