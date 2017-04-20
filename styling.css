@@ -30,14 +30,6 @@ article{
     margin: 20px auto;
 }
 
-#sec{
-    background-color: white;
-    border: solid gray 1px;
-    border-radius: 5px;
-    padding: 50px;
-    max-width:250px;
-    margin: 100px auto;
-}
 
 
 nav{
@@ -51,7 +43,7 @@ div {
     border: solid gray 1px;
     border-radius: 5px;
     padding: 50px;
-    max-width:250px;
+    max-width:400px;
     margin: 100px auto;
  }
 
