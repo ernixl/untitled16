@@ -6,7 +6,7 @@
 <body>
 <h1>Account registeration</h1>
 
-<div id="frm">
+<div>
     <h3>Enter details</h3>
 
     <form action="register.php" method="post">

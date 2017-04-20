@@ -25,13 +25,12 @@
 
 
 </nav>
-
-<article>
+<div>
     <?php
 
     if (isset($_POST['description'])) {
-    ?>
-    <div>
+        ?>
+
         <form action="admin.php" method="post">
             <input type="text" name="coursename" placeholder="course name"><br><br>
             <input type="text" name="title" placeholder="title"><br><br>
@@ -61,55 +60,54 @@
                 header("Location: admin.php");
             } else echo "<i>error 2: failed</i>";
         }
-        }
-        ?>
+    }
+    ?>
 
-        <?php
-        if (isset($_POST['view'])) {
+    <?php
+    if (isset($_POST['view'])) {
 
-            include 'connect.php';
+        include 'connect.php';
 
-            $sql = "SELECT uid, firstname, lastname, groupname, course, feed FROM feedback";
-            $result = mysqli_query($db, $sql);
+        $sql = "SELECT uid, firstname, lastname, groupname, course, feed FROM feedback";
+        $result = mysqli_query($db, $sql);
 
-            if (mysqli_num_rows($result) > 0) {
+        if (mysqli_num_rows($result) > 0) {
 
-                while ($row = $result->fetch_assoc()) {
-                    echo "<br> " . $row["uid"] . " " . " <b><i> Name: </i></b> " . " " . $row["firstname"] . " " . "<b><i> LastName: </i></b> " . " " . $row["lastname"] . " " . "<b><i> Group: </i></b>" . " " . $row["groupname"] . " " . "<b><i> Course: </i></b>" . " " . $row["course"] . " " . "<b><i> Feedback: </i></b>" . " " . $row["feed"] . "<br>";
-                }
-            } else {
-                echo "no results found";
+            while ($row = $result->fetch_assoc()) {
+                echo "<br> " . $row["uid"] . " " . " <b><i> Name: </i></b> " . " " . $row["firstname"] . " " . "<b><i> LastName: </i></b> " . " " . $row["lastname"] . " " . "<b><i> Group: </i></b>" . " " . $row["groupname"] . " " . "<b><i> Course: </i></b>" . " " . $row["course"] . " " . "<b><i> Feedback: </i></b>" . " " . $row["feed"] . "<br>";
             }
+        } else {
+            echo "no results found";
         }
-        ?>
+    }
+    ?>
 
 
-        <?php
-        if (isset($_POST['files'])) {
-            include 'connect.php';
+    <?php
+    if (isset($_POST['files'])) {
+        include 'connect.php';
 
-            $sql = "SELECT id, name, image FROM image";
-            $result = mysqli_query($db, $sql);
+        $sql = "SELECT id, name, image FROM image";
+        $result = mysqli_query($db, $sql);
 
-            if (mysqli_num_rows($result) > 0) {
+        if (mysqli_num_rows($result) > 0) {
 
-                while ($row = $result->fetch_assoc()) {
+            while ($row = $result->fetch_assoc()) {
 
-                    $id = $row["id"];
-                    $name = $row["name"];
-                    $path = $row["image"];
+                $id = $row["id"];
+                $name = $row["name"];
+                $path = $row["image"];
 
-                    echo $id . " " . $name . " <a href='download.php?dow=$path'>Download</a> " . " " . " <br><br> ";
-                }
-            } else {
-                echo "no results found";
+                echo $id . " " . $name . " <a href='download.php?dow=$path'>Download</a> " . " " . " <br><br> ";
             }
+        } else {
+            echo "no results found";
         }
-        ?>
+    }
+    ?>
 
-    </div>
 
-</article>
+</div>
 
 
 </body>
