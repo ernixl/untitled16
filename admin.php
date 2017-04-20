@@ -1,5 +1,14 @@
 <html>
 <head>
+    <style>
+        div {
+            background-color: lightgrey;
+            width: 300px;
+            border: 25px solid green;
+            padding: 25px;
+            margin: 25px;
+        }
+    </style>
     <title>set course work</title>
     <link rel="stylesheet" href="styling.css">
 </head>
