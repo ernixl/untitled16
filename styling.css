@@ -15,7 +15,7 @@ input {
 button{
     background-color: purple;
     color: #ffffff;
-    margin-right: auto;
+    margin-left: auto;
 }
 textarea{
     width: 100%;
@@ -30,7 +30,7 @@ article{
     margin: 20px auto;
 }
 
-#index{
+#indexdiv{
     background-color: white;
     width: 300px;
     border: 2px solid gray;
