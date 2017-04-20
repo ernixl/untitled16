@@ -30,6 +30,10 @@ article{
     margin: 20px auto;
 }
 
+section{
+    text-align: center;
+}
+
 
 nav{
     /*background-color: purple;
