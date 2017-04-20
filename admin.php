@@ -28,6 +28,7 @@
 
 <section>
     <?php
+
     if (isset($_POST['description'])) {
     ?>
     <div>
@@ -48,7 +49,7 @@
             $description = $_POST['description'];
 
             if (empty($coursename) || empty($title)) {
-                echo "<p><i>error 1: input all data</i></p>";
+                echo "<i>error 1: input all data</i><br>";
             } else {
                 $sql = "INSERT INTO setcourse( coursename, title, description)
     VALUES ('$coursename','$title', '$description')";
@@ -61,9 +62,32 @@
             } else echo "<i>error 2: failed</i>";
         }
         }
-
         ?>
 
+        <?php
+        if (isset($_POST['view'])){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+        ?>
     </div>
 </section>
 
