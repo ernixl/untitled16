@@ -22,7 +22,7 @@
 
 </nav>
 
-<section class="sec">
+<section id="sec">
     <?php
     if (isset($_POST['coursework'])) {
         include 'connect.php';
