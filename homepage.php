@@ -24,7 +24,6 @@
 
 <div>
     <?php
-
     if (isset($_POST['coursework'])) {
         include 'connect.php';
         $sql = "SELECT coursename, description FROM setcourse";
@@ -40,7 +39,7 @@
         }
     }
     ?>
-
+</div>
 
     <?php
     if (isset($_POST['feed'])) {
@@ -95,10 +94,7 @@ VALUES ('$firstname','$lastname','$groupname','$course','$feed')";
     <?php
 
     header('Location: upload_front.php');}
-
-
     ?>
-</div>
 
 
 </body>
