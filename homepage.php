@@ -19,10 +19,9 @@
 
     </form>
 
-
 </nav>
 
-<section id="sec">
+<article>
     <?php
     if (isset($_POST['coursework'])) {
         include 'connect.php';
@@ -39,7 +38,7 @@
         }
     }
     ?>
-</section>
+</article>
 
 <?php
 if (isset($_POST['feed'])) {
