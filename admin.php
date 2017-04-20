@@ -27,7 +27,7 @@
 </nav>
 
 
-<a href="viewupload.php">vi</a>
+<a href="viewupload.php">virrrrrr</a>
 <a href="setcoursework.php">ggggggset</a>
 
 
@@ -48,7 +48,7 @@
         </article>
 
         <?php
-        if (isset($_POST['description'])) {
+        if (isset($_POST['submit'])) {
 
             include 'connect.php';
 
