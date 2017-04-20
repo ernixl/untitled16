@@ -87,7 +87,6 @@ VALUES ('$firstname','$lastname','$groupname','$course','$feed')";
         include 'connect.php';
         $sql = "SELECT id, coursename, description FROM setcourse";
         $result = mysqli_query($db, $sql);
-    }
     ?>
     <table>
         <tr>
@@ -108,6 +107,7 @@ VALUES ('$firstname','$lastname','$groupname','$course','$feed')";
                 </tr>
                 <?php
             }
+        }
         }
         ?>
     </table>
