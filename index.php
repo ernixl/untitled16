@@ -20,7 +20,7 @@
 
         Username: <input type="text" name="username"><br><br>
         Password: <input type="password" name="password"><br><br>
-        <button type="submit" name="submit">Login</button>
+        <button type="submit" id="buttonindex" name="submit">Login</button>
         <br><br>
         <i>Click <a href="register.php">register</a></i> to create an account.
 
