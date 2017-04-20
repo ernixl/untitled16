@@ -6,7 +6,7 @@
 <body>
 
 <header>
-    <h1>Peer To Peer Evion</h1>
+    <h1>Peer To Peer Evalion</h1>
 </header>
 
 <nav>
@@ -15,7 +15,7 @@
 
         <button type="submit" name="coursework">View Coursework</button>
         <button type="submit" name="feed">Give feedback</button>
-        <button type="submit" name="file">Upload file</button>
+        <button type="submit" name="image">Upload file</button>
 
     </form>
 
@@ -44,13 +44,13 @@
 
 
     <?php
-    if (isset($_POST['file'])) {
+    if (isset($_POST['image'])) {
         ?>
 
         <div>
             <form action="homepage.php" method="post" enctype="multipart/form-data">
                 <b>Select file to upload:<br><br>
-                    <input type="file" name="file" id="file"><br><br>
+                    <input type="file" name="image" id="file"><br><br>
                     <button type="submit" name="submit">Upload</button>
             </form>
         </div>
