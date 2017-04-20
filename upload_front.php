@@ -4,18 +4,18 @@
     <link rel="stylesheet" href="styling.css">
 </head>
 <body>
-<h1>File Upload</h1>
+<h1>File Uoad</h1>
 <div>
 
-<form action="upload_front.php" method="post" enctype="multipart/form-data">
-    <b>Select image to upload:</b><br><br>
-    <input type="file" name="file" id="image"><br><br>
-    <button type="submit" name="submit">Upload</button>
-</form>
+    <form action="upload_front.php" method="post" enctype="multipart/form-data">
+        <b>Select image to upload:</b><br><br>
+        <input type="file" name="file" id="image"><br><br>
+        <button type="submit" name="submit">Upload</button>
+    </form>
 
     <?php
     if (isset($_POST['submit'])) {
-        require ("connect.php");
+        require("connect.php");
         $file = $_FILES['file'];
 
         $filename = $_FILES['file']['name'];
@@ -32,7 +32,6 @@
             if ($fileError === 0) {
                 $fileNameNew = uniqid('', true) . "." . $fileActualExt;
                 $sql = "INSERT INTO image (name, image) VALUES ('$fileNameNew', '$fileTmpName')";
-                header("Location: homepage.php?uploadsuccess");
             } else {
                 echo "you cannot upload files of this type due to error";
             }
@@ -45,9 +44,9 @@
 
     $result = mysqli_query($db, $sql);
 
-    if ($result == true){
-      echo "file uploaded click <a href=\"homepage.php\">here</a> to return to homepage ";}
-
+    if ($result == true) {
+        echo "file uploaded click <a href=\"homepage.php\">here</a> to return to homepage ";
+    }
 
 
     ?>
