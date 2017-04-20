@@ -21,7 +21,7 @@
 
 </nav>
 
-<article>
+<div>
     <?php
     if (isset($_POST['coursework'])) {
         include 'connect.php';
@@ -38,7 +38,7 @@
         }
     }
     ?>
-</article>
+
 
 <?php
 if (isset($_POST['feed'])) {
@@ -96,7 +96,7 @@ if (isset($_POST['image'])) {
 }
 ?>
 
-
+</div>
 </body>
 
 
