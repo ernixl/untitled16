@@ -31,14 +31,18 @@
         $password2 = $_POST['password2'];
 
         if ($password == true && $password2 == true) {
-            if ($first == true && $last == true){
+            if ($first == true && $last == true) {
+                if ($username == true) {
 
-                if ($password == $password2) {
+                    if ($password == $password2) {
 
-                    $sql = "INSERT INTO login (first, last, email, username, password)
+                        $sql = "INSERT INTO login (first, last, email, username, password)
         VALUES ('$first','$last','$email','$username','$password')";
+                    } else {
+                        echo "<i>password mismatch</i><br>";
+                    }
                 } else {
-                    echo "<i>password mismatch</i><br>";
+                    echo "username field empty";
                 }
 
             } else {
