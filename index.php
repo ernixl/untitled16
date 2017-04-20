@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -42,13 +45,11 @@
         if (mysqli_num_rows($result) == 1 && $row['admin'] == 0) {
             header("location: homepage.php");
         } elseif (mysqli_num_rows($result) == 1 && $row['admin'] == 1) {
+            $_SESSION['logged_in'] = true;
+            $_SESSION['user'] = $username;
             header("Location: admin.php");
         } else
             echo "<i>Incorrect username or password</i>";
-    }
-
-    if (isset($_POST['register'])) {
-        header('Location: register.php');
     }
 
     ?>
