@@ -46,12 +46,12 @@
     $result = mysqli_query($db, $sql);
 
     if ($result == true){
-        header("Location: homepage.php"); echo "file uploaded";}
+      echo "file uploaded click <a href=\"homepage.php\">here</a> to return to homepage ";}
 
 
 
     ?>
 
-
+</div>
 </body>
 </html>
