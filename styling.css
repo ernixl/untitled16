@@ -24,10 +24,8 @@ button{
 #buttonuser{
     background-color: purple;
     color: #ffffff;
-    margin-left: 0px;
-    float:left;
-    display:block;
-    clear:right;
+    width: 250px;
+
 }
 
 
