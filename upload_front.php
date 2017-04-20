@@ -11,7 +11,7 @@
     <form action="upload_front.php" method="post" enctype="multipart/form-data">
         <b>Select image to upload:</b><br><br>
         <input type="file" name="file" id="image"><br><br>
-        <button type="submit" id="buttonindex" name="submit">Upload</button><br><br><br>
+        <button type="submit" id="buttonindex" name="submit">Upload</button><br><br>
     </form>
 
     <?php
