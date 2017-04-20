@@ -23,6 +23,42 @@
 </nav>
 
 <div>
+    <?php
+    if (isset($_POST['coursework'])) {
+        include 'connect.php';
+        $sql = "SELECT id, coursename, description FROM setcourse";
+        $result = mysqli_query($db, $sql);
+    }
+    ?>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>COURSENAME</th>
+            <th>DESCRIPTION</th>
+        </tr>
+
+        <?php
+        $result = mysqli_query($db, $sql);
+        If (mysqli_num_rows($result) > 0) {
+            while ($row = mysqli_fetch_array($result)) {
+                ?>
+                <tr>
+                    <td><?php echo $row['id']; ?></td>
+                    <td><?php echo $row['coursename']; ?></td>
+                    <td><?php echo $row['description']; ?></td>
+                </tr>
+                <?php
+            }
+        }
+        ?>
+
+    </table>
+
+
+
+
+
+
 
 
 
