@@ -1,6 +1,7 @@
 <html>
 <head>
     <title>set course work</title>
+    <link rel="stylesheet" href="styling.css">
 </head>
 <body>
 <h1>You can give upload files here</h1>
@@ -9,7 +10,7 @@
 <form action="upload_front.php" method="post" enctype="multipart/form-data">
     Select image to upload:
     <input type="file" name="file" id="image"><br><br>
-    <input type="submit" name="submit" value="Upload">
+    <button type="submit" name="submit">Upload</button>
 </form>
 
     <?php
