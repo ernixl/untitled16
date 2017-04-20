@@ -38,8 +38,8 @@
         </tr>
         <tr>
             <?php
-
-            If (mysql_num_rows($result) > 0) {
+            $result = mysqli_query($db, $sql);
+            If (mysqli_num_rows($result) > 0) {
             while ($row = mysqli_fetch_array($result)) {
             ?>
         <tr>
