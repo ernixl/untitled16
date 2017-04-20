@@ -26,7 +26,7 @@
 
 </nav>
 
-<section>
+<article>
     <?php
 
     if (isset($_POST['description'])) {
@@ -109,7 +109,7 @@
 
     </div>
 
-</section>
+</article>
 
 
 </body>

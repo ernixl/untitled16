@@ -21,7 +21,7 @@ textarea{
     width: 100%;
 }
 
-article, section{
+article{
     background-color: white;
     border: solid gray 1px;
     border-radius: 5px;

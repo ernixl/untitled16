@@ -22,7 +22,7 @@
 
 </nav>
 
-<section>
+<div>
     <?php
 
     if (isset($_POST['coursework'])) {
@@ -98,7 +98,7 @@ VALUES ('$firstname','$lastname','$groupname','$course','$feed')";
 
 
     ?>
-</section>
+</div>
 
 
 </body>
