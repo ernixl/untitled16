@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>set course work</title>
+    <title>anotherpage</title>
     <link rel="stylesheet"type="text/css" href="styling.css"/>
 </head>
 
