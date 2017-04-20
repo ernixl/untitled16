@@ -30,7 +30,7 @@
         $result = mysqli_query($db, $sql);
     }
     ?>
-    <table class="table table-hover">
+    <table>
         <tr>
             <th>ID</th>
             <th>COURSENAME</th>
