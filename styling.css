@@ -26,7 +26,6 @@ input {
     color: #ffffff;
     width: 250px;
     padding: 14px 40px;
-    display: block;
 }
 
 textarea{
@@ -76,11 +75,14 @@ section{
 }
 
 
-
-div{
-    margin-left:23%;
-    padding:1px 16px;
-    height:1000px;
+div {
+    background-color: white;
+    width: 500px;
+    border: 1px solid gray;
+    padding: 80px;
+    margin: 50px auto;
 }
+
+
 
 
