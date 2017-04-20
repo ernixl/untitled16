@@ -46,7 +46,7 @@
     $result = mysqli_query($db, $sql);
 
     if ($result == true){
-        header("Location: index.php");}
+        header("Location: homepage.php"); echo "file uploaded";}
 
 
 
