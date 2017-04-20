@@ -6,17 +6,16 @@ if (!$_SESSION['username']) {
     echo "You are logged in as " . $_SESSION['username'];
 }
 ?>
-<a href="logout.php">logout</a>
+( <i><a href="logout.php">logout</a></i> )
 
 <!DOCTYPE html>
 <html>
 <head>
-    <title>anotherpage</title>
+    <title>Admin</title>
     <link rel="stylesheet" type="text/css" href="styling.css"/>
 </head>
 
 <body>
-<a href="index.php">Logout</a>
 
 <header>
     <h1>Peer to Peer Evaluation</h1>
