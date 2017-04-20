@@ -4,11 +4,11 @@
     <link rel="stylesheet" href="styling.css">
 </head>
 <body>
-<h1>You can give upload files here</h1>
+<h1>File Upload</h1>
 <div>
 
 <form action="upload_front.php" method="post" enctype="multipart/form-data">
-    Select image to upload:
+    <b>Select image to upload:</b><br><br>
     <input type="file" name="file" id="image"><br><br>
     <button type="submit" name="submit">Upload</button>
 </form>
