@@ -31,7 +31,7 @@
 
         if (in_array($fileActualExt, $allowed)) {
             if ($fileError === 0) {
-                $fileNameNew = $filename . $fileActualExt;
+                $fileNameNew = $filename;
                 $sql = "INSERT INTO image (name, image) VALUES ('$fileNameNew', '$fileTmpName')";
             } else {
                 echo "you cannot upload files of this type due to error";
