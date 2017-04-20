@@ -99,7 +99,7 @@
                     $name = $row["name"];
                     $path = $row["image"];
 
-                    echo $id . " " . $name . " <a href='download.php?dow=$path'>Download</a> " . " " . " <br> ";
+                    echo $id . " " . $name . " <a href='download.php?dow=$path'>Download</a> " . " " . " <br><br> ";
                 }
             } else {
                 echo "no results found";
