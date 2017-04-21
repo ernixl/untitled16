@@ -10,7 +10,7 @@ if (!$_SESSION['username']) {
 <!DOCTYPE <html>
 <html>
 <head>
-    <title>set course work</title>
+    <title>upload</title>
     <link rel="stylesheet" href="styling.css"/>
 </head>
 <body>
@@ -47,7 +47,7 @@ if (!$_SESSION['username']) {
             }
 
         } else {
-            echo "choose a file to upload";
+            echo "<i>choose a file to upload</i>";
         }
     }
 
