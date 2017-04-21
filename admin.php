@@ -30,8 +30,8 @@ if (!$_SESSION['username']) {
         <button type="submit" id="buttonuser" name="description">Set Coursework</button>
         <button type="submit" id="buttonuser" name="view">View feedback</button>
         <button type="submit" id="buttonuser" name="files">View files</button>
-        <button type="submit" id="buttonuser" name=""></button>
-        <button type="submit" id="buttonuser" name=""></button>
+        <button type="submit" id="buttonuser" name="refresh">Refresh</button>
+        <button type="submit" id="buttonuser" name="logout">Logout</button>
 
     </form>
 
@@ -146,6 +146,18 @@ if (!$_SESSION['username']) {
         }
         ?>
     </table>
+
+    <?php
+    if (isset($_POST['logout'])) {
+        header('Location: logout.php');
+    }
+    ?>
+
+    <?php
+    if (isset($_POST['refresh'])) {
+        header('Location: admin.php');
+    }
+    ?>
 
 
 </div>
