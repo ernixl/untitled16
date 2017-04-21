@@ -29,8 +29,8 @@ if (!$_SESSION['username']) {
         <button type="submit" id="buttonuser" name="image">Upload file</button>
         <button type="submit" id="buttonuser" name="feed">Give feedback</button>
         <button type="submit" id="buttonuser" name="coursework">View Coursework</button>
-        <button type="submit" id="buttonuser" name="image">Refresh</button>
-        <button type="submit" id="buttonuser" name="image">Logout</button>
+        <button type="submit" id="buttonuser" name=""></button>
+        <button type="submit" id="buttonuser" name=""></button>
 
     </form>
 

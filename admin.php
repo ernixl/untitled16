@@ -30,8 +30,8 @@ if (!$_SESSION['username']) {
         <button type="submit" id="buttonuser" name="description">Set Coursework</button>
         <button type="submit" id="buttonuser" name="view">View feedback</button>
         <button type="submit" id="buttonuser" name="files">View files</button>
-        <button type="submit" id="buttonuser" name="files">View files</button>
-        <button type="submit" id="buttonuser" name="files">View files</button>
+        <button type="submit" id="buttonuser" name=""></button>
+        <button type="submit" id="buttonuser" name=""></button>
 
     </form>
 
