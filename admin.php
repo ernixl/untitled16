@@ -7,6 +7,7 @@ if (!$_SESSION['username']) {
 }
 ?>
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -132,12 +133,12 @@ if (!$_SESSION['username']) {
         $result = mysqli_query($db, $sql);
         If (mysqli_num_rows($result) > 0) {
             while ($row = mysqli_fetch_array($result)) {
-                $path = $row['image'];
+                $path = $row["image"];
                 ?>
                 <tr>
                     <td><?php echo $row['id']; ?></td>
                     <td><?php echo $row['name']; ?></td>
-                    <td> <a href="<?php echo $row['image'];?>">Download</a></td>
+                    <td><?php echo " <a href='download.php?dow=$path'>Download</a> "; ?></td>
                 </tr>
                 <?php
             }
@@ -145,7 +146,7 @@ if (!$_SESSION['username']) {
         }
         ?>
     </table>
-    <a href=""></a>
+
     <?php
     if (isset($_POST['logout'])) {
         header('Location: logout.php');
