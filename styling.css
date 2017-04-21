@@ -74,6 +74,9 @@ section{
     margin: 50px auto;
 }
 
+nav{
+    align-content: center;
+}
 
 div {
     background-color: white;
