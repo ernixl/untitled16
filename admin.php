@@ -132,12 +132,12 @@ if (!$_SESSION['username']) {
         $result = mysqli_query($db, $sql);
         If (mysqli_num_rows($result) > 0) {
             while ($row = mysqli_fetch_array($result)) {
-                $path = $row["image"];
+                $path = $row['image'];
                 ?>
                 <tr>
                     <td><?php echo $row['id']; ?></td>
                     <td><?php echo $row['name']; ?></td>
-                    <td> <a href="<?php echo "$path";?>\">Download</a></td>
+                    <td> <a href="<?php echo $row['image'];?>\">Download</a></td>
                 </tr>
                 <?php
             }
