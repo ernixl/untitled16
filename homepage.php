@@ -6,10 +6,6 @@ if (!$_SESSION['username']) {
     echo "You are logged in as " . $_SESSION['username'];
 }
 ?>
-
-
-
-
 <!DOCTYPE html>
 <html>
 <head>
