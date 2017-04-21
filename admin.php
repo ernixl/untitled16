@@ -137,7 +137,7 @@ if (!$_SESSION['username']) {
                 <tr>
                     <td><?php echo $row['id']; ?></td>
                     <td><?php echo $row['name']; ?></td>
-                    <td><?php echo " <a href='download.php?dow=$path'>Download</a> "; ?></td>
+                    <td> <a href="<?php echo "$path";?>\">Download</a></td>
                 </tr>
                 <?php
             }
@@ -145,7 +145,7 @@ if (!$_SESSION['username']) {
         }
         ?>
     </table>
-
+    <a href=""></a>
     <?php
     if (isset($_POST['logout'])) {
         header('Location: logout.php');
