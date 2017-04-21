@@ -1,12 +1,12 @@
 <?php
 session_start();
 
-include('connect.php');
 
-if (isset($_POST['dow'])) {
+
+if (isset($_POST['dow'])) {include('connect.php');
     $path = $_GET['dow'];
 
-    $sql = "SELECT * FROM image WHERE image= $path";
+    $sql = "SELECT * FROM image WHERE image='$path'";
 
     $result = mysqli_query($db, $sql);
 
