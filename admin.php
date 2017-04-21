@@ -138,7 +138,7 @@ if (!$_SESSION['username']) {
                 <tr>
                     <td><?php echo $row['id']; ?></td>
                     <td><?php echo $row['name']; ?></td>
-                    <td><?php echo " <a href='download.php'>Download</a> "; ?></td>
+                    <td><?php echo ' <a href="download.php">Download</a> '; ?></td>
                 </tr>
                 <?php
             }
