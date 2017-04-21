@@ -6,7 +6,6 @@ if (!$_SESSION['username']) {
     echo "You are logged in as " . $_SESSION['username'];
 }
 ?>
-( <i><a href="logout.php">logout</a></i> )
 
 <!DOCTYPE html>
 <html>

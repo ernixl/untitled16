@@ -6,7 +6,7 @@ if (!$_SESSION['username']) {
     echo "You are logged in as " . $_SESSION['username'];
 }
 ?>
-( <i><a href="logout.php">logout</a></i> )
+
 
 
 
@@ -29,8 +29,8 @@ if (!$_SESSION['username']) {
         <button type="submit" id="buttonuser" name="image">Upload file</button>
         <button type="submit" id="buttonuser" name="feed">Give feedback</button>
         <button type="submit" id="buttonuser" name="coursework">View Coursework</button>
-        <button type="submit" id="buttonuser" name=""></button>
-        <button type="submit" id="buttonuser" name=""></button>
+        <button type="submit" id="buttonuser" name="refresh">Refresh</button>
+        <button type="submit" id="buttonuser" name="logout">Logout</button>
 
     </form>
 
@@ -123,6 +123,19 @@ VALUES ('$firstname','$lastname','$groupname','$course','$feed')";
         }
         ?>
     </table>
+
+
+    <?php
+    if (isset($_POST['refresh'])) {
+        header('Location: homepage.php');
+    }
+    ?>
+
+    <?php
+    if (isset($_POST['logout'])) {
+        header('Location: logout.php');
+    }
+    ?>
 
 </section>
 </body>
