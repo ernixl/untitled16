@@ -74,7 +74,7 @@ if (!$_SESSION['username']) {
 
 
             if (empty($feed) || empty($course)) {
-                echo "input all data";
+                echo "<i>input all data</i><br>";
             } else {
                 $sql = "INSERT INTO feedback (firstname, lastname, groupname, course, feed)
 VALUES ('$firstname','$lastname','$groupname','$course','$feed')";
@@ -84,7 +84,7 @@ VALUES ('$firstname','$lastname','$groupname','$course','$feed')";
 
             if ($result == true) {
                 echo "<b>feedback sent successfully, click <a href=\"homepage.php\">here</a> to return to homepage</b>";
-            } else echo "some error occured";
+            } else echo "<i>some error occured</i>";
         }
     }
     ?>
