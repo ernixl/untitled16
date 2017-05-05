@@ -3,7 +3,7 @@ include_once('connect.php');
 
 $uid = isset($_GET['uid']) ? mysqli_real_escape_string($_GET['uid']) :  "";
 if(!empty($uid)){
-    $sql = mysqli_query("SELECT first, last, email FROM login where ID='$uid'");
+    $sql = mysqli_query("SELECT first, last, email FROM login where uid='$uid'");
     $result =array();
     while($r = mysqli_fetch_array($sql)){
         extract($r);
