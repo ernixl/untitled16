@@ -10,11 +10,26 @@ if (isset($_GET['allusers'])) {
     $result = array();
     while ($r = mysqli_fetch_array($qur)) {
         extract($r);
-        $result[] = array(first => $firstname, last => $lastname, email => $email, username => $username);
+        $result[] = array(first => $first, last => $last, email => $email, username => $username);
     }
 
     header('Content-type: application/json');
     echo json_encode($result);
 
 
-} else echo "invalid hod";
+}elseif (isset($_GET['allfeedback'])){
+    $sql = "SELECT firstname, feed FROM feedback";
+    $qur = mysqli_query($db, $sql);
+    If (mysqli_num_rows($qur) > 0) ;
+
+    $result = array();
+    while ($r = mysqli_fetch_array($qur)) {
+        extract($r);
+        $result[] = array(firstname => $firstname, feed => $feed);
+    }
+
+    header('Content-type: application/json');
+    echo json_encode($result);
+
+}
+else echo "invalid method";
