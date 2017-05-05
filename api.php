@@ -13,8 +13,8 @@ if (isset($_GET['allusers'])) {
         $result[] = array(first => $first, last => $last, email => $email, username => $username);
     }
 
-    header('Content-type: text/javascript');
-    echo json_encode($result)."<br>";
+    header('Content-type: application/json');
+    echo json_encode($result);
 
 
-} else echo "invalid meth";
+} else echo "invalid hod";
