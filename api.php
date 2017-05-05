@@ -3,7 +3,7 @@ include('connect.php');
 
 
 if (isset($_GET['users'])) {
-    $sql = "SELECT uid, first, last, username FROM login";
+    $sql = "SELECT uid, first, last,email, username FROM login";
     $qur = mysqli_query($db, $sql);
     If (mysqli_num_rows($qur) > 0);
 
