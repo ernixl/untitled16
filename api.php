@@ -1,5 +1,5 @@
 <?php
-include_once('connect.php');
+include('connect.php');
 
 
 if (isset($_GET['users'])) {
@@ -7,4 +7,4 @@ if (isset($_GET['users'])) {
     $result = mysqli_query($db, $sql);
     If (mysqli_num_rows($result) > 0) echo "over the  entire wall";
 
-} else echo "error";
+} else echo "error code";
