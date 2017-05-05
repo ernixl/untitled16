@@ -15,7 +15,8 @@ if (isset($_GET['allusers'])) {
 
     header('Content-type: application/json');
     echo json_encode($result);
-
+    "\n";
+    "<br>";
 
 } elseif (isset($_GET['allfeedback'])) {
     $sql = "SELECT firstname, feed FROM feedback";
