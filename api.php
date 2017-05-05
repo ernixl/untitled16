@@ -9,5 +9,5 @@ if (isset($_GET['uid'])) {$sql = "SELECT uid, first, last, FROM login";
         $results[] = $info;
     }
     $results = json_encode($results);
-    echo $_GET['uid'] . '(' . $results . ')';
+    echo 'uid' . $results;
 } else echo "error";
