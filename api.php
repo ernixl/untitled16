@@ -3,5 +3,6 @@ include_once('connect.php');
 
 
 if (isset($_GET['uid'])) {$sql = "SELECT uid, first, last, FROM login";
-    echo "no";
+    $result = mysqli_query($db, $sql);
+    echo "nono";
 } else echo "error";
