@@ -10,7 +10,7 @@ if (isset($_GET['users'])) {
     $result =array();
     while($r = mysqli_fetch_array($qur)){
         extract($r);
-        $result[] = array("first" => $first, "last" => $last, "email" => $email, 'username' => $username);
+        $result[] = array(first => $first, last => $last, email => $email, username => $username);
     }
 
     header('Content-type: text/javascript');
