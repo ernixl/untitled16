@@ -29,7 +29,7 @@ if (isset($_GET['allusers'])) {
     }
 
     header('Content-type: application/json');
-    echo json_encode($result);
+    echo json_encode($result).'\n';
 
 }
 else echo "invalid method";
