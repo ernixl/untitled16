@@ -10,7 +10,7 @@ if (isset($_GET['allusers'])) {
     $result = array();
     while ($r = mysqli_fetch_array($qur)) {
         extract($r);
-        $result[] = array(first => $first, last => $last, email => $email, username => $username);
+        $result[] = array(first => $firstname, last => $lastname, email => $email, username => $username);
     }
 
     header('Content-type: application/json');
