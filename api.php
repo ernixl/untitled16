@@ -17,7 +17,7 @@ if (isset($_GET['allusers'])) {
     echo json_encode($result);
 
 
-}elseif (isset($_GET['allfeedback'])){
+} elseif (isset($_GET['allfeedback'])) {
     $sql = "SELECT firstname, feed FROM feedback";
     $qur = mysqli_query($db, $sql);
     If (mysqli_num_rows($qur) > 0) ;
@@ -29,7 +29,8 @@ if (isset($_GET['allusers'])) {
     }
 
     header('Content-type: application/json');
-    echo json_encode($result);'\n'; '<br>';
+    echo json_encode($result);
+    '\n';
+    '<br>';
 
-}
-else echo "invalid me";
+} else echo "invalid me";
