@@ -32,4 +32,4 @@ if (isset($_GET['allusers'])) {
     echo json_encode($result);'\n'; '<br>';
 
 }
-else echo "invalid ";
+else echo "invalid me";
