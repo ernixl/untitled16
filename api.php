@@ -28,9 +28,9 @@ if (isset($_GET['allusers'])) {
         $result[] = array(firstname => $firstname, feed => $feed);
     }
 
-    header('Content-type: application/json');
+    header('Content-type: text/json');
     echo json_encode($result);
-    '\n';
-    '<br>';
+    "\n";
+    "<br>";
 
 } else echo "invalid me";
