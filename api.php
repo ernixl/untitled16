@@ -7,11 +7,11 @@ if(!empty($uid)){
     $result =array();
     while($r = mysqli_fetch_array($sql)){
         extract($r);
-        $result[] = array("first" => $first, "last" => $last, "email" => $email, 'admin' => $status);
+        $result[] = array('first' => $first, 'last' => $last, 'email' => $email, 'admin' => $status);
     }
-    $json = array("admin" => 1, "info" => $result);
+    $json = array('admin' => 1, 'info' => $result);
 }else{
-    $json = array("admin" => 0, "msg" => "User ID not define");
+    $json = array('admin' => 0, 'msg' => "User ID not define");
 }
 
 
