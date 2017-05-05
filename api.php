@@ -2,7 +2,7 @@
 include('connect.php');
 
 
-if (isset($_GET['users'])) {
+if (isset($_GET['allusers'])) {
     $sql = "SELECT uid, first, last,email, username FROM login";
     $qur = mysqli_query($db, $sql);
     If (mysqli_num_rows($qur) > 0);
@@ -14,6 +14,6 @@ if (isset($_GET['users'])) {
     }
 
     header('Content-type: text/javascript');
-    echo json_encode($result);
+    echo json_encode($result); "<br>";
 
-} else echo "error";
+} else echo "invalid method";
