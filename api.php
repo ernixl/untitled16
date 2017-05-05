@@ -34,4 +34,4 @@ if (isset($_GET['allusers'])) {
     "\n";
     "<br>";
 
-} else echo "invalid method";
+}else echo "invalid method";
